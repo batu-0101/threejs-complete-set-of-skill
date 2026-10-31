@@ -18,7 +18,7 @@
     "threejs-ambient-contact-shading/examples/webgpu-node-gtao"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:03e192a0d832595a2bbeee80ad98101bc34afb8ad64e487ef974e051ba406fb4",
+  "sourceHash": "sha256:4ed31507c1641a0bc24686346c923034dd7a58feb78a18a372c226dd92addbfd",
   "publishedHashInputs": [
     "docs/demos/ambient-contact-shading-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:0a5a4d0d601c99784e927ea6460430065197860d888ce16942d38f642d8488d9",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

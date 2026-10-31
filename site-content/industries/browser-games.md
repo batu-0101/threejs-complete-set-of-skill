@@ -10,8 +10,6 @@ summary: The pack can own the rendering layer of a browser game including camera
 related_skills: ["threejs-choose-skills","threejs-camera-controls-and-rigs","threejs-procedural-motion-systems","threejs-procedural-creatures","threejs-procedural-vegetation","threejs-water-optics","threejs-rain-snow-and-wet-surfaces","threejs-particles-trails-and-effects","threejs-scalable-real-time-shadows","threejs-image-pipeline","threejs-visual-validation"]
 related_demos: ["creature-habitat","webgpu-procedural-timelines","webgpu-pooled-effects","webgpu-shadow-pipeline-integration"]
 related_pages: ["/for/graphics-engineers/","/docs/choose-skills/","/docs/use-in-an-existing-project/","/compare/webgpurenderer-vs-webglrenderer/","/migrate/webglrenderer-to-webgpurenderer/"]
-hero_image: /visual-validation/creature-habitat/final.design.png
-hero_source: creature-habitat
 published: 2026-07-16
 last_reviewed: 2026-07-16
 sources: ["https://github.com/linegel/threejs-complete-set-of-skill/blob/main/integration-labs/creature-habitat/contract.json","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/integration-labs/creature-habitat/lab.manifest.json","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/docs/visual-validation/creature-habitat/evidence-summary.json","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-choose-skills/SKILL.md","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-camera-controls-and-rigs/SKILL.md","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-procedural-motion-systems/SKILL.md","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-image-pipeline/SKILL.md"]
@@ -146,3 +144,6 @@ Choose a full game engine when the primary need is an editor, physics, navigatio
 The pack is not a game engine. It does not own ECS architecture, networking, anticheat, physics-engine choice, collision truth, audio, UI, accessibility, asset import, compression, build delivery, or browser fallback unless fallback teaching is explicitly requested.
 
 No local demo is a shipped customer game. Even source-matched correctness images do not prove input latency, thermal behavior, device coverage, or production frame time. The project must supply its own target matrix, representative content, play trace, failure controls, and acceptance limits.
+
+
+The earlier creature-habitat capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

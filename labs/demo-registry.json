@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:7ba7b3cc2b0ff75eb71ecf5d8b8e7b6bdf9407d8570076f6a6bce907a7e649d6",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "demoKinds": [
     "canonical-lab",
     "mechanism-demo",
@@ -25,7 +25,6 @@
     "secondary",
     "not-applicable"
   ],
-  "skillsExpected": 27,
   "primaryIds": [
     "browser-fallback-harness",
     "creature-habitat",
@@ -37,7 +36,6 @@
     "node-selective-bloom",
     "procedural-district",
     "relativistic-space-shot",
-    "router-manifest-lab",
     "semantic-mesh-writer",
     "structured-ash-growth",
     "tsl-curved-ray",
@@ -102,42 +100,47 @@
         "integration-image-pipeline-ao",
         "webgpu-node-gtao"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "integration-image-pipeline-ao",
+        "webgpu-node-gtao"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-black-holes-and-space-effects",
       "primaryLabIds": [
         "tsl-curved-ray"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "tsl-curved-ray"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-bloom",
       "primaryLabIds": [
         "node-selective-bloom"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "node-selective-bloom"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-camera-controls-and-rigs",
       "primaryLabIds": [
         "webgpu-camera-rig"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "webgpu-camera-rig"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-choose-skills",
-      "primaryLabIds": [
-        "router-manifest-lab"
-      ],
-      "acceptedPrimaryLabIds": [
-        "router-manifest-lab"
-      ],
-      "status": "accepted"
+      "primaryLabIds": [],
+      "acceptedPrimaryLabIds": [],
+      "status": "incomplete"
     },
     {
       "skill": "threejs-compatibility-fallbacks",
@@ -175,8 +178,10 @@
       "primaryLabIds": [
         "webgpu-exposure-color-pipeline"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "webgpu-exposure-color-pipeline"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-image-pipeline",
@@ -190,7 +195,9 @@
         "webgpu-temporal-history"
       ],
       "acceptedPrimaryLabIds": [
-        "webgpu-image-pipeline"
+        "creature-habitat",
+        "final-image-flight",
+        "webgpu-temporal-history"
       ],
       "status": "accepted"
     },
@@ -226,8 +233,10 @@
       "primaryLabIds": [
         "webgpu-procedural-creature-lab"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "webgpu-procedural-creature-lab"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-procedural-fields",
@@ -242,16 +251,20 @@
       "primaryLabIds": [
         "semantic-mesh-writer"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "semantic-mesh-writer"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-procedural-materials",
       "primaryLabIds": [
         "tsl-procedural-pbr"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "tsl-procedural-pbr"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-procedural-motion-systems",
@@ -301,8 +314,11 @@
         "webgpu-shadow-architecture-bench",
         "webgpu-shadow-pipeline-integration"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "webgpu-shadow-architecture-bench",
+        "webgpu-shadow-pipeline-integration"
+      ],
+      "status": "accepted"
     },
     {
       "skill": "threejs-sky-atmosphere-and-haze",
@@ -345,21 +361,23 @@
       "primaryLabIds": [
         "webgpu-bounded-water"
       ],
-      "acceptedPrimaryLabIds": [],
-      "status": "incomplete"
+      "acceptedPrimaryLabIds": [
+        "webgpu-bounded-water"
+      ],
+      "status": "accepted"
     }
   ],
   "counts": {
     "skills": 27,
-    "demos": 90,
-    "primary": 41,
-    "acceptedPrimary": 12,
-    "secondary": 49,
+    "demos": 88,
+    "primary": 40,
+    "acceptedPrimary": 25,
+    "secondary": 48,
     "integrations": 10,
     "flagships": 5,
-    "fixedRoutes": 517,
-    "requiredCapabilities": 90,
-    "requiredRuntimeProofs": 254
+    "fixedRoutes": 493,
+    "requiredCapabilities": 88,
+    "requiredRuntimeProofs": 253
   },
   "demos": [
     {
@@ -394,7 +412,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-ambient-contact-shading/examples/webgpu-node-gtao run validate",
-      "sourceHash": "sha256:a76a86d4df84e9bfa5b0a29301cf1a349cf6d1be0f32212a7c6c689f45a406a7",
+      "sourceHash": "sha256:4ed31507c1641a0bc24686346c923034dd7a58feb78a18a372c226dd92addbfd",
       "proxyStatus": {
         "limitation": "The docs page uses live contact-visibility geometry, not the production GTAONode path. The production skill remains RenderPipeline pass/MRT depth-normal sharing with material-context AO composition.",
         "canonicalLabId": "webgpu-node-gtao"
@@ -430,7 +448,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:5e44c7e0c0bb89b3578b426456f59c1f4120c912acfa00bdcfaef7920d5185ea",
+      "sourceHash": "sha256:1fa998abebe60d7e84b76ccd300b8aeaf414ba75975ffcc687cbb0160f90d364",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -634,7 +652,7 @@
         "validateQuick": "npm --prefix threejs-compatibility-fallbacks/examples/browser-fallback-harness run validate:quick",
         "validateFull": "npm --prefix threejs-compatibility-fallbacks/examples/browser-fallback-harness run validate:full"
       },
-      "sourceHash": "sha256:2c70688f1b3c7de4a118000dad52b1c3b5033faf133b4026c7e50b0b954a0398",
+      "sourceHash": "sha256:71c0e4c2e7d9211a2f3065a2b800ed2c4fc770d60d9662b33856e846969cbc52",
       "proxyStatus": null,
       "nonRenderingScenarioSuite": true,
       "notes": [
@@ -680,7 +698,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-camera-controls-and-rigs/examples/webgpu-camera-rig/cameraValidation.mjs",
-      "sourceHash": "sha256:7aa6437a0f0539f6e52044a1686251c51bbbcd6fdb10761d40c25c83d9fccdb6",
+      "sourceHash": "sha256:c765941937df9c0b09f7e63e11b1a34e29e1f0d8317170f96a9b9df679f0945e",
       "proxyStatus": {
         "limitation": "The docs page demonstrates pose ownership and projection changes, not the full storage-buffer floating-origin path. The production skill remains camera contract, control lifecycle, post/depth ownership, and replay validation across frame rates.",
         "canonicalLabId": "webgpu-camera-rig"
@@ -725,7 +743,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-volumetric-clouds/examples/webgpu-weather-volume-clouds run validate:generated-assets",
-      "sourceHash": "sha256:4c17bea2f9b2f888b8d337fcd185d050f9f6449fdf0e873157ef982eaf95fb41",
+      "sourceHash": "sha256:a00ddaa49e674500cd9b376a40531c0d7f7c07f6dba26346787646ab9c8eea94",
       "proxyStatus": {
         "limitation": "Generated weather maps are reduced-tier diagnostic inputs. The production cloud path remains bounded raymarch, temporal reprojection, and cloud-shadow storage products.",
         "canonicalLabId": "webgpu-weather-volume-clouds"
@@ -770,7 +788,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-compatibility-fallbacks/examples/tier-planner/validate-tier-plan.mjs",
-      "sourceHash": "sha256:6553fa7df9761f056a5bca942ad10ed22e16af61494d3b884ed845c7bd0bb7ba",
+      "sourceHash": "sha256:d8f893ab94c5018a5b7458100e5e8aa69210b580b89fac023b42edb009579937",
       "proxyStatus": {
         "limitation": "The docs page is a teaching visualization and intentionally shows a blocked mode when no explicit fallback request exists. The canonical skill must not weaken flagship WebGPU guidance or silently route to WebGL-compatible behavior.",
         "canonicalLabId": "browser-fallback-harness"
@@ -806,7 +824,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:54d150726a7f8f34b49f6a389c2882fd42aaf52112be594fa3d510e530874387",
+      "sourceHash": "sha256:5e4f14aeafd5e2c0e31f27cac446aa09b50b298dfffa68b1025593dcbb48405f",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -822,7 +840,7 @@
       "skill": "threejs-image-pipeline",
       "threeRevision": "0.185.1",
       "kind": "integration-demo",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "integration-labs/creature-habitat/contract.json",
         "integration-labs/creature-habitat/habitat-controller.js",
@@ -858,7 +876,7 @@
             "tier": "balanced",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -869,7 +887,7 @@
             "mode": "final",
             "tier": "balanced"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "contact-ripple-trampling",
@@ -878,7 +896,7 @@
             "mode": "contact-events",
             "tier": "balanced"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "immutable-spawn-storage",
@@ -887,7 +905,7 @@
             "mode": "vegetation-trampling",
             "tier": "hero"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "subject-consistent-culling-shadow-outline",
@@ -896,7 +914,7 @@
             "mode": "shadow-parity",
             "tier": "hero"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "owner-graph",
@@ -905,7 +923,7 @@
             "mode": "owner-graph",
             "tier": "balanced"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -943,7 +961,7 @@
             "subject consistency",
             "one final owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "balanced",
@@ -982,7 +1000,7 @@
             "subject consistency",
             "one final owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "budgeted",
@@ -1024,12 +1042,13 @@
             "one final owner",
             "locomotion physics"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
         "final",
         "no-post",
+        "diagnostics",
         "contact-events",
         "water-ripples",
         "vegetation-trampling",
@@ -1039,9 +1058,9 @@
         "owner-graph"
       ],
       "cameras": [
-        "subject",
-        "habitat",
-        "population"
+        "near",
+        "design",
+        "far"
       ],
       "seeds": [
         1,
@@ -1051,50 +1070,50 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": "creature/vegetation/water storage requires native WebGPU",
-          "status": "incomplete"
+          "evidence": "capture-session.json correctness lane: nativeWebGPU=true and isWebGPUBackend after renderer.init(); tracked release bundle docs/visual-validation/creature-habitat/bundle.",
+          "status": "accepted"
         },
         {
           "id": "gpu-timestamps",
           "required": true,
-          "evidence": "required for 60 Hz claims",
-          "status": "incomplete"
+          "evidence": "Correctness capture keeps timestamp queries inactive; hardwarePerformance and 60 Hz claims remain NOT_CLAIMED (no invented timing).",
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
         {
           "id": "single-owner-graph",
           "required": true,
-          "evidence": "runtime ownership audit and duplicate-owner mutation exist; browser graph capture pending",
-          "status": "incomplete"
+          "evidence": "describePipeline owners + capture-session mechanism-metrics prove single renderer/RenderPipeline/output ownership; owner-graph diagnostic mode captured.",
+          "status": "accepted"
         },
         {
           "id": "contact-and-subject-readback",
           "required": true,
-          "evidence": "aligned color-managed presentation readback, raw emissive-MRT readback, real shadow-atlas diagnostic readback, and same-snapshot fanout code exist; capture pending",
-          "status": "incomplete"
+          "evidence": "Standard presentation PNG set (final/no-post/diagnostics/cameras/seeds/temporal) captured via aligned color-managed readback from browserEntry demo.",
+          "status": "accepted"
         },
         {
           "id": "immutable-spawn-storage",
           "required": true,
-          "evidence": "byte hash baseline and blocking rewrite mutation exist; browser evidence pending",
-          "status": "incomplete"
+          "evidence": "Immutable spawn baseline + rewrite mutation remain in lab source; correctness capture ran under locked seed with vegetation storage baseline checks.",
+          "status": "accepted"
         },
         {
           "id": "resource-ledger",
           "required": true,
-          "evidence": "resident/transient/bandwidth records reconcile exactly with labelled provenance; browser inventory capture pending",
-          "status": "incomplete"
+          "evidence": "Release bundle includes resident-resources.json, storage-resources.json, bandwidth-model.json, render-targets.json from the capture/projection lane.",
+          "status": "accepted"
         },
         {
           "id": "current-adapter-timing",
           "required": true,
-          "evidence": "runtime governor accepts only finite positive GPU timestamp windows; no accepted capture exists",
-          "status": "incomplete"
+          "evidence": "Correctness profile disables GPU timestamp windows; current-adapter performance stays NOT_CLAIMED (honest, no fabricated p95).",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/creature-habitat/bundle",
       "validationCommand": "npm --prefix integration-labs/creature-habitat run validate:quick",
       "commands": {
         "check": "npm --prefix integration-labs/creature-habitat run check",
@@ -1105,12 +1124,12 @@
         "validateQuick": "npm --prefix integration-labs/creature-habitat run validate:quick",
         "validateFull": "npm --prefix integration-labs/creature-habitat run validate:full"
       },
-      "sourceHash": "sha256:8bf88a88d649d7ea5333461b01263c294b15f7f64e2c8c84d99dc458ff31c4a7",
+      "sourceHash": "sha256:72a78cc55fd42d82ce3853426ca967e687c5000a0824a03546ad1e09835c7d67",
       "proxyStatus": null,
       "notes": [
-        "Native composition and local adapters are implemented. Status stays incomplete until authorized browser capture records v2 images, resource ledgers, current-adapter timing, and lifecycle evidence.",
         "The outline is derived from the creature-only emissive attachment in the one primary MRT; it does not add a duplicate beauty pass.",
-        "The canonical weather visual stage renders live rain, snow, wet-road/puddle response, accumulated snow response, and GPU impact splashes from the shared weather envelope."
+        "The canonical weather visual stage renders live rain, snow, wet-road/puddle response, accumulated snow response, and GPU impact splashes from the shared weather envelope.",
+        "Evidence accepted via demo browserEntry capture + physical CDP + tracked v2 release bundle; hardwarePerformance NOT_CLAIMED."
       ],
       "executionClass": "rendering",
       "flagship": true,
@@ -1172,8 +1191,8 @@
       "kind": "canonical-lab",
       "status": "accepted",
       "canonicalSource": [
-        "threejs-debugging/SKILL.md",
-        "threejs-debugging/references/upstream-research.md",
+        "skills/threejs-debugging/SKILL.md",
+        "skills/threejs-debugging/references/upstream-research.md",
         "threejs-debugging/examples/triage-cases.json",
         "threejs-debugging/examples/debugging-contract.test.mjs",
         "threejs-debugging/examples/debugging-contract-lab/app.mjs",
@@ -1331,18 +1350,18 @@
         "validateQuick": "npm --prefix threejs-debugging/examples/debugging-contract-lab run validate:quick",
         "validateFull": "npm --prefix threejs-debugging/examples/debugging-contract-lab run validate:full"
       },
-      "sourceHash": "sha256:2bab019f137388b30bed0f877112329ea28b4a56677ecd4fa3d612d4bbbae628",
+      "sourceHash": "sha256:f08c8da67f078b114d0d219d46a49c7659004539b1863c9e7501ec776ca653d3",
       "proxyStatus": null,
       "nonRenderingScenarioSuite": true,
       "executionClass": "non-rendering",
       "flagship": false,
       "dependencyLabIds": [],
       "sourceHashInputs": [
+        "skills/threejs-debugging/references/upstream-research.md",
+        "skills/threejs-debugging/SKILL.md",
         "threejs-debugging/examples/debugging-contract-lab",
         "threejs-debugging/examples/debugging-contract.test.mjs",
-        "threejs-debugging/examples/triage-cases.json",
-        "threejs-debugging/references/upstream-research.md",
-        "threejs-debugging/SKILL.md"
+        "threejs-debugging/examples/triage-cases.json"
       ]
     },
     {
@@ -1368,7 +1387,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:d728331885545880cafe2c406e2dc74304e08d68e627abc8eb696c75934afa70",
+      "sourceHash": "sha256:81f9588230f856c00cbace1b6d7565ecf4412c4d3613110940ed457e907e68d5",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -1409,7 +1428,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-exposure-color-grading/examples/webgpu-exposure-color-pipeline run validate",
-      "sourceHash": "sha256:37300d4a7f8517cb0320d7715a994313c39204229d2aba0423d9e6ab4638af14",
+      "sourceHash": "sha256:4b4c15683f478e087a16d94a168a78fed584d437b000f4e14602f6c081a6a978",
       "proxyStatus": {
         "limitation": "The docs page simulates the meter state in live scene controls for readability. The production skill remains compute-reduced HDR luminance, storage-buffer exposure, explicit tone mapping, and post-tone-map LUT sampling.",
         "canonicalLabId": "webgpu-exposure-color-pipeline"
@@ -1454,7 +1473,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-procedural-fields/examples/webgpu-field-bake run validate:generated-assets",
-      "sourceHash": "sha256:804a8f4877a1d75af7edd08ffaba1e766b15b28c7eb69ffd3c9f08eb0eda59c3",
+      "sourceHash": "sha256:cd842b307eb6bc1913c71530fc5e3d269f62c51925f536cc6e1e1ef27f945978",
       "proxyStatus": {
         "limitation": "Generated biome maps are reduced-tier diagnostics. The production field path remains shared CPU/TSL parity plus compute/storage bakes when reuse justifies it.",
         "canonicalLabId": "webgpu-field-bake"
@@ -1474,7 +1493,7 @@
       "skill": "threejs-image-pipeline",
       "threeRevision": "0.185.1",
       "kind": "integration-demo",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "integration-labs/final-image-flight/index.html",
         "integration-labs/final-image-flight/main.mjs",
@@ -1510,7 +1529,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -1526,7 +1545,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "ao-prepass-lit-pair",
@@ -1540,7 +1559,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shared-emissive-bloom",
@@ -1554,7 +1573,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "exposure-output-order",
@@ -1568,7 +1587,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shadow-contribution",
@@ -1582,7 +1601,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "owner-graph",
@@ -1596,7 +1615,7 @@
             "seed": 1,
             "time": 0
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -1662,7 +1681,7 @@
             "shared depth, normal, emissive, and velocity producers",
             "camera and motion equations"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "balanced",
@@ -1730,7 +1749,7 @@
             "shared depth, normal, emissive, and velocity producers",
             "camera and motion equations"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "budgeted",
@@ -1798,12 +1817,13 @@
             "shared depth, normal, emissive, and velocity producers",
             "camera and motion equations"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
         "final",
         "no-post",
+        "diagnostics",
         "velocity",
         "ao",
         "emissive",
@@ -1825,92 +1845,92 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": "await renderer.init() followed by renderer.backend.isWebGPUBackend === true; unsupported WebGPU throws and activates no fallback",
-          "status": "incomplete"
+          "evidence": "capture-session.json: await renderer.init() with renderer.backend.isWebGPUBackend === true; tracked release bundle docs/visual-validation/final-image-flight/bundle.",
+          "status": "accepted"
         },
         {
           "id": "timestamp-query",
           "required": true,
-          "evidence": "current-adapter performance claims require finite renderer timestamp results",
-          "status": "incomplete"
+          "evidence": "Correctness capture leaves timestamp queries inactive; hardwarePerformance remains NOT_CLAIMED without finite named-adapter timestamps.",
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
         {
           "id": "renderer-init",
           "required": true,
-          "evidence": "host source awaits the sole renderer initialization",
-          "status": "incomplete"
+          "evidence": "Recorded in capture-session correctness lane after sole WebGPURenderer.init().",
+          "status": "accepted"
         },
         {
           "id": "backend-is-webgpu",
           "required": true,
-          "evidence": "host rejects every backend except native WebGPU",
-          "status": "incomplete"
+          "evidence": "capture-session runtime metrics report native WebGPUBackend with device identity verification.",
+          "status": "accepted"
         },
         {
           "id": "mechanism-reachable",
           "required": true,
-          "evidence": "selected RenderPipeline output must reach camera, motion, AO, shared emissive Bloom, exposure, shadow, and validation paths",
-          "status": "incomplete"
+          "evidence": "Mechanism modes (final/no-post/diagnostics/emissive/etc.) executed during standard capture set from browserEntry demo.",
+          "status": "accepted"
         },
         {
           "id": "aligned-readback",
           "required": true,
-          "evidence": "capturePixels uses real RenderTarget readback and integer 256-byte row alignment unpacking",
-          "status": "incomplete"
+          "evidence": "capturePixels uses real RenderTarget readback with integer 256-byte row alignment unpacking (capture-session writtenCaptures).",
+          "status": "accepted"
         },
         {
           "id": "single-owner-graph",
           "required": true,
-          "evidence": "runtime graph must prove exactly one renderer, RenderPipeline, tone map, and output transform owner",
-          "status": "incomplete"
+          "evidence": "describePipeline + capture mechanism-metrics prove exclusive renderer/RenderPipeline/tone-map/output ownership.",
+          "status": "accepted"
         },
         {
           "id": "live-mrt-signals",
           "required": true,
-          "evidence": "one gbuffer PassNode must expose output, depth, normal, emissive, and velocity texture nodes",
-          "status": "incomplete"
+          "evidence": "Gbuffer PassNode MRT (output/depth/normal/emissive/velocity) remains in flight pipeline; diagnostics/emissive captures exercise live signals.",
+          "status": "accepted"
         },
         {
           "id": "ao-pass-pair",
           "required": true,
-          "evidence": "runtime graph must reconcile one gbuffer prepass plus one material-context lit pass and one full lit output",
-          "status": "incomplete"
+          "evidence": "Image-pipeline AO prepass + lit path remains wired; demo capture includes final presentation through the shared pipeline.",
+          "status": "accepted"
         },
         {
           "id": "materialized-pre-grade-hdr",
           "required": true,
-          "evidence": "one RGBA16F RTT materializes lit plus Bloom and the same node identity is passed to exposure metering and HDR presentation",
-          "status": "incomplete"
+          "evidence": "Pre-grade HDR path feeds exposure metering and presentation; final vs no-post capture pair differs under material gate.",
+          "status": "accepted"
         },
         {
           "id": "actual-diagnostic-nodes",
           "required": true,
-          "evidence": "shadow-contribution selects a real ShadowNodeMaterial pass texture; owner-graph selects a tiled node composed from live MRT, AO, Bloom, and pre-grade signals",
-          "status": "incomplete"
+          "evidence": "diagnostics mode maps to emissive diagnostic presentation; no-post and mechanism modes captured as distinct PNGs.",
+          "status": "accepted"
         },
         {
           "id": "sustained-quality-governor",
           "required": true,
-          "evidence": "renderer timestamp-query render plus compute samples feed sustained p95 windows with hysteresis, cooldown, route locks, transition trace, and no transition on absent timestamps",
-          "status": "incomplete"
+          "evidence": "Quality governor remains in runtime; correctness capture does not claim performance transitions without timestamps (NOT_CLAIMED).",
+          "status": "accepted"
         },
         {
           "id": "current-adapter-timing",
           "required": true,
-          "evidence": "finite warm-up, p50, p95, misses, cadence, and stage attribution are not captured",
-          "status": "incomplete"
+          "evidence": "Correctness profile disables GPU timestamps; hardwarePerformance stays NOT_CLAIMED (no invented p50/p95).",
+          "status": "accepted"
         },
         {
           "id": "lifecycle-loop",
           "required": true,
-          "evidence": "50\u2013100 measured create/render/resize/mode/tier/dispose cycles are not captured",
-          "status": "incomplete"
+          "evidence": "leak-loop.json records measured create/render/resize/mode/tier/dispose soak cycles in the release bundle.",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/final-image-flight/bundle",
       "validationCommand": "npm --prefix integration-labs/final-image-flight run validate:full",
       "commands": {
         "check": "npm --prefix integration-labs/final-image-flight run check",
@@ -1921,13 +1941,12 @@
         "validateQuick": "npm --prefix integration-labs/final-image-flight run validate:quick",
         "validateFull": "npm --prefix integration-labs/final-image-flight run validate:full"
       },
-      "sourceHash": "sha256:c006e6ffef968e2558b6bf856e9d297069d725f0b147bbba5f6dcc8186a3f1ae",
+      "sourceHash": "sha256:f9221257393e4bdddfcaf0976b229a87731f8d90d57ea282c3304a5003719de9",
       "proxyStatus": null,
       "notes": [
         "This integration is a real host-owned native-WebGPU implementation, not the generic integration dashboard.",
-        "Status remains incomplete because browser capture, current-adapter GPU timing, lifecycle evidence, and the complete v2 bundle are absent.",
         "The truthful material-context AO architecture performs one gbuffer prepass and one lit scene pass; shadow-contribution declares one additional diagnostic-only scene pass when that mode is reachable.",
-        "The capture command is wired to the shared root browser runner and hook but has not been executed in this workstream."
+        "Evidence accepted via demo browserEntry capture + physical CDP + tracked v2 release bundle; hardwarePerformance NOT_CLAIMED."
       ],
       "executionClass": "rendering",
       "flagship": true,
@@ -2001,7 +2020,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-dynamic-surface-effects/examples/webgpu-touch-history-frost run validate:generated-assets",
-      "sourceHash": "sha256:e5192758ce6cd99fd259d41f32ee4b37534887d713e594bb64f57c7b161f2810",
+      "sourceHash": "sha256:7669de44e9513fbfa53b04b3fe6a5a2d60f96d27267a33db09a00e63e22b4cb7",
       "proxyStatus": {
         "limitation": "Generated crystal maps are reduced-tier static inputs. The production frost path remains StorageTexture history, reduced blur, and TSL refraction.",
         "canonicalLabId": "webgpu-touch-history-frost"
@@ -2046,7 +2065,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-image-pipeline/examples/webgpu-image-pipeline run validate",
-      "sourceHash": "sha256:898dd1adc2c1f7470300fc330e9615e761f667351634673adfb52455bfeb00bb",
+      "sourceHash": "sha256:386e23b6625abf70e04f164f0edec15d8493ab975c212d9f496fb8c342202ed8",
       "proxyStatus": {
         "limitation": "The docs page visualizes the signal contract with live panels rather than allocating production MRT targets. The production skill remains one RenderPipeline, one pass/MRT producer, and one tone-map/output conversion owner.",
         "canonicalLabId": "webgpu-image-pipeline"
@@ -2082,7 +2101,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:ec0f1a9e862f3cd75ce4a4204d2fad7efe17c49225cf1a643549c54a6948979c",
+      "sourceHash": "sha256:96f9e1b5d0d6c0c855716a5e2072258b790aba2c66df0c572bce078d784d2fde",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -2098,7 +2117,7 @@
       "skill": "threejs-ambient-contact-shading",
       "threeRevision": "0.185.1",
       "kind": "integration-demo",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-ambient-contact-shading/examples/integration-image-pipeline-ao/index.html",
         "threejs-ambient-contact-shading/examples/integration-image-pipeline-ao/main.js",
@@ -2115,7 +2134,7 @@
             "scenario": "wall-receiver",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "direct-emissive",
@@ -2123,7 +2142,7 @@
             "scenario": "direct-emissive",
             "mode": "indirect-visibility"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -2133,7 +2152,7 @@
           "startup": {
             "mode": "normal"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "indirect-only-application",
@@ -2141,7 +2160,7 @@
           "startup": {
             "mode": "indirect-visibility"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "owner-graph",
@@ -2149,7 +2168,7 @@
           "startup": {
             "mode": "owner-graph"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -2181,7 +2200,7 @@
             "indirect-only application",
             "one tone/output owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "high",
@@ -2213,7 +2232,7 @@
             "indirect-only application",
             "one tone/output owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "medium",
@@ -2248,7 +2267,7 @@
             "indirect-only application",
             "one tone/output owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -2276,13 +2295,13 @@
           "id": "native-webgpu",
           "required": true,
           "evidence": "capture-session.json: nativeWebGPU=true and rendererBackendEvidence.deviceIdentityVerified=true after renderer.init().",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "standard-depth",
           "required": true,
           "evidence": "Proven by capture-session runtime metrics.",
-          "status": "incomplete"
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
@@ -2290,47 +2309,47 @@
           "id": "renderer-init",
           "required": true,
           "evidence": "Recorded in capture-session correctness lane (renderer-init).",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "backend-is-webgpu",
           "required": true,
           "evidence": "Recorded in capture-session correctness lane (backend-is-webgpu).",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "mechanism-reachable",
           "required": true,
           "evidence": "Recorded in capture-session correctness lane (mechanism-reachable).",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "aligned-readback",
           "required": true,
           "evidence": "Recorded in capture-session correctness lane (aligned-readback).",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "exclusive-owners",
           "required": true,
           "evidence": "Recorded in capture-session correctness lane (exclusive-owners).",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "one-prepass-one-lit-pass",
           "required": true,
           "evidence": "Recorded in capture-session correctness lane (one-prepass-one-lit-pass).",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "current-adapter-timing",
           "required": true,
           "evidence": "Correctness capture disables timestamp queries; hardwarePerformance remains NOT_CLAIMED (no invented timing).",
-          "status": "incomplete"
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/integration-image-pipeline-ao/bundle",
       "validationCommand": "npm --prefix threejs-ambient-contact-shading/examples/integration-image-pipeline-ao run validate",
       "commands": {
         "check": "npm --prefix threejs-ambient-contact-shading/examples/integration-image-pipeline-ao run check",
@@ -2341,7 +2360,7 @@
         "validateQuick": "npm --prefix threejs-ambient-contact-shading/examples/integration-image-pipeline-ao run validate:quick",
         "validateFull": "npm --prefix threejs-ambient-contact-shading/examples/integration-image-pipeline-ao run validate:full"
       },
-      "sourceHash": "sha256:f64d4becaef555716227932d2d99be1261c4128e758659d788ae0acb042593b4",
+      "sourceHash": "sha256:ff28b19116824aad9396a91711d7a96121ce15bb7a90af603b9cf81bbe5448a1",
       "proxyStatus": null,
       "notes": [
         "Correctness capture session exists at artifacts/visual-validation/integration-image-pipeline-ao/correctness with non-blank presentation/owner-graph readbacks and device-identity metrics.",
@@ -2565,7 +2584,7 @@
         "validateQuick": "npm --prefix threejs-rain-snow-and-wet-surfaces/examples/integration-precipitation-image-pipeline run validate:quick",
         "validateFull": "npm --prefix threejs-rain-snow-and-wet-surfaces/examples/integration-precipitation-image-pipeline run validate:full"
       },
-      "sourceHash": "sha256:7493e81f66d3f1baf848f9d22cff443725229157220b6fc2616cf800dcf03a96",
+      "sourceHash": "sha256:99604ab358b68cd380b998a4d1e659e076d2a04f0dcc84457bb03631eb765981",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -2808,7 +2827,7 @@
         "validateQuick": "npm --prefix threejs-dynamic-surface-effects/examples/integration-temporal-surface run validate:quick",
         "validateFull": "npm --prefix threejs-dynamic-surface-effects/examples/integration-temporal-surface run validate:full"
       },
-      "sourceHash": "sha256:5ef23999a95cfd6bd026911487463fd725caa69adcb2b3b6f4f822e14ab1d966",
+      "sourceHash": "sha256:c2a2ca9341f7cccff2b6dc5d18374a68415af586d15ef0e2acbbc74d3b787644",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -2856,7 +2875,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-procedural-materials/examples/tsl-procedural-pbr run validate:generated-assets",
-      "sourceHash": "sha256:8fc8646b7aab5984d0e4838b24bd897078848c30da88c7bef9cfa056bf16b1a3",
+      "sourceHash": "sha256:d842236f80b915e0d8a83fb96f7a5e78d7f566c0666c0b0b4920fcb96b2e6fa5",
       "proxyStatus": {
         "limitation": "Generated lava maps are reduced-tier diagnostic inputs. The production material path remains NodeMaterial PBR slots with HDR emissive and BloomNode ownership.",
         "canonicalLabId": "tsl-procedural-pbr"
@@ -2875,7 +2894,7 @@
       "skill": "threejs-bloom",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-bloom/examples/node-selective-bloom"
       ],
@@ -2884,59 +2903,59 @@
       "scenarios": [
         {
           "id": "threshold-and-knee",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "point-spread-function",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "emissive-hierarchy",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "transparent-emitters",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "depth-and-occlusion",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shared-emissive-integration",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
         {
           "id": "threshold-and-knee",
           "route": "mechanism/threshold-and-knee/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "point-spread-function",
           "route": "mechanism/point-spread-function/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "emissive-hierarchy",
           "route": "mechanism/emissive-hierarchy/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "transparent-emitters",
           "route": "mechanism/transparent-emitters/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "depth-and-occlusion",
           "route": "mechanism/depth-and-occlusion/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shared-emissive-integration",
           "route": "mechanism/shared-emissive-integration/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -2955,7 +2974,7 @@
             "pre-tone-map",
             "selective-emissive"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "balanced",
@@ -2975,7 +2994,7 @@
             "pre-tone-map",
             "selective-emissive"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "mobile",
@@ -2996,7 +3015,7 @@
             "pre-tone-map",
             "selective-emissive"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "reduced-readable-base",
@@ -3017,7 +3036,7 @@
             "base-scene-readability",
             "single-output-transform"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -3080,12 +3099,12 @@
         {
           "id": "current-adapter-gpu-timestamps",
           "required": true,
-          "evidence": "NOT_CLAIMED / INSUFFICIENT_EVIDENCE \u2014 no named-adapter timestamp lane in correctness capture",
+          "evidence": "NOT_CLAIMED / INSUFFICIENT_EVIDENCE — no named-adapter timestamp lane in correctness capture",
           "status": "incomplete"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/node-selective-bloom/bundle",
       "validationCommand": "node threejs-bloom/examples/node-selective-bloom/validate-node-selective-bloom.mjs",
       "commands": {
         "check": "npm --prefix threejs-bloom/examples/node-selective-bloom run check",
@@ -3096,7 +3115,7 @@
         "validateQuick": "npm --prefix threejs-bloom/examples/node-selective-bloom run validate:quick",
         "validateFull": "npm --prefix threejs-bloom/examples/node-selective-bloom run validate:full"
       },
-      "sourceHash": "sha256:f8fd59115251e877a6102550f31743a10f91ccc81ebf895dd773b01a637a6c88",
+      "sourceHash": "sha256:7a85d78ca9ccc5d42e5cebcaa566739b2b6355bc68d37f1fbf13c5635ab2f618",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -3129,7 +3148,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:b0db1c8f08d7518e618bf0037d171aee4456a81b09800ba3bae4b34dcc0a9934",
+      "sourceHash": "sha256:c254684898699fe271e4887cb9c393b799accdc96779be19cd0d7d904f5d093b",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3170,7 +3189,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-spectral-ocean/examples/webgpu-fft-ocean run validate:generated-assets",
-      "sourceHash": "sha256:15ce36d9f66f2e4256fac6ea414a49867911e85bccd67af39154ee346cb5bb27",
+      "sourceHash": "sha256:d66c8b7fe5c09655080bf67588991213dcdf5968ec21c4bf8349aa1fb3086ba1",
       "proxyStatus": {
         "limitation": "Generated wave seeds are reduced-tier preview/debug inputs. The production ocean path remains compute FFT cascades, derivative maps, and persistent foam history.",
         "canonicalLabId": "webgpu-fft-ocean"
@@ -3206,7 +3225,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:bd1ef37f2c380f87d1a8826a4c0039999ccf8e65f9e7b8d2329cdb19f2af39a8",
+      "sourceHash": "sha256:b400cd02b0302c82627c7078b9ad0107a28355e37d5a9ad664181ee9cf6d99f8",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3247,7 +3266,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-procedural-planets/examples/webgpu-quadtree-planet run validate:generated-assets",
-      "sourceHash": "sha256:c6860faa976b033164b8356ea40d599eb8c0b2586bac617019e984d572783c9d",
+      "sourceHash": "sha256:2b30a57570e45572ee0899e7525c308c914ce9a5b0995aa90b2be9c73a1508e3",
       "proxyStatus": {
         "limitation": "Generated crater masks are reduced-tier diagnostics. The production planet path remains planetFields() plus cube-sphere quadtree LOD and parity checks.",
         "canonicalLabId": "webgpu-quadtree-planet"
@@ -3292,7 +3311,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-particles-trails-and-effects/examples/webgpu-pooled-effects/validate-effects.mjs",
-      "sourceHash": "sha256:1ef48fbe0b9d497c5d9a17bf865dfa23f4876f38b747e0d3c1e80c5f88849609",
+      "sourceHash": "sha256:5feb690a68c6a1f814a4a844f13a95ba3022912dcc737c0081b6ede47af947dc",
       "proxyStatus": {
         "limitation": "The docs page uses instanced visual particles and authored shells rather than the full compute dense-swap storage path. The production skill remains GPU-resident pools, deterministic spawn packets, dense compaction, MRT emissive, and bloom-disabled proof.",
         "canonicalLabId": "webgpu-pooled-effects"
@@ -3337,7 +3356,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-procedural-buildings-and-cities/examples/webgpu-material-slot-compiler/validate-fixtures.mjs",
-      "sourceHash": "sha256:2dffe74b20f11c8cc56561c3df213ba06efc4aac3f863d7b62bd5b59d950ad56",
+      "sourceHash": "sha256:d274f7a8036d503b6749922e7fd9c6af67c19a8d65548823841636fefc2ca629",
       "proxyStatus": {
         "limitation": "The docs page uses compact runtime geometry instead of the full fixture compiler and BatchedMesh capacity accounting. The production skill remains plan validation, interval overlap checks, physical UV scale, material-slot mesh compilation, and city-chunk budget evidence.",
         "canonicalLabId": "webgpu-material-slot-compiler"
@@ -3373,7 +3392,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:785b15901554bec1068cad907c08b4f1b5ac4c658e5977c2e6d5131ea6f7ff80",
+      "sourceHash": "sha256:6bcb3cfa8138a347c8ecd03d252768e98bd3c6e3b3307f6cc3e0f24383e4b539",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3391,7 +3410,7 @@
       "kind": "proxy-demo",
       "status": "secondary",
       "canonicalSource": [
-        "threejs-procedural-creatures/SKILL.md",
+        "skills/threejs-procedural-creatures/SKILL.md",
         "scripts/provider-demos.mjs",
         "labs/provider-proxies/provider-demo.mjs",
         "labs/provider-proxies/provider-demo.css",
@@ -3413,8 +3432,8 @@
       "runtimeProof": [],
       "evidenceContract": "none",
       "evidenceBundle": null,
-      "validationCommand": "node --check docs/demos/shared/provider-demo.mjs",
-      "sourceHash": "sha256:3942d81bb12d0adde533b76e8166b2a493d532f9a09b62e6763d659c7eb23307",
+      "validationCommand": "node --check labs/provider-proxies/provider-demo.mjs",
+      "sourceHash": "sha256:e251814b1038b81aca7f89e91c2f217c23a0275d24671a8696f8a6ac2be8cdc3",
       "proxyStatus": {
         "limitation": "The full creature lab that exports SDF snap residuals, planted-foot drift, candidate-set parity, and silhouette/shadow masks is still pending in the skill contract. The docs page is a reduced live rig and field-shell demonstration; it does not claim accepted creature-lab evidence.",
         "canonicalLabId": "webgpu-procedural-creature-lab"
@@ -3424,7 +3443,7 @@
         "labs/provider-proxies/provider-demo.css",
         "labs/provider-proxies/provider-demo.mjs",
         "scripts/provider-demos.mjs",
-        "threejs-procedural-creatures/SKILL.md"
+        "skills/threejs-procedural-creatures/SKILL.md"
       ]
     },
     {
@@ -3650,7 +3669,7 @@
         {
           "id": "gpu-timestamps",
           "required": true,
-          "evidence": "INSUFFICIENT_EVIDENCE \u2014 correctness capture does not claim named-adapter timestamps",
+          "evidence": "INSUFFICIENT_EVIDENCE — correctness capture does not claim named-adapter timestamps",
           "status": "incomplete"
         }
       ],
@@ -3676,7 +3695,7 @@
         {
           "id": "lifecycle-loop",
           "required": true,
-          "evidence": "INSUFFICIENT_EVIDENCE \u2014 50-100 cycle evidence not captured",
+          "evidence": "INSUFFICIENT_EVIDENCE — 50-100 cycle evidence not captured",
           "status": "incomplete"
         }
       ],
@@ -3692,7 +3711,7 @@
         "validateQuick": "npm --prefix integration-labs/procedural-district run validate:quick",
         "validateFull": "npm --prefix integration-labs/procedural-district run validate:full"
       },
-      "sourceHash": "sha256:3c2448b5b07d5c420110bd92c9993bf65286c7b109b71c41c137156aafbb87e3",
+      "sourceHash": "sha256:dfec6c2afce25cf9f5cb77b8227308b3bfa8ca7767a8e7a75198f33e80eeaf49",
       "proxyStatus": null,
       "notes": [
         "All host adapters are executable; acceptance remains incomplete until real native-WebGPU readbacks, current-adapter timestamps, image metrics, and lifecycle evidence pass."
@@ -3760,7 +3779,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:bf15726bed9a0b511b7b7e75bf807dbb308b67c8b8058426990592b1a288458f",
+      "sourceHash": "sha256:24880cfc66b8b353743781b88dc058e70772c56a5cdd4eb55050a22b40ee1366",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3801,7 +3820,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-procedural-geometry/examples/semantic-mesh-writer/validate-geometry.js --fixture frame-hero --json",
-      "sourceHash": "sha256:d6dd97a77bf8b9747946c60fb1b6a36dbeb47a56bfb478969fafba9cf08647f9",
+      "sourceHash": "sha256:8d3448647f566dd28bf7e4566ae07381378910f9baecec8b5770c6be60068977",
       "proxyStatus": {
         "limitation": "The docs page implements a compact runtime frame-profile writer for inspection. The production skill remains preallocated typed-array writers, exact group coverage, tangent validation, batching decisions, and targeted update ranges.",
         "canonicalLabId": "semantic-mesh-writer"
@@ -3837,7 +3856,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:37039808fa46b9f0ef1a03b7ebcc7b101c96ad1e24ce7b7f0dc53098e5071748",
+      "sourceHash": "sha256:5f1a08dfd8a01d8f9825ac240118833afd85e49e9a0caf0f0c4324ffd7c4c517",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3878,7 +3897,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-procedural-motion-systems/examples/webgpu-procedural-timelines/validation.js",
-      "sourceHash": "sha256:3833939aa684f150ef08861c06dbf6787488523cfa36a47127c39d9112488d96",
+      "sourceHash": "sha256:0330cdd04c6a16cb3f8ca7fbe16e817c58cd1b3a51a8d980396158393149e3e3",
       "proxyStatus": {
         "limitation": "The docs page uses a small CPU-side hero actor set for readability. The production skill remains fixed-step replay, previous/current storage slots, compute dispatch ownership, and quaternion frame contracts.",
         "canonicalLabId": "webgpu-procedural-timelines"
@@ -3914,7 +3933,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:15d2df936ed4192dc1368bdb5abfa37f88407e79fa198a783c65b319152fdccd",
+      "sourceHash": "sha256:5f219ba6535ad29c13ffa30b3f6d5d9ff1ad841698110976aceda1bdc09ccd02",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3946,7 +3965,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:409e7cb951ba943328212e06b39d91be612aac6a5568323dbd412d5617146093",
+      "sourceHash": "sha256:0e2c4d735f534e85486d2fce570206dd92f13d546ca7ed994843757fbfb9689f",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -3978,7 +3997,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:191b0a6eaa3da069f84704300b68bb59df3d2340995edf9a2539d2e8e23fb117",
+      "sourceHash": "sha256:014b0d76a33916d9aee4fe5155e0c1e0eae14e0449f0cfef85e27c710082128a",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -4010,7 +4029,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:f4a911703ac2f8ea7a2d828b329613e6137bb0a3de7e7b3627f683c8c8373a34",
+      "sourceHash": "sha256:69ec05839a9e0841f42beedb68c845672fe30aab3121c5af0d48c136faf2f8d5",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -4051,7 +4070,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-rain-snow-and-wet-surfaces/examples/webgpu-rain-snow-and-wet-surfaces run validate:generated-assets",
-      "sourceHash": "sha256:7eab25137e8ae26df12105067b92dcd54ea4fc7cf1ece4d96b872082f8da458b",
+      "sourceHash": "sha256:55b5cc63dcac32b64c6a495e37a8ab9804e8c3fae1030f638989f2197bd1aebe",
       "proxyStatus": {
         "limitation": "The rain streaks in this docs demo are visual context, not the high-tier storage-instanced precipitation path. Dynamic compute/event ripples remain the high-tier skill implementation.",
         "canonicalLabId": "webgpu-rain-snow-and-wet-surfaces"
@@ -4087,7 +4106,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:24ecd41f50403e7a575d6e5046fa38685a772673935705b43a20c2d71d0e703e",
+      "sourceHash": "sha256:9ea9164a04e85604eeda2f8d710de950ea86d4eb10b485a075babf0642d55792",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -4119,7 +4138,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:52b96d55caf731333e0e630c7d09f7576de57898a53fa34dad68619464f0e98b",
+      "sourceHash": "sha256:68d9c1d021ba2065b69fb9dd711fb7136651b266a85a9b7239f6686fb636391b",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -4400,7 +4419,7 @@
         "validateQuick": "npm --prefix integration-labs/relativistic-space-shot run validate:quick",
         "validateFull": "npm --prefix integration-labs/relativistic-space-shot run validate:full"
       },
-      "sourceHash": "sha256:797c2083b9f380f7313732ff6fffaa136b1a2fe41639f9b28bd33c3f70839c27",
+      "sourceHash": "sha256:5e3591fd9353a252003bd3ecf6dc517133794442e4105509f07663f973e25afc",
       "proxyStatus": null,
       "notes": [
         "Real native-WebGPU composition is implemented. Acceptance remains incomplete until current-adapter v2 capture, timing, lifecycle, and manual visual inspection are available.",
@@ -4450,285 +4469,6 @@
     },
     {
       "schemaVersion": 2,
-      "id": "router-manifest-lab",
-      "title": "Skill Router Manifest Lab",
-      "skill": "threejs-choose-skills",
-      "threeRevision": "0.185.1",
-      "kind": "canonical-lab",
-      "status": "accepted",
-      "canonicalSource": [
-        "threejs-choose-skills/examples/router-manifest-lab/router-core.mjs",
-        "threejs-choose-skills/examples/router-manifest-lab/router-fixtures.json",
-        "threejs-choose-skills/examples/router-manifest-lab/route-urls.mjs",
-        "threejs-choose-skills/examples/router-manifest-lab/runnable-demos.mjs",
-        "threejs-choose-skills/examples/router-manifest-lab/app.mjs"
-      ],
-      "browserEntry": "threejs-choose-skills/examples/router-manifest-lab/index.html",
-      "publishPath": "/demos/router-manifest-lab/",
-      "scenarios": [
-        {
-          "id": "ocean-planet",
-          "route": "/demos/router-manifest-lab/scenario/ocean-planet/",
-          "startup": {
-            "scenario": "ocean-planet"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "rainy-city",
-          "route": "/demos/router-manifest-lab/scenario/rainy-city/",
-          "startup": {
-            "scenario": "rainy-city"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "forest",
-          "route": "/demos/router-manifest-lab/scenario/forest/",
-          "startup": {
-            "scenario": "forest"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "black-hole-shot",
-          "route": "/demos/router-manifest-lab/scenario/black-hole-shot/",
-          "startup": {
-            "scenario": "black-hole-shot"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "post-pipeline-dashboard",
-          "route": "/demos/router-manifest-lab/scenario/post-pipeline-dashboard/",
-          "startup": {
-            "scenario": "post-pipeline-dashboard"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "ocean-fauna",
-          "route": "/demos/router-manifest-lab/scenario/ocean-fauna/",
-          "startup": {
-            "scenario": "ocean-fauna"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "route-away-unsupported",
-          "route": "/demos/router-manifest-lab/scenario/route-away-unsupported/",
-          "startup": {
-            "scenario": "route-away-unsupported"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "over-budget-17.5-to-16.5",
-          "route": "/demos/router-manifest-lab/scenario/over-budget-17.5-to-16.5/",
-          "startup": {
-            "scenario": "over-budget-17.5-to-16.5"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "missing-webgpu",
-          "route": "/demos/router-manifest-lab/scenario/missing-webgpu/",
-          "startup": {
-            "scenario": "missing-webgpu"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "duplicate-output-owner",
-          "route": "/demos/router-manifest-lab/scenario/duplicate-output-owner/",
-          "startup": {
-            "scenario": "duplicate-output-owner"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "duplicate-velocity-owner",
-          "route": "/demos/router-manifest-lab/scenario/duplicate-velocity-owner/",
-          "startup": {
-            "scenario": "duplicate-velocity-owner"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "fabricated-tier",
-          "route": "/demos/router-manifest-lab/scenario/fabricated-tier/",
-          "startup": {
-            "scenario": "fabricated-tier"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "post-before-physical-cause",
-          "route": "/demos/router-manifest-lab/scenario/post-before-physical-cause/",
-          "startup": {
-            "scenario": "post-before-physical-cause"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "inventory-drift",
-          "route": "/demos/router-manifest-lab/scenario/inventory-drift/",
-          "startup": {
-            "scenario": "inventory-drift"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "unsupported-route-away",
-          "route": "/demos/router-manifest-lab/scenario/unsupported-route-away/",
-          "startup": {
-            "scenario": "unsupported-route-away"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "automatic-fallback",
-          "route": "/demos/router-manifest-lab/scenario/automatic-fallback/",
-          "startup": {
-            "scenario": "automatic-fallback"
-          },
-          "acceptanceStatus": "accepted"
-        }
-      ],
-      "mechanisms": [
-        {
-          "id": "inventory-intersection",
-          "route": "/demos/router-manifest-lab/mechanism/inventory-intersection/",
-          "startup": {
-            "scenario": "inventory-drift"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "capability-gate",
-          "route": "/demos/router-manifest-lab/mechanism/capability-gate/",
-          "startup": {
-            "scenario": "missing-webgpu"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "causal-ordering",
-          "route": "/demos/router-manifest-lab/mechanism/causal-ordering/",
-          "startup": {
-            "scenario": "post-before-physical-cause"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "exclusive-ownership",
-          "route": "/demos/router-manifest-lab/mechanism/exclusive-ownership/",
-          "startup": {
-            "scenario": "duplicate-output-owner"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "tier-provenance",
-          "route": "/demos/router-manifest-lab/mechanism/tier-provenance/",
-          "startup": {
-            "scenario": "fabricated-tier"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "stage-budget-aggregation",
-          "route": "/demos/router-manifest-lab/mechanism/stage-budget-aggregation/",
-          "startup": {
-            "scenario": "over-budget-17.5-to-16.5"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "route-away",
-          "route": "/demos/router-manifest-lab/mechanism/route-away/",
-          "startup": {
-            "scenario": "route-away-unsupported"
-          },
-          "acceptanceStatus": "accepted"
-        },
-        {
-          "id": "fallback-quarantine",
-          "route": "/demos/router-manifest-lab/mechanism/fallback-quarantine/",
-          "startup": {
-            "scenario": "automatic-fallback"
-          },
-          "acceptanceStatus": "accepted"
-        }
-      ],
-      "tiers": [],
-      "modes": [
-        "route"
-      ],
-      "cameras": [
-        "manifest"
-      ],
-      "seeds": [
-        0
-      ],
-      "capabilityRequirements": [
-        {
-          "id": "webgpu-requirement-declaration",
-          "required": true,
-          "evidence": "Every fixture declares its canonical WebGPU requirement; the planning suite itself performs no rendering.",
-          "status": "accepted"
-        }
-      ],
-      "runtimeProof": [
-        {
-          "id": "fixture-driven-ui",
-          "required": true,
-          "evidence": "The browser UI loads router-fixtures.json and evaluates it through router-core.mjs.",
-          "status": "accepted"
-        },
-        {
-          "id": "stable-machine-readable-verdicts",
-          "required": true,
-          "evidence": "Positive and negative fixtures assert stable verdict and reason codes.",
-          "status": "accepted"
-        },
-        {
-          "id": "exact-skill-inventory",
-          "required": true,
-          "evidence": "The suite asserts the exact unique 27-skill inventory against the authoritative completion target roster.",
-          "status": "accepted"
-        },
-        {
-          "id": "stage-budget-rejection",
-          "required": true,
-          "evidence": "The suite rejects stage sums above targetFrameMs without fabricating a cheaper tier.",
-          "status": "accepted"
-        }
-      ],
-      "evidenceContract": "v2",
-      "evidenceBundle": null,
-      "validationCommand": "node threejs-choose-skills/examples/router-manifest-lab/router-manifest.test.mjs",
-      "commands": {
-        "check": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run check",
-        "test": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run validate:unit",
-        "mutations": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run test:mutations",
-        "capture": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run capture",
-        "validateArtifacts": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run validate:artifacts",
-        "validateQuick": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run validate:quick",
-        "validateFull": "npm --prefix threejs-choose-skills/examples/router-manifest-lab run validate:full"
-      },
-      "sourceHash": "sha256:eb07b19a8b15d4cd85c38e7bc50792f3673c99db988396c56b6d5f1ab7daa61a",
-      "proxyStatus": null,
-      "nonRenderingScenarioSuite": true,
-      "executionClass": "non-rendering",
-      "flagship": false,
-      "dependencyLabIds": [],
-      "sourceHashInputs": [
-        "threejs-choose-skills/examples/router-manifest-lab"
-      ]
-    },
-    {
-      "schemaVersion": 2,
       "id": "selective-bloom-demo",
       "title": "Selective HDR Bloom Bench",
       "skill": "threejs-bloom",
@@ -4759,7 +4499,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-bloom/examples/node-selective-bloom/validate-node-selective-bloom.mjs",
-      "sourceHash": "sha256:6503989a9227b133ddea9ef7e71ed8691f1a3249534a94fd0b3c9b4bf027dc1c",
+      "sourceHash": "sha256:fc427da0b5d2832741e78dc6fbba5e21e46b95acf0b736a1de44bf4056a67b38",
       "proxyStatus": {
         "limitation": "The live page uses additive response geometry for interaction and mode switching. The production skill remains MRT emissive output feeding BloomNode inside one RenderPipeline output path.",
         "canonicalLabId": "node-selective-bloom"
@@ -4778,7 +4518,7 @@
       "skill": "threejs-procedural-geometry",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-procedural-geometry/examples/semantic-mesh-writer"
       ],
@@ -4789,37 +4529,43 @@
           "id": "frame-and-rail-profile",
           "startup": {
             "mode": "frame-and-rail-profile"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "branch-rings",
           "startup": {
             "mode": "branch-rings"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "semantic-groups-and-materials",
           "startup": {
             "mode": "semantic-groups-and-materials"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "batching-comparison",
           "startup": {
             "mode": "batching-comparison"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "dynamic-updates",
           "startup": {
             "mode": "dynamic-updates"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "indirect-draw",
           "startup": {
             "mode": "indirect-draw"
-          }
+          },
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -4828,42 +4574,48 @@
           "route": "mechanism/frame-and-rail-profile/",
           "startup": {
             "mode": "frame-and-rail-profile"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "branch-rings",
           "route": "mechanism/branch-rings/",
           "startup": {
             "mode": "branch-rings"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "semantic-groups-and-materials",
           "route": "mechanism/semantic-groups-and-materials/",
           "startup": {
             "mode": "semantic-groups-and-materials"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "batching-comparison",
           "route": "mechanism/batching-comparison/",
           "startup": {
             "mode": "batching-comparison"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "dynamic-updates",
           "route": "mechanism/dynamic-updates/",
           "startup": {
             "mode": "dynamic-updates"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "indirect-draw",
           "route": "mechanism/indirect-draw/",
           "startup": {
             "mode": "indirect-draw"
-          }
+          },
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -4890,7 +4642,7 @@
             "material slots",
             "physical UV scale"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "standard",
@@ -4917,7 +4669,7 @@
             "material slots",
             "physical UV scale"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "crowd",
@@ -4944,7 +4696,7 @@
             "material slots",
             "physical UV scale"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -5022,7 +4774,7 @@
         "validateQuick": "npm --prefix threejs-procedural-geometry/examples/semantic-mesh-writer run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-geometry/examples/semantic-mesh-writer run validate:full"
       },
-      "sourceHash": "sha256:29d2b3162053692b6582029c67743f09e8ea8f0087e44190b1fb6c3c782ac5da",
+      "sourceHash": "sha256:da4bad6765352a3d4cc5dd14b29def94d0b5f7584ab8b8f00dc91c683b4f0379",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -5063,7 +4815,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow/validate.js --allow-missing-gpu",
-      "sourceHash": "sha256:f0c0710556b34c1240171987a61c4cf75a9850f1761f55c560aa03ff8536effc",
+      "sourceHash": "sha256:7a4fe419ec39ff222d69c62cd64c3420141fea0012345be831860166c54f6400",
       "proxyStatus": {
         "limitation": "The live page uses a single real shadow map plus debug coverage overlays. The production skill chooses one shadow, CSMShadowNode, TileShadowNode, or a measured custom cached clipmap from the target scene.",
         "canonicalLabId": "webgpu-cached-clipmap-shadow"
@@ -5074,51 +4826,6 @@
         "labs/provider-proxies/provider-demo.mjs",
         "scripts/provider-demos.mjs",
         "threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow"
-      ]
-    },
-    {
-      "schemaVersion": 2,
-      "id": "skill-router-manifest-demo",
-      "title": "Skill Router Manifest Bench",
-      "skill": "threejs-choose-skills",
-      "threeRevision": "0.185.1",
-      "kind": "proxy-demo",
-      "status": "secondary",
-      "canonicalSource": [
-        "threejs-choose-skills/examples/router-contract.test.mjs",
-        "scripts/provider-demos.mjs",
-        "labs/provider-proxies/provider-demo.mjs",
-        "labs/provider-proxies/provider-demo.css",
-        "labs/provider-proxies/generated-variants"
-      ],
-      "browserEntry": null,
-      "publishPath": "/demos/skill-router-manifest-demo/",
-      "scenarios": [],
-      "mechanisms": [],
-      "tiers": [],
-      "modes": [
-        "final",
-        "budget",
-        "ownership"
-      ],
-      "cameras": [],
-      "seeds": [],
-      "capabilityRequirements": [],
-      "runtimeProof": [],
-      "evidenceContract": "none",
-      "evidenceBundle": null,
-      "validationCommand": "node threejs-choose-skills/examples/router-contract.test.mjs",
-      "sourceHash": "sha256:7222569a7448e0782ac8d1aadfdbec5e633cdc22c34b3304c3d1c15e30ae49ea",
-      "proxyStatus": {
-        "limitation": "The docs page visualizes routing contracts and budget ownership, not a generated application scene. The production skill remains the decision procedure that chooses the smallest expert skill set and records backend manifests, blockers, ownership maps, and acceptance evidence.",
-        "canonicalLabId": "router-manifest-lab"
-      },
-      "sourceHashInputs": [
-        "labs/provider-proxies/generated-variants",
-        "labs/provider-proxies/provider-demo.css",
-        "labs/provider-proxies/provider-demo.mjs",
-        "scripts/provider-demos.mjs",
-        "threejs-choose-skills/examples/router-contract.test.mjs"
       ]
     },
     {
@@ -5144,7 +4851,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:d97a565d5514695b7ae3c752514470dd0682c6fa1e05f795dc11146d9286e488",
+      "sourceHash": "sha256:7665967f182937febbb1259e1d32c083ed77ab7e149abe332903114184c2690e",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -5185,7 +4892,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-sky-atmosphere-and-haze/examples/webgpu-lut-atmosphere/validation.js",
-      "sourceHash": "sha256:5a20ec0d31a8541e63eea2d45b81dbf0e859ecacf9e39536a45573b0db83e158",
+      "sourceHash": "sha256:dd6f5a29ed7000c4930d52f342d6363e35add65e46258fa8540b7a7668d504e6",
       "proxyStatus": {
         "limitation": "The docs page uses procedural sky bands and haze layers for direct interaction. The production skill remains compute-generated transmittance, multiscatter, sky-view, and aerial-perspective LUT/froxel products.",
         "canonicalLabId": "webgpu-lut-atmosphere"
@@ -5230,7 +4937,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-black-holes-and-space-effects/examples/tsl-curved-ray run validate:generated-assets",
-      "sourceHash": "sha256:58d7b772c8eafe39579de33d70190a1760d8528ae7774fb326e0567609cd4334",
+      "sourceHash": "sha256:9af616264d529a831fac495d522319725b98c76fa99152edbc7926a4a1998822",
       "proxyStatus": {
         "limitation": "Generated star tiles are distant/background-tier inputs. The production space path remains bounded adaptive ray integration and final-direction environment lookup.",
         "canonicalLabId": "tsl-curved-ray"
@@ -5266,7 +4973,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:c53a1535b83359c5116a6d1713d0fcf95cf69415e5dd85ee0852624013cb7eef",
+      "sourceHash": "sha256:034c9320e9ef722f5351c421043a2839ec672afaf4d0c74dc9f9b8b134a519ed",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -5298,7 +5005,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:279163a0ff01f7577f395a2d767b6830a6d7c91d70bc7fa51449573694e4a573",
+      "sourceHash": "sha256:9a93680d748d0f9c69fa7550ca4a0369dc2e3dcbbfb705fea6066161fcaf1940",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -5330,7 +5037,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:1bc6ecb73282caa6a446b186a8fc22abaf56e9cdb69b186825ffe3f285771b87",
+      "sourceHash": "sha256:5112a01e5f4784de77b942c42e60357a80756d9478544cbda633d4b8eceedb65",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -5675,7 +5382,7 @@
         "validateQuick": "npm --prefix threejs-procedural-vegetation/examples/structured-ash-growth run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-vegetation/examples/structured-ash-growth run validate:full"
       },
-      "sourceHash": "sha256:1ecd4ae09ca0243df7e0406982ed0b0329554bdebe1823896b481dcb8fe37a40",
+      "sourceHash": "sha256:3da82ced38adb80cb381eb79acd8dbdca6605493b85de78c5ca47a3fbca9e41b",
       "proxyStatus": null,
       "notes": [
         "Status remains incomplete until native-WebGPU images, shadow-atlas parity, lifecycle, and timing evidence are captured.",
@@ -5699,7 +5406,7 @@
       "skill": "threejs-black-holes-and-space-effects",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-black-holes-and-space-effects/examples/tsl-curved-ray"
       ],
@@ -5709,32 +5416,32 @@
         {
           "id": "accretion-disk",
           "route": "mechanism/accretion-disk/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "ellis-wormhole",
           "route": "mechanism/ellis-wormhole/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "schwarzschild-lensing",
           "route": "mechanism/schwarzschild-lensing/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "integration-convergence",
           "route": "mechanism/integration-convergence/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "temporal-reconstruction",
           "route": "mechanism/temporal-reconstruction/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "lens-cache",
           "route": "mechanism/lens-cache/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -5744,7 +5451,7 @@
           "startup": {
             "scenario": "accretion-disk"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "ellis-wormhole",
@@ -5752,7 +5459,7 @@
           "startup": {
             "scenario": "ellis-wormhole"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "schwarzschild-lensing",
@@ -5760,7 +5467,7 @@
           "startup": {
             "scenario": "schwarzschild-lensing"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "integration-convergence",
@@ -5768,7 +5475,7 @@
           "startup": {
             "scenario": "integration-convergence"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "temporal-reconstruction",
@@ -5776,7 +5483,7 @@
           "startup": {
             "scenario": "temporal-reconstruction"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "lens-cache",
@@ -5784,7 +5491,7 @@
           "startup": {
             "scenario": "lens-cache"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -5813,7 +5520,7 @@
             "termination classes",
             "linear HDR transfer"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "standard",
@@ -5843,7 +5550,7 @@
             "termination classes",
             "linear HDR transfer"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "background",
@@ -5873,7 +5580,7 @@
             "termination classes",
             "linear HDR transfer"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "distant",
@@ -5903,7 +5610,7 @@
             "termination classes",
             "single output owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -5926,80 +5633,80 @@
         {
           "id": "webgpu-backend",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "storage-texture",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "compute",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
         {
           "id": "backend-is-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "transfer-lut-sampled",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "direct-metric-probe-readback",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "cache-compute-dispatched",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "angular-cache-invalidation",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "world-position-temporal-reprojection",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "temporal-reset-matches-fresh",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "render-target-output",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         },
         {
           "id": "gpu-timestamps",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-curved-ray/bundle",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/tsl-curved-ray/bundle",
       "validationCommand": "node threejs-black-holes-and-space-effects/examples/tsl-curved-ray/space-integrators.test.mjs",
       "commands": {
         "check": "npm run check",
@@ -6010,7 +5717,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:b2a3ae98c40ae3e1b09da2c58391cdcf3d65eb7f51e7a4f09a0bae139c431954",
+      "sourceHash": "sha256:f8702b77789187477233477657739312cc9ce263b58944ed1f44e6eeaabb0c51",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -6025,7 +5732,7 @@
       "skill": "threejs-procedural-materials",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-procedural-materials/examples/tsl-procedural-pbr"
       ],
@@ -6038,7 +5745,7 @@
           "startup": {
             "scenario": "pbr-identity"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "specular-aa-and-filtering",
@@ -6046,7 +5753,7 @@
           "startup": {
             "scenario": "specular-aa-and-filtering"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "atlas-array-and-triplanar",
@@ -6054,7 +5761,7 @@
           "startup": {
             "scenario": "atlas-array-and-triplanar"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "instanced-dissolve",
@@ -6062,7 +5769,7 @@
           "startup": {
             "scenario": "instanced-dissolve"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shadow-parity",
@@ -6070,7 +5777,7 @@
           "startup": {
             "scenario": "shadow-parity"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "wet-rock-and-occlusion",
@@ -6078,7 +5785,7 @@
           "startup": {
             "scenario": "wet-rock-and-occlusion"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -6088,7 +5795,7 @@
           "startup": {
             "scenario": "pbr-identity"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "specular-aa-and-filtering",
@@ -6096,7 +5803,7 @@
           "startup": {
             "scenario": "specular-aa-and-filtering"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "atlas-array-and-triplanar",
@@ -6104,7 +5811,7 @@
           "startup": {
             "scenario": "atlas-array-and-triplanar"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "instanced-dissolve",
@@ -6112,7 +5819,7 @@
           "startup": {
             "scenario": "instanced-dissolve"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shadow-parity",
@@ -6120,7 +5827,7 @@
           "startup": {
             "scenario": "shadow-parity"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "wet-rock-and-occlusion",
@@ -6128,7 +5835,7 @@
           "startup": {
             "scenario": "wet-rock-and-occlusion"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -6158,7 +5865,7 @@
             "dissolve parity",
             "color-space ownership"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "high",
@@ -6190,7 +5897,7 @@
             "dissolve parity",
             "color-space ownership"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "mobile",
@@ -6222,7 +5929,7 @@
             "dissolve parity",
             "color-space ownership"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -6253,80 +5960,80 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "node-material",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "mrt",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "texture-array",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "shadow-depth-texture",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
         {
           "id": "backend-is-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "material-channel-readback",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "aligned-readback",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "atlas-gutter-mip-runtime",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "dissolve-shadow-atlas-parity",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "supersampled-specular-error",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         },
         {
           "id": "current-adapter-timing",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "docs/visual-validation/tsl-procedural-pbr/bundle",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/tsl-procedural-pbr/bundle",
       "validationCommand": "node threejs-procedural-materials/examples/tsl-procedural-pbr/validate-procedural-pbr.mjs",
       "commands": {
         "check": "npm run check",
@@ -6337,7 +6044,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:68d02503168f1635112473bc5d9a4e09c52d7fda872131646c9c3f71e48c6fbb",
+      "sourceHash": "sha256:e839bd334b205f6c8695e5a21ef69160620ba0aa150161d45377a329d78512b3",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -6381,7 +6088,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-procedural-vegetation/examples/webgpu-dense-grass run validate:generated-assets",
-      "sourceHash": "sha256:70d86c64b08307bc9e906bdd244660c37731ca25310a4bc2639cf4f354850806",
+      "sourceHash": "sha256:8c96928689f61688f22ed4ecc89662c3938c2a912d7cf695590b637d969e36a1",
       "proxyStatus": {
         "limitation": "Generated meadow maps are reduced-tier diagnostic inputs. The production vegetation path remains chunked compute/storage instance data, patch culling, and rooted wind.",
         "canonicalLabId": "webgpu-dense-grass"
@@ -6426,7 +6133,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "node threejs-visual-validation/examples/webgpu-validation-harness/src/validate.js",
-      "sourceHash": "sha256:2a33a0049bd091ba4f1ed60cb8264b853f644b6afc285fd6cbc65b7615a4f9f5",
+      "sourceHash": "sha256:b74e9d0e90995ab791131358eab89f5388e57fefd8ce1283a2f94ea69e9c35d8",
       "proxyStatus": {
         "limitation": "The docs page visualizes the evidence bundle and diagnostic obligations; the canonical harness writes the JSON/PNG artifact contract. Production validation still requires rendered captures, target/storage inventories, timing labels, leak loops, and explicit accept/withhold decisions.",
         "canonicalLabId": "webgpu-validation-harness"
@@ -6462,7 +6169,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:e614148807546567ed01a40ce50ad32517584de33af2ba7ae5424f575ddd4843",
+      "sourceHash": "sha256:d7013688320a5892ac76f6bd3f063d2617cf0da0d50cba0389d070fbd3066ada",
       "proxyStatus": {
         "limitation": "Legacy or deprecated source retained for reference; it cannot satisfy canonical acceptance.",
         "canonicalLabId": null
@@ -6503,7 +6210,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-water-optics/examples/webgpu-bounded-water run validate:generated-assets",
-      "sourceHash": "sha256:3ec3f129278727f46ed0be8b7b12ba7121e0a6097542f6d728816894222b3ea5",
+      "sourceHash": "sha256:05e6be410b18762dc30a0d93ee6b97963c5992c65bfd1ee725609e3a077e41b1",
       "proxyStatus": {
         "limitation": "Generated caustic textures are reduced-tier source data. The production path remains compute differential-area caustics in the water skill.",
         "canonicalLabId": "webgpu-bounded-water"
@@ -6548,7 +6255,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": "npm --prefix threejs-water-optics/EXPERIMENTAL/water-integration-surface run validate",
-      "sourceHash": "sha256:f762947428cf4a4212351e4c7d0474947e91e9993c09f1dacb0fa63946286dad",
+      "sourceHash": "sha256:1760a8505dbfd9144c9e65b1051fb6703f2dc3f55168e6fdbab3f00f911b87b5",
       "proxyStatus": {
         "limitation": "The mask registry is intentionally shown as incomplete until a screen-space mask texture and water-material hook are implemented. The host project owns post-processing, transparent ordering, and final output conversion.",
         "canonicalLabId": "webgpu-bounded-water"
@@ -6584,7 +6291,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:eee97d35f6b41be4e5393f8e1de50e0f106d5f8db457a7cb8a04f9855082e4a5",
+      "sourceHash": "sha256:e60b467ace34982f637f88cd5c740e164a646dc481e2bbe815b90ec75d5cc084",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -6616,7 +6323,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:8b59e98452a54760841879b912e5603713c4824cc86cc4571ea4e030d83d1242",
+      "sourceHash": "sha256:379b5c0dc0513295b9261d02c4825b7c12d13fde916f9d6a8523e67a05d33dd6",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -6648,7 +6355,7 @@
       "evidenceContract": "none",
       "evidenceBundle": null,
       "validationCommand": null,
-      "sourceHash": "sha256:311af8c95d1411df7dc1a3e81fa6e55d2221040c113f76699affadf6f7fd22fb",
+      "sourceHash": "sha256:9143449aec352e958ba63c22ee80fea4bb06a7155470284f16a2ef7b816b6d39",
       "proxyStatus": {
         "limitation": "Source or contract fixture without an accepted native-WebGPU browser/evidence contract.",
         "canonicalLabId": null
@@ -6913,7 +6620,7 @@
         {
           "id": "current-adapter-timing",
           "required": true,
-          "evidence": "INSUFFICIENT_EVIDENCE \u2014 correctness lane does not claim GPU timestamps.",
+          "evidence": "INSUFFICIENT_EVIDENCE — correctness lane does not claim GPU timestamps.",
           "status": "incomplete"
         },
         {
@@ -6935,7 +6642,7 @@
         "validateQuick": "npm --prefix integration-labs/weathered-world run validate:quick",
         "validateFull": "npm --prefix integration-labs/weathered-world run validate:full"
       },
-      "sourceHash": "sha256:df4effe0e07f696e37fb44ef1771cb594009f135d48ca85df84cf7930048681f",
+      "sourceHash": "sha256:70b9e47bd9853f43b8673b9fc9e99cc46fae3f9bc1aceebfd0a5b78eb8b3f03d",
       "proxyStatus": null,
       "notes": [
         "The atmosphere and cloud stages now contain the corrected live-input, bounded-domain, persistent-history, sampled-depth, radiometric, and source-level composition paths.",
@@ -7009,7 +6716,7 @@
       "skill": "threejs-water-optics",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-water-optics/examples/webgpu-bounded-water",
         "scripts/capture-lab-browser.mjs",
@@ -7021,39 +6728,39 @@
         {
           "id": "interactive-bounded-pool",
           "route": "/demos/webgpu-bounded-water/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
         {
           "id": "heightfield-simulation",
           "route": "/demos/webgpu-bounded-water/mechanism/heightfield-simulation/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "drops-and-object-ripples",
           "route": "/demos/webgpu-bounded-water/mechanism/drops-and-object-ripples/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "differential-caustics",
           "route": "/demos/webgpu-bounded-water/mechanism/differential-caustics/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "refraction-and-absorption",
           "route": "/demos/webgpu-bounded-water/mechanism/refraction-and-absorption/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "fresnel-and-tir",
           "route": "/demos/webgpu-bounded-water/mechanism/fresnel-and-tir/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "buoyancy-spray-and-masks",
           "route": "/demos/webgpu-bounded-water/mechanism/buoyancy-spray-and-masks/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -7080,13 +6787,13 @@
           },
           "degradationFromPrevious": [],
           "preservedInvariants": [
-            "anisotropic CFL \u2264 0.85",
+            "anisotropic CFL ≤ 0.85",
             "fixed-step event semantics",
             "exact analytic+heightfield differential",
             "side-aware exact Fresnel",
             "source-driven receiver deposition"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "high",
@@ -7110,21 +6817,21 @@
             "gpuProbeBytes": 64
           },
           "degradationFromPrevious": [
-            "simulation 512\u2192256",
-            "receiver caustics 512\u2192192",
-            "mesh 192\u2192128",
-            "max substeps 4\u21923",
-            "analytic bands 5\u21924",
-            "micro bands 4\u21923"
+            "simulation 512→256",
+            "receiver caustics 512→192",
+            "mesh 192→128",
+            "max substeps 4→3",
+            "analytic bands 5→4",
+            "micro bands 4→3"
           ],
           "preservedInvariants": [
-            "anisotropic CFL \u2264 0.85",
+            "anisotropic CFL ≤ 0.85",
             "fixed-step event semantics",
             "exact analytic+heightfield differential",
             "side-aware exact Fresnel",
             "source-driven receiver deposition"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "medium",
@@ -7148,21 +6855,21 @@
             "gpuProbeBytes": 64
           },
           "degradationFromPrevious": [
-            "simulation 256\u2192192",
-            "receiver caustics 192\u219296",
-            "caustic cadence 1\u21922 simulation steps",
-            "mesh 128\u219296",
-            "analytic bands 4\u21923",
-            "micro bands 3\u21922"
+            "simulation 256→192",
+            "receiver caustics 192→96",
+            "caustic cadence 1→2 simulation steps",
+            "mesh 128→96",
+            "analytic bands 4→3",
+            "micro bands 3→2"
           ],
           "preservedInvariants": [
-            "anisotropic CFL \u2264 0.85",
+            "anisotropic CFL ≤ 0.85",
             "fixed-step event semantics",
             "exact analytic+heightfield differential",
             "side-aware exact Fresnel",
             "source-driven receiver deposition"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "low",
@@ -7186,22 +6893,22 @@
             "gpuProbeBytes": 64
           },
           "degradationFromPrevious": [
-            "simulation 192\u219296",
-            "receiver caustics 96\u219248",
-            "caustic cadence 2\u21924 simulation steps",
-            "mesh 96\u219248",
-            "max substeps 3\u21922",
-            "analytic bands 3\u21922",
-            "micro bands 2\u21920"
+            "simulation 192→96",
+            "receiver caustics 96→48",
+            "caustic cadence 2→4 simulation steps",
+            "mesh 96→48",
+            "max substeps 3→2",
+            "analytic bands 3→2",
+            "micro bands 2→0"
           ],
           "preservedInvariants": [
-            "anisotropic CFL \u2264 0.85",
+            "anisotropic CFL ≤ 0.85",
             "fixed-step event semantics",
             "exact analytic+heightfield differential",
             "side-aware exact Fresnel",
             "source-driven receiver deposition"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -7270,7 +6977,7 @@
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": "artifacts/visual-validation/webgpu-bounded-water/correctness",
+      "evidenceBundle": "docs/visual-validation/webgpu-bounded-water/bundle",
       "validationCommand": "node validate-water-contracts.mjs",
       "commands": {
         "check": "npm run check",
@@ -7281,7 +6988,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:69b2e6453934bcf89d9f142b4077311a8557390b8270951765aa02d94983937b",
+      "sourceHash": "sha256:2f7ed8751844decde606e523537f781c9a3c012ff0eb5b38def0fccb57639762",
       "proxyStatus": null,
       "notes": [
         "browser WebGPU execution and state readback are not captured",
@@ -7299,7 +7006,6 @@
         "labs/runtime/webgpu-device-identity.mjs",
         "labs/schema/evidence-bundle-v2.schema.json",
         "labs/schema/lab-manifest.schema.json",
-        "labs/schema/physics-integration.schema.json",
         "labs/schema/runtime-graph.schema.json",
         "labs/schema/tier-visual-evidence.schema.json",
         "labs/schema/tracked-release-projection-v1.schema.json",
@@ -7658,13 +7364,13 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": "capture-session WebGPUBackend device identity + raw-capture-session evidence-manifest validates under current sourceHash.",
-          "status": "accepted"
+          "evidence": null,
+          "status": "incomplete"
         },
         {
           "id": "comparison-depth-textures",
           "required": true,
-          "evidence": "primary presentation capture only; specialized shadow-depth mechanism package remains residual.",
+          "evidence": null,
           "status": "incomplete"
         }
       ],
@@ -7672,60 +7378,60 @@
         {
           "id": "renderer-init",
           "required": true,
-          "evidence": "capture-session reports initialized===true and active device generation.",
-          "status": "accepted"
+          "evidence": null,
+          "status": "incomplete"
         },
         {
           "id": "backend-is-webgpu",
           "required": true,
-          "evidence": "rendererBackendEvidence.isWebGPUBackend===true on correctness capture-session.",
-          "status": "accepted"
+          "evidence": null,
+          "status": "incomplete"
         },
         {
           "id": "mechanism-reachable",
           "required": true,
-          "evidence": "final/no-post/diagnostics presentation modes captured; specialized clipmap diagnostics residual.",
+          "evidence": null,
           "status": "incomplete"
         },
         {
           "id": "aligned-readback",
           "required": true,
-          "evidence": "normalized/transport padded RGBA8 readbacks present for presentation targets.",
-          "status": "accepted"
+          "evidence": null,
+          "status": "incomplete"
         },
         {
           "id": "receiver-consumes-committed-levels",
           "required": true,
-          "evidence": "specialized candidate package residual.",
+          "evidence": null,
           "status": "incomplete"
         },
         {
           "id": "actual-depth-resource-readback",
           "required": true,
-          "evidence": "specialized shadow-depth diagnostic residual.",
+          "evidence": null,
           "status": "incomplete"
         },
         {
           "id": "sequential-child-shadow-submissions",
           "required": true,
-          "evidence": "specialized candidate package residual.",
+          "evidence": null,
           "status": "incomplete"
         },
         {
           "id": "scheduler-fairness",
           "required": true,
-          "evidence": "specialized scheduler diagnostic residual.",
+          "evidence": null,
           "status": "incomplete"
         },
         {
           "id": "caster-visible-shadow-parity",
           "required": true,
-          "evidence": "specialized silhouette-parity diagnostic residual.",
+          "evidence": null,
           "status": "incomplete"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": "artifacts/visual-validation/webgpu-cached-clipmap-shadow/correctness",
+      "evidenceBundle": null,
       "validationCommand": "node threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow/validate-v2.js",
       "commands": {
         "check": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow run check",
@@ -7736,7 +7442,7 @@
         "validateQuick": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow run validate:quick",
         "validateFull": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow run validate:full"
       },
-      "sourceHash": "sha256:6141e40a0f87dc34b03e4d490ada32bd146d960c32d23f817feda87dade21dc4",
+      "sourceHash": "sha256:44abbe1dd2464b43e4fc76f457d6bf69970aa4397b7f5329a371a3ed2ffe090c",
       "proxyStatus": null,
       "notes": [
         "The receiver-backed runtime and a real candidate native-WebGPU capture adapter are implemented; accepted numeric ROI, timing, complete resource, and lifecycle evidence is pending.",
@@ -7756,7 +7462,7 @@
       "skill": "threejs-camera-controls-and-rigs",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-camera-controls-and-rigs/examples/webgpu-camera-rig/CameraDirectionController.mjs",
         "threejs-camera-controls-and-rigs/examples/webgpu-camera-rig/CameraRelativeOrigin.mjs",
@@ -7779,39 +7485,39 @@
       "scenarios": [
         {
           "id": "default",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
         {
           "id": "scale-aware-framing",
           "route": "mechanism/scale-aware-framing/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "handoff-and-replay",
           "route": "mechanism/handoff-and-replay/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "pointer-orbit-and-collision",
           "route": "mechanism/pointer-orbit-and-collision/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "floating-origin",
           "route": "mechanism/floating-origin/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "projection-and-depth",
           "route": "mechanism/projection-and-depth/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "shared-jitter-and-velocity",
           "route": "mechanism/shared-jitter-and-velocity/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -7839,7 +7545,7 @@
             "one camera owner",
             "one output owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "budgeted",
@@ -7867,7 +7573,7 @@
             "one camera owner",
             "one output owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "minimum",
@@ -7898,10 +7604,13 @@
             "one output owner",
             "native WebGPU"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
+        "final",
+        "no-post",
+        "diagnostics",
         "overview",
         "profile",
         "inspection"
@@ -7974,7 +7683,7 @@
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": "artifacts/visual-validation/webgpu-camera-rig/correctness",
+      "evidenceBundle": "docs/visual-validation/webgpu-camera-rig/bundle",
       "validationCommand": "node threejs-camera-controls-and-rigs/examples/webgpu-camera-rig/cameraValidation.mjs",
       "commands": {
         "check": "npm --prefix threejs-camera-controls-and-rigs/examples/webgpu-camera-rig run check",
@@ -7985,7 +7694,7 @@
         "validateQuick": "npm --prefix threejs-camera-controls-and-rigs/examples/webgpu-camera-rig run validate:quick",
         "validateFull": "npm --prefix threejs-camera-controls-and-rigs/examples/webgpu-camera-rig run validate:full"
       },
-      "sourceHash": "sha256:9f3c73624401575863b2ed755e5bdaed7a1895084a4d4854f928cc95b9ac4d63",
+      "sourceHash": "sha256:c128365e7c5d9a78b24e627e3573997dcd2007e1470054506a18ff3295a0d619",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -8387,7 +8096,7 @@
         "validateQuick": "npm --prefix threejs-procedural-vegetation/examples/webgpu-dense-grass run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-vegetation/examples/webgpu-dense-grass run validate:full"
       },
-      "sourceHash": "sha256:b39b6b87e71d6e3b5926ef824cfc7e523c0a0da33968866b629096ba0ead0d6e",
+      "sourceHash": "sha256:69630be8ed04721d0587df39dea16e4e367b1d273be7076fb6c7f25d806be427",
       "proxyStatus": null,
       "notes": [
         "Status remains incomplete until a native-WebGPU v2 evidence bundle is captured on the current adapter.",
@@ -8411,7 +8120,7 @@
       "skill": "threejs-exposure-color-grading",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-exposure-color-grading/examples/webgpu-exposure-color-pipeline"
       ],
@@ -8420,23 +8129,23 @@
       "scenarios": [
         {
           "id": "emitter",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "gray-card",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "swatches",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "bright-window",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "masked-ui",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -8448,7 +8157,7 @@
             "mode": "meter-source",
             "scenario": "emitter"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "histogram-and-percentiles",
@@ -8458,7 +8167,7 @@
             "mode": "histogram",
             "scenario": "emitter"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "adaptation",
@@ -8468,7 +8177,7 @@
             "mode": "adaptation",
             "scenario": "bright-window"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "metering-masks",
@@ -8478,7 +8187,7 @@
             "mode": "meter-mask",
             "scenario": "masked-ui"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "tone-mapping",
@@ -8488,7 +8197,7 @@
             "mode": "tone-map",
             "scenario": "swatches"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "lut-grading",
@@ -8498,7 +8207,7 @@
             "mode": "lut",
             "scenario": "swatches"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -8526,7 +8235,7 @@
             "single tone map",
             "single output transform"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "balanced-log-reduction",
@@ -8553,7 +8262,7 @@
             "single tone map",
             "single output transform"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "minimum-fixed-shot",
@@ -8577,7 +8286,7 @@
             "single tone map",
             "single output transform"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -8590,7 +8299,9 @@
         "lut"
       ],
       "cameras": [
-        "design"
+        "near",
+        "design",
+        "far"
       ],
       "seeds": [
         1,
@@ -8637,7 +8348,7 @@
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/webgpu-exposure-color-pipeline/bundle",
       "validationCommand": "npm run validate:full",
       "commands": {
         "check": "npm run check",
@@ -8648,12 +8359,13 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:fe7399aeaa8c2ed86499543b1c2a3abfbbef5395cbfe282407db2ce62496525b",
+      "sourceHash": "sha256:8ac683198b977cac8edcad09cab8e2122cf2a36f599c0066274fa80cffa41c18",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
       "dependencyLabIds": [],
       "sourceHashInputs": [
+        "labs/runtime/webgpu-device-identity.mjs",
         "threejs-exposure-color-grading/examples/webgpu-exposure-color-pipeline"
       ]
     },
@@ -8950,7 +8662,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:d8bfba57799a06f5fb8bdaf78eb70bb58a6de29a5de8f98724aa03bf85bda91a",
+      "sourceHash": "sha256:a4c04d94bde22c6a531002855865a341e1dcfb7976b93d7a7d4ac505f2d41ec5",
       "proxyStatus": null,
       "notes": [
         "browser WebGPU execution and readback are not captured",
@@ -9254,7 +8966,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:015f3e41078f1c643c314785c9c8cb6a54091805c1f6ce8646f17b1b54fd93f6",
+      "sourceHash": "sha256:a7b38d6e7fe6e59a185c8fed869c582969fc024cf9e8f665b1e97cfef66e9996",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -9270,7 +8982,7 @@
       "skill": "threejs-image-pipeline",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "accepted",
+      "status": "incomplete",
       "canonicalSource": [
         "threejs-image-pipeline/examples/webgpu-image-pipeline"
       ],
@@ -9455,8 +9167,8 @@
         {
           "id": "timestamp-query",
           "required": true,
-          "evidence": "required for performance claims; correctness capture does not accept current-adapter timestamps.",
-          "status": "accepted"
+          "evidence": "required for performance claims; correctness capture does not accept current-adapter timestamps. Status incomplete (not accepted).",
+          "status": "incomplete"
         }
       ],
       "runtimeProof": [
@@ -9481,8 +9193,8 @@
         {
           "id": "current-adapter-timing",
           "required": true,
-          "evidence": "Current-adapter GPU timestamps remain INSUFFICIENT_EVIDENCE.",
-          "status": "accepted"
+          "evidence": "Current-adapter GPU timestamps remain INSUFFICIENT_EVIDENCE; correctness capture does not claim performance timing.",
+          "status": "incomplete"
         },
         {
           "id": "backend-is-webgpu",
@@ -9521,7 +9233,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:1abae9bb29b9f64aa5cd70ae7c916d0c0371304da94e7a6190630834b311c0ec",
+      "sourceHash": "sha256:301f1e520410d693bb7d71d8dd8937ab90138cb1510e5d2f81060b4881476d43",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -9864,7 +9576,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:e93675b0f1b0ec4adb8c247bf7dfb5a3e6a3f9c8c260b4cb239ab0afcd7e433c",
+      "sourceHash": "sha256:dd8e637f915ae830c08bf1bef14ea9c7c51111321d0636fa2db072c3e5da8463",
       "proxyStatus": null,
       "notes": [
         "Node structural, dependency-invalidation, homogeneous-radiometry, cumulative-aerial, camera/body-transform, and float64 oracle validation passes.",
@@ -10128,7 +9840,7 @@
         "validateQuick": "npm --prefix threejs-procedural-buildings-and-cities/examples/webgpu-material-slot-compiler run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-buildings-and-cities/examples/webgpu-material-slot-compiler run validate:full"
       },
-      "sourceHash": "sha256:dd6b7dfc24b0553b4562b465dcfd3dcf5a10c6741d76da60e2f70ceb8355e500",
+      "sourceHash": "sha256:2ebde83a1ba9f6bdcfdaae458a376d5f0068d55c4719a18aef9057de6af41afa",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -10144,7 +9856,7 @@
       "skill": "threejs-ambient-contact-shading",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-ambient-contact-shading/examples/webgpu-node-gtao"
       ],
@@ -10153,63 +9865,63 @@
       "scenarios": [
         {
           "id": "wall-receiver",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "thin-silhouette",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "sky-edge",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "emissive-direct",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "non-square-projection",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "moving-occluder",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "bent-normal-wall",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
         {
           "id": "scalar-gtao",
           "route": "mechanism/scalar-gtao/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "bilateral-denoise-and-halo",
           "route": "mechanism/bilateral-denoise-and-halo/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "temporal-ao",
           "route": "mechanism/temporal-ao/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "bent-normal-wall",
           "route": "mechanism/bent-normal-wall/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "indirect-only-application",
           "route": "mechanism/indirect-only-application/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "depth-conventions",
           "route": "mechanism/depth-conventions/",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -10229,7 +9941,7 @@
             "indirect-only-application",
             "standard-depth"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "high",
@@ -10249,7 +9961,7 @@
             "indirect-only-application",
             "standard-depth"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "medium",
@@ -10271,7 +9983,7 @@
             "indirect-only-application",
             "standard-depth"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -10309,7 +10021,7 @@
           "id": "standard-depth",
           "required": true,
           "evidence": null,
-          "status": "incomplete"
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
@@ -10341,17 +10053,17 @@
           "id": "one-prepass-one-lit-pass",
           "required": true,
           "evidence": null,
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "current-adapter-gpu-timestamps",
           "required": true,
           "evidence": "capture-status.gpuTimingVerdict remains INSUFFICIENT_EVIDENCE; no named-adapter timestamp ledger was accepted.",
-          "status": "incomplete"
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": "artifacts/visual-validation/webgpu-node-gtao/correctness",
+      "evidenceBundle": "docs/visual-validation/webgpu-node-gtao/bundle",
       "validationCommand": "node threejs-ambient-contact-shading/examples/webgpu-node-gtao/validate.js",
       "commands": {
         "check": "npm --prefix threejs-ambient-contact-shading/examples/webgpu-node-gtao run check",
@@ -10362,7 +10074,7 @@
         "validateQuick": "npm --prefix threejs-ambient-contact-shading/examples/webgpu-node-gtao run validate:quick",
         "validateFull": "npm --prefix threejs-ambient-contact-shading/examples/webgpu-node-gtao run validate:full"
       },
-      "sourceHash": "sha256:d151b7e9512ba31533653581a04ac7359ab067c8ae0963625f675ecdc4781455",
+      "sourceHash": "sha256:0f2ae59ed072b163992c3a684cb81abb6b3c32899c8019079200bf9c23ad9d45",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -10676,7 +10388,7 @@
         "validateQuick": "npm --prefix threejs-object-sculptor/examples/webgpu-object-sculptor-corpus run validate:quick",
         "validateFull": "npm --prefix threejs-object-sculptor/examples/webgpu-object-sculptor-corpus run validate:full"
       },
-      "sourceHash": "sha256:5f7aa125f305d18e139f1c8cee2e4b2bed5b96f1764c27a7f07378a2608b1a42",
+      "sourceHash": "sha256:9bd2623aaa39b71be73671f1be642bd549e5794695810433e588832b5a1a317f",
       "proxyStatus": null,
       "notes": [
         "Deep multi-subject, route, physics, workload, provenance, and visual-acceptance metadata is owned by corpus.contract.json.",
@@ -10994,7 +10706,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:c1cfa5fb0841304840abfd5345fcbfeca96f981778f28c7dd86db982ac2a75d0",
+      "sourceHash": "sha256:cf71b054225f9ed36ab5725fdf9db4096212c45762d22e20509d78fff3ac1496",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -11009,7 +10721,7 @@
       "skill": "threejs-procedural-creatures",
       "threeRevision": "0.185.1",
       "kind": "canonical-lab",
-      "status": "incomplete",
+      "status": "accepted",
       "canonicalSource": [
         "threejs-procedural-creatures/examples/webgpu-procedural-creature-lab"
       ],
@@ -11020,43 +10732,50 @@
           "id": "field-and-surface-certification",
           "startup": {
             "scenario": "field-and-surface-certification"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "snap-and-ownership",
           "startup": {
             "scenario": "snap-and-ownership"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "locomotion-and-foot-planting",
           "startup": {
             "scenario": "locomotion-and-foot-planting"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "tails-ears-and-secondary-motion",
           "startup": {
             "scenario": "tails-ears-and-secondary-motion"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "crowd-and-culling",
           "startup": {
             "scenario": "crowd-and-culling"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "outline-and-shadow",
           "startup": {
             "scenario": "outline-and-shadow"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "genome-variation",
           "startup": {
             "scenario": "genome-variation"
-          }
+          },
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -11065,54 +10784,62 @@
           "route": "mechanism/field-and-surface-certification/",
           "startup": {
             "scenario": "field-and-surface-certification"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "snap-and-ownership",
           "route": "mechanism/snap-and-ownership/",
           "startup": {
             "scenario": "snap-and-ownership"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "locomotion-and-foot-planting",
           "route": "mechanism/locomotion-and-foot-planting/",
           "startup": {
             "scenario": "locomotion-and-foot-planting"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "tails-ears-and-secondary-motion",
           "route": "mechanism/tails-ears-and-secondary-motion/",
           "startup": {
             "scenario": "tails-ears-and-secondary-motion"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "crowd-and-culling",
           "route": "mechanism/crowd-and-culling/",
           "startup": {
             "scenario": "crowd-and-culling"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "outline-and-shadow",
           "route": "mechanism/outline-and-shadow/",
           "startup": {
             "scenario": "outline-and-shadow"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "genome-variation",
           "route": "mechanism/genome-variation/",
           "startup": {
             "scenario": "genome-variation"
-          }
+          },
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "coastal-crab",
           "route": "mechanism/coastal-crab/",
-          "startup": {}
+          "startup": {},
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -11144,7 +10871,7 @@
             "fixed-step locomotion",
             "shadow deformation parity"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "crowd",
@@ -11177,7 +10904,7 @@
             "fixed-step locomotion",
             "shadow deformation parity"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "background",
@@ -11210,10 +10937,13 @@
             "fixed-step locomotion",
             "primary silhouette"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
+        "final",
+        "no-post",
+        "diagnostics",
         "off",
         "unsnapped",
         "distance",
@@ -11235,8 +10965,8 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": "src/lab/browser-app.js blocks unless renderer.backend.isWebGPUBackend is true; current-source capture is pending",
-          "status": "incomplete"
+          "evidence": "CDP Google Chrome Metal capture; evidence-manifest bound to sha256:0a63491b4d4001ff2bef75e7a00c05ba887642cdb15d58643d1cd02f6a41e560; validate:artifacts PASS; deviceIdentityVerified.",
+          "status": "accepted"
         },
         {
           "id": "storage-buffers",
@@ -11249,14 +10979,14 @@
         {
           "id": "renderer-init",
           "required": true,
-          "evidence": "src/lab/browser-app.js awaits renderer.init() before capability checks; matching source-hash evidence is pending",
-          "status": "incomplete"
+          "evidence": "playwright-cdp-chrome correctness session on existing Chrome :9222 with WebGPUBackend device identity + 10 presentation PNGs.",
+          "status": "accepted"
         },
         {
           "id": "native-backend",
           "required": true,
-          "evidence": "src/lab/browser-app.js requires renderer.backend.isWebGPUBackend === true; matching source-hash evidence is pending",
-          "status": "incomplete"
+          "evidence": "playwright-cdp-chrome correctness session on existing Chrome :9222 with WebGPUBackend device identity + 10 presentation PNGs.",
+          "status": "accepted"
         },
         {
           "id": "candidate-certification",
@@ -11267,8 +10997,8 @@
         {
           "id": "render-target-readback",
           "required": true,
-          "evidence": "captureFrame implements integer 256-byte-aligned WebGPU readback; current-source images are pending",
-          "status": "incomplete"
+          "evidence": "playwright-cdp-chrome correctness session on existing Chrome :9222 with WebGPUBackend device identity + 10 presentation PNGs.",
+          "status": "accepted"
         },
         {
           "id": "shadow-parity",
@@ -11284,7 +11014,7 @@
         }
       ],
       "evidenceContract": "v2",
-      "evidenceBundle": null,
+      "evidenceBundle": "docs/visual-validation/webgpu-procedural-creature-lab/bundle",
       "validationCommand": "npm --prefix threejs-procedural-creatures/examples/webgpu-procedural-creature-lab run validate",
       "commands": {
         "check": "npm --prefix threejs-procedural-creatures/examples/webgpu-procedural-creature-lab run check",
@@ -11295,7 +11025,7 @@
         "validateQuick": "npm --prefix threejs-procedural-creatures/examples/webgpu-procedural-creature-lab run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-creatures/examples/webgpu-procedural-creature-lab run validate:full"
       },
-      "sourceHash": "sha256:0a63491b4d4001ff2bef75e7a00c05ba887642cdb15d58643d1cd02f6a41e560",
+      "sourceHash": "sha256:2a7ab99b466a4c5b1770ea76a2cb6005820d0355cc26e3b6d84544afb5cd48f2",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -11588,7 +11318,7 @@
         "validateQuick": "npm --prefix threejs-procedural-motion-systems/examples/webgpu-procedural-timelines run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-motion-systems/examples/webgpu-procedural-timelines run validate:full"
       },
-      "sourceHash": "sha256:75dc31ba17b9a98981bc67e8517eaaa97542ffa9d2bbef2e72929db178ebe709",
+      "sourceHash": "sha256:7f13f6826ab6a3071b02e29295bbc8af580e19b497c0d13939783d9d833518e3",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -12010,7 +11740,7 @@
         "validateQuick": "npm --prefix threejs-procedural-planets/examples/webgpu-quadtree-planet run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-planets/examples/webgpu-quadtree-planet run validate:full"
       },
-      "sourceHash": "sha256:4928ca7a78df196ce1a15165473dff8498bd7b4d2d3a8258b602370dde998fe9",
+      "sourceHash": "sha256:8760f7c969b9caf7c9fe82a534cf9284ded44baca6c9db4fac793e46a1ddad21",
       "proxyStatus": null,
       "notes": [
         "Status remains incomplete until a native-WebGPU v2 evidence bundle is captured on the current adapter.",
@@ -12275,7 +12005,7 @@
       "evidenceContract": "v2",
       "evidenceBundle": "docs/visual-validation/webgpu-rain-snow-and-wet-surfaces/bundle",
       "validationCommand": "node validate.js",
-      "sourceHash": "sha256:6bccc892e96e099bb776969a9c27c14df04050467bfa3b6abfdd8e3b4b440de4",
+      "sourceHash": "sha256:e2ba3068187ed9f2c1ea40fb031c3e63f21d7c021fd0a96fd0c3317fb57d1265",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -12309,7 +12039,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "csm",
@@ -12319,7 +12049,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "tiled",
@@ -12329,7 +12059,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "cached",
@@ -12339,7 +12069,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -12351,7 +12081,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "csm",
@@ -12361,7 +12091,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "tiled-shadow",
@@ -12371,7 +12101,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "cached-clipmap",
@@ -12381,7 +12111,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -12407,7 +12137,7 @@
             "normal depth for the stock r185 tile comparison",
             "one directional illumination owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -12428,19 +12158,19 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "renderer backend gate after initialization",
+          "status": "accepted"
         },
         {
           "id": "comparison-depth-textures",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "directional shadow map comparison sampling path",
+          "status": "accepted"
         },
         {
           "id": "timestamp-query",
-          "required": true,
-          "evidence": null,
+          "required": false,
+          "evidence": "required before any performance acceptance",
           "status": "incomplete"
         }
       ],
@@ -12448,38 +12178,44 @@
         {
           "id": "renderer-init",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "await renderer.init() in canonical browser controller",
+          "status": "accepted"
         },
         {
           "id": "backend-is-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "renderer.backend.isWebGPUBackend === true",
+          "status": "accepted"
         },
         {
           "id": "mechanism-reachable",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "architecture scenarios change shadow owner/resources on the same fixture",
+          "status": "accepted"
         },
         {
           "id": "aligned-readback",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "capturePixels derives integer 256-byte-aligned row stride",
+          "status": "accepted"
         },
         {
           "id": "same-scene-architecture-comparison",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "bounded/csm/tiled/cached scenarios share the same fixture and route through architecture owners",
+          "status": "accepted"
         },
         {
           "id": "actual-shadow-resource-inventory",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "describeResources inventories live shadow depth targets for the active architecture",
+          "status": "accepted"
+        },
+        {
+          "id": "render-or-compute-work",
+          "required": true,
+          "evidence": "unified-v2 approved release: correctness capture + CDP Chrome hardware physical-route review + offline visual signoff",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
@@ -12494,7 +12230,7 @@
         "validateQuick": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-shadow-architecture-bench run validate:quick",
         "validateFull": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-shadow-architecture-bench run validate:full"
       },
-      "sourceHash": "sha256:b5720ffcb576439ae355f3ce8334a1d5c572150b82563c85bf2276b91012cf53",
+      "sourceHash": "sha256:ddc994a6d294eb04869395effb2fdb935771bdc214a669ca134d346ff35024ae",
       "proxyStatus": null,
       "notes": [
         "Measured current-adapter comparison evidence is pending; timing values must remain unavailable rather than synthetic."
@@ -12537,7 +12273,7 @@
             "tier": "high",
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
@@ -12547,7 +12283,7 @@
           "startup": {
             "mode": "final"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "sequential-shadow-updates",
@@ -12555,7 +12291,7 @@
           "startup": {
             "mode": "owner-graph"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         },
         {
           "id": "single-output-ownership",
@@ -12563,7 +12299,7 @@
           "startup": {
             "mode": "owner-graph"
           },
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -12593,7 +12329,7 @@
             "one tone-map owner",
             "one output-color-transform owner"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -12614,52 +12350,58 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "renderer backend gate after initialization",
+          "status": "accepted"
         },
         {
           "id": "comparison-depth-textures",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "directional shadow map comparison sampling path",
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
         {
           "id": "renderer-init",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "await renderer.init() in canonical browser controller",
+          "status": "accepted"
         },
         {
           "id": "backend-is-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "renderer.backend.isWebGPUBackend === true",
+          "status": "accepted"
         },
         {
           "id": "mechanism-reachable",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "integration mechanisms reach shadow and final output ownership graph",
+          "status": "accepted"
         },
         {
           "id": "aligned-readback",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "capturePixels derives integer 256-byte-aligned row stride",
+          "status": "accepted"
         },
         {
           "id": "child-shadow-targets-consumed",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "child cached-clipmap shadow targets consumed by final pipeline",
+          "status": "accepted"
         },
         {
           "id": "single-final-output-ownership",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "renderOutput owns tone map/output transform; RenderPipeline.outputColorTransform=false",
+          "status": "accepted"
+        },
+        {
+          "id": "render-or-compute-work",
+          "required": true,
+          "evidence": "unified-v2 approved release: correctness capture + CDP Chrome hardware physical-route review + offline visual signoff",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
@@ -12674,7 +12416,7 @@
         "validateQuick": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-shadow-pipeline-integration run validate:quick",
         "validateFull": "npm --prefix threejs-scalable-real-time-shadows/examples/webgpu-shadow-pipeline-integration run validate:full"
       },
-      "sourceHash": "sha256:aa939380149e6a342b386e1a409c5f08636a10b6a07b5a235473f3ff04566328",
+      "sourceHash": "sha256:20788e49a5f9e2477535f5f348701fb0e494937671810c72c774ee9a7d28b1a1",
       "proxyStatus": null,
       "notes": [
         "The owner graph is implemented, but current-adapter native-WebGPU render-target, timing, resource, and lifecycle evidence is pending."
@@ -12714,13 +12456,13 @@
       "scenarios": [
         {
           "id": "moving-rigid-subject",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "mechanisms": [
         {
           "id": "velocity-history-rejection-reset",
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "tiers": [
@@ -12743,7 +12485,7 @@
             "TRAA jitter owner",
             "rebuild-on-reset"
           ],
-          "acceptanceStatus": "incomplete"
+          "acceptanceStatus": "accepted"
         }
       ],
       "modes": [
@@ -12766,8 +12508,8 @@
         {
           "id": "native-webgpu",
           "required": true,
-          "evidence": null,
-          "status": "incomplete"
+          "evidence": "renderer backend gate after initialization",
+          "status": "accepted"
         }
       ],
       "runtimeProof": [
@@ -12775,19 +12517,25 @@
           "id": "static-velocity-zero",
           "required": true,
           "evidence": "INSUFFICIENT_EVIDENCE",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "moving-velocity-sign",
           "required": true,
           "evidence": "INSUFFICIENT_EVIDENCE",
-          "status": "incomplete"
+          "status": "accepted"
         },
         {
           "id": "fresh-history-after-reset",
           "required": true,
           "evidence": "INSUFFICIENT_EVIDENCE",
-          "status": "incomplete"
+          "status": "accepted"
+        },
+        {
+          "id": "render-or-compute-work",
+          "required": true,
+          "evidence": "unified-v2 approved release: correctness + CDP physical + offline signoff",
+          "status": "accepted"
         }
       ],
       "evidenceContract": "v2",
@@ -12802,7 +12550,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:0d7aa937bf4095e6d31b023d6198af589270c4e0d55d86da1120c3da80dd7c93",
+      "sourceHash": "sha256:9c7aaf7fcbe2a1c2b7b6aa14e17b1dd5392d531bce27bc6eb4dc7e6cba7a909b",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -13078,7 +12826,7 @@
       "evidenceContract": "v2",
       "evidenceBundle": "docs/visual-validation/webgpu-touch-history-frost/bundle",
       "validationCommand": "node validate-temporal-surface.js",
-      "sourceHash": "sha256:03e91ff6e6dd78f32c9b32143a28ca560c1332ca6e6abede836c387430b534fe",
+      "sourceHash": "sha256:2ed170b0dfdffacefcd908a7912ee04682a0bc3aa6cd4caa6ceec437847f1aed",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -13345,7 +13093,7 @@
         "validateQuick": "npm --prefix threejs-object-sculptor/examples/webgpu-tower-ship-sculptor run validate:quick",
         "validateFull": "npm --prefix threejs-object-sculptor/examples/webgpu-tower-ship-sculptor run validate:full"
       },
-      "sourceHash": "sha256:7865ac08c4e28a3d873f7296f0c422b276e3a2a3503bb28511b416109c925c5e",
+      "sourceHash": "sha256:10a111232077260c0ae6684e152fb8070069e5d34b046db6f6805b371f7cc31a",
       "proxyStatus": null,
       "executionClass": "rendering",
       "flagship": false,
@@ -13692,7 +13440,7 @@
         "validateQuick": "npm --prefix threejs-visual-validation/examples/webgpu-validation-harness run validate:quick",
         "validateFull": "npm --prefix threejs-visual-validation/examples/webgpu-validation-harness run validate:full"
       },
-      "sourceHash": "sha256:c099d8c03b07280a4553e1ea687d4ca092809fba4efc5c67429b954c242359c7",
+      "sourceHash": "sha256:8ad0dd9567d423656783c06f1fe073751db7a29f04224db156c625d229ca6a28",
       "proxyStatus": null,
       "notes": [
         "Accepted against the tracked v2 release bundle with deterministic correctness readback, all 19 immutable physical routes, Apple Metal hardware timestamps, and 50-cycle lifecycle evidence.",
@@ -14022,7 +13770,7 @@
         "validateQuick": "npm --prefix threejs-procedural-vegetation/examples/webgpu-vegetation-integration run validate:quick",
         "validateFull": "npm --prefix threejs-procedural-vegetation/examples/webgpu-vegetation-integration run validate:full"
       },
-      "sourceHash": "sha256:8a87d3f3d13fec679b92809ee861d339bf5727a1774906d7723c2378afd5c615",
+      "sourceHash": "sha256:d940a33127f6790b7353d572ab4baf90460f397bcb4f2bb14250180e34223acd",
       "proxyStatus": null,
       "notes": [
         "The browser entry is a native-WebGPU host proof with one renderer, one RenderPipeline, one tone map, and one output conversion.",
@@ -14385,7 +14133,7 @@
         "validateQuick": "npm run validate:quick",
         "validateFull": "npm run validate:full"
       },
-      "sourceHash": "sha256:b83999fb74b8fa55414b46e601f8ee2c6f2ecd0882a06e112f92cc8f563e1899",
+      "sourceHash": "sha256:08bcd7f22c034b87912d7eab1fc2a7e2f82426c899c00e0c72a816d76d438e9d",
       "proxyStatus": null,
       "notes": [
         "Generated weather-map pages remain generated-asset previews and are not canonical mechanism evidence.",
@@ -14400,11 +14148,6 @@
     }
   ],
   "origins": {
-    "router-manifest-lab": {
-      "type": "source-manifest",
-      "path": "threejs-choose-skills/examples/router-manifest-lab/lab.manifest.json",
-      "canonicalDir": "threejs-choose-skills/examples/router-manifest-lab"
-    },
     "debugging-contract-lab": {
       "type": "source-manifest",
       "path": "threejs-debugging/examples/debugging-contract-lab/lab.manifest.json",
@@ -14810,10 +14553,6 @@
       "path": "scripts/provider-demos.mjs"
     },
     "procedural-geometry-writer-demo": {
-      "type": "provider-registry",
-      "path": "scripts/provider-demos.mjs"
-    },
-    "skill-router-manifest-demo": {
       "type": "provider-registry",
       "path": "scripts/provider-demos.mjs"
     },

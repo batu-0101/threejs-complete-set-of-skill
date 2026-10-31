@@ -10,8 +10,6 @@ summary: Choose a guide by the source contract you are replacing: renderer, cust
 related_skills: ["threejs-choose-skills","threejs-debugging","threejs-procedural-materials","threejs-image-pipeline","threejs-visual-validation"]
 related_demos: ["final-image-flight","webgpu-image-pipeline","webgpu-validation-harness"]
 related_pages: ["/docs/use-in-an-existing-project/","/compare/webgpurenderer-vs-webglrenderer/","/compare/threejs-tsl-vs-glsl/","/agents/routing-and-minimal-context/"]
-hero_image: /visual-validation/final-image-flight/final.design.png
-hero_source: final-image-flight
 published: 2026-07-16
 last_reviewed: 2026-07-16
 sources: ["https://threejs.org/manual/en/webgpurenderer","https://github.com/mrdoob/three.js/wiki/Migration-Guide","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/package.json","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-debugging/SKILL.md"]
@@ -62,3 +60,6 @@ Retain a rollback path until every required backend, API, correctness, visual, r
 Three.js WebGPU and TSL APIs evolve. Read the official WebGPURenderer manual and the release migration guide for the installed range, then inspect installed exports and source. A current documentation page can describe a newer API than the project's resolved package, while a nearby example can preserve an older name.
 
 When source, documentation, and runtime behavior disagree, use `threejs-debugging` to build a minimal reproduction and version matrix. A closed issue, merged change, or remembered release does not prove that a published dependency contains the fix.
+
+
+The earlier final-image-flight capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

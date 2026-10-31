@@ -18,7 +18,7 @@
     "threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:82435ae697a725bc61d2cf7328539107ef9d8a08ff0b37064a9008c8b56fdacd",
+  "sourceHash": "sha256:7a4fe419ec39ff222d69c62cd64c3420141fea0012345be831860166c54f6400",
   "publishedHashInputs": [
     "docs/demos/shadow-cascade-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:798fc8639b9da417fd4fc6a8751cb6203ae93d588a8fcbb8e2014c04d1f364eb",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

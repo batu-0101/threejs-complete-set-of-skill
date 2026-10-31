@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
@@ -35,7 +36,7 @@ test('rgba16float visualization reports invalid and clamped values', () => {
 });
 
 test('evidence promotion confines source and output paths', () => {
-  assert.equal(resolveWithin('/tmp/evidence-root', 'nested/image.png'), '/tmp/evidence-root/nested/image.png');
+  assert.equal(resolveWithin('/tmp/evidence-root', 'nested/image.png'), resolve('/tmp/evidence-root/nested/image.png'));
   assert.throws(() => resolveWithin('/tmp/evidence-root', '../escape.png'), /escapes its allowed root/);
   assert.throws(() => resolveWithin('/tmp/evidence-root', '/absolute.png'), /relative path/);
 });

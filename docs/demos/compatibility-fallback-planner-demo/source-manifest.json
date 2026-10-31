@@ -18,7 +18,7 @@
     "threejs-compatibility-fallbacks/examples/tier-planner"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:d9af5f5dddd5c49fb66695be121be16d45fc67f8e5826d77e1d18fef84ecfc82",
+  "sourceHash": "sha256:d8f893ab94c5018a5b7458100e5e8aa69210b580b89fac023b42edb009579937",
   "publishedHashInputs": [
     "docs/demos/compatibility-fallback-planner-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:a9a30996333ce3593c9d2b5ecf4db9d35d45fc7ec7d463ab177a58421492ee5b",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

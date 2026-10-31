@@ -18,7 +18,7 @@
     "threejs-exposure-color-grading/examples/webgpu-exposure-color-pipeline"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:70fc1cb10aff9f464b5638ef16dbf05e3c7d39f66ec62d6f493bdcbd1b049039",
+  "sourceHash": "sha256:4b4c15683f478e087a16d94a168a78fed584d437b000f4e14602f6c081a6a978",
   "publishedHashInputs": [
     "docs/demos/exposure-color-grading-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:51df54164d487aa07d3f9c4e0ec195c082944c78eacff5b3122d50c94a4c5dd5",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

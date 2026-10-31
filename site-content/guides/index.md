@@ -10,8 +10,6 @@ summary: Start here when you know the decision you need to make but not the page
 related_skills: ["threejs-choose-skills","threejs-debugging","threejs-visual-validation"]
 related_demos: ["webgpu-validation-harness"]
 related_pages: ["/for/","/docs/","/migrate/","/compare/","/faq/","/pricing/"]
-hero_image: /visual-validation/webgpu-validation-harness/final.design.png
-hero_source: webgpu-validation-harness
 published: 2026-07-16
 last_reviewed: 2026-07-16
 sources: ["https://github.com/linegel/threejs-complete-set-of-skill","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-choose-skills/SKILL.md","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/docs/demos/registry.json"]
@@ -82,3 +80,6 @@ The [FAQ hub](/faq/) is an index of questions observed in real documentation, re
 This page is navigation, not proof that every Three.js workload is covered. The installed package, current Three.js source, project requirements, and evidence bundles whose recorded source hashes still match remain authoritative. A lab can establish a mechanism under its declared capture contract, but it cannot establish performance on an unnamed device or success in an unrelated production scene.
 
 The installed [Choose Skills contract](/skills/threejs-choose-skills.html) defines the routing inputs, causal-owner selection, cross-system handoffs, output ownership, explicit gaps, and verification result. The [native WebGPU validation harness](/demos/webgpu-validation-harness/) documents the intended rendering-evidence structure, but its checked summary must be regenerated when its source hash changes. Neither contract is a substitute for running the relevant checks in the project being changed.
+
+
+The earlier webgpu-validation-harness capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

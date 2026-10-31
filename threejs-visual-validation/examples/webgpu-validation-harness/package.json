@@ -22,7 +22,7 @@
     "validate:raw": "node src/validate-browser-artifacts.js --bundle raw --profile correctness",
     "validate:quick": "npm run check && npm run test:routes && npm run test:mutations",
     "validate:full": "npm run check && npm run test:routes && npm run validate:v1 && npm run validate:v2 && npm run validate:artifacts",
-    "check": "node --check src/*.js src/schema/*.js && node src/check-imports.mjs"
+    "check": "node ../../../scripts/check-javascript-syntax.mjs \"src/*.js\" \"src/schema/*.js\" && node src/check-imports.mjs"
   },
   "dependencies": {
     "three": "0.185.1"

@@ -23,7 +23,7 @@
     "threejs-procedural-vegetation/examples/webgpu-vegetation-integration"
   ],
   "browserEntry": "threejs-procedural-vegetation/examples/webgpu-vegetation-integration/index.html",
-  "sourceHash": "sha256:8a87d3f3d13fec679b92809ee861d339bf5727a1774906d7723c2378afd5c615",
+  "sourceHash": "sha256:d940a33127f6790b7353d572ab4baf90460f397bcb4f2bb14250180e34223acd",
   "publishedHashInputs": [
     "docs/demos/webgpu-vegetation-integration",
     "docs/demos/assets/ash-CJFpracT.png",
@@ -32,9 +32,9 @@
     "docs/demos/assets/bark-normal-TBmAUNgD.jpg",
     "docs/demos/assets/bark-roughness-BvhmIB3z.jpg",
     "docs/demos/assets/dense-grass-system-CmVTxhFW.js",
-    "docs/demos/assets/index-9uce5Epd2.js",
+    "docs/demos/assets/index-CPGLZwE32.js",
     "docs/demos/assets/integration-adapter-CBZChN7k.js",
-    "docs/demos/assets/lab.manifest-D_J2Jdr8.json",
+    "docs/demos/assets/lab.manifest-D0h9AyaL.json",
     "docs/demos/assets/meadow-density-a-Bi7C7Dbi.png",
     "docs/demos/assets/meadow-density-b-hrBezR3V.png",
     "docs/demos/assets/meadow-density-c-CeRqOKOn.png",
@@ -50,9 +50,9 @@
     "docs/demos/assets/bark-normal-TBmAUNgD.jpg",
     "docs/demos/assets/bark-roughness-BvhmIB3z.jpg",
     "docs/demos/assets/dense-grass-system-CmVTxhFW.js",
-    "docs/demos/assets/index-9uce5Epd2.js",
+    "docs/demos/assets/index-CPGLZwE32.js",
     "docs/demos/assets/integration-adapter-CBZChN7k.js",
-    "docs/demos/assets/lab.manifest-D_J2Jdr8.json",
+    "docs/demos/assets/lab.manifest-D0h9AyaL.json",
     "docs/demos/assets/meadow-density-a-Bi7C7Dbi.png",
     "docs/demos/assets/meadow-density-b-hrBezR3V.png",
     "docs/demos/assets/meadow-density-c-CeRqOKOn.png",
@@ -61,8 +61,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:c877c9b9f9897f3c23e1ba0e5009630c121cac30abfb9577d5f8f7b3074552ee",
+  "publishedBundleHash": "sha256:ace478422b4833234911c9f465600b3bedfb82f8af334796fae159aa4934ce84",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

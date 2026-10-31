@@ -572,7 +572,9 @@ function installCompiledPages(compiledRoot) {
 if (bundledPrimary.length + secondaryProviders.length > 0) {
   // Vite canonicalizes macOS /var to /private/var. Use the same real path for
   // both root and Rollup inputs so emitted HTML names stay root-relative.
-  const stagingRoot = realpathSync(mkdtempSync(join(tmpdir(), 'threejs-lab-pages-')));
+  const stagingParent = join(REPO_ROOT, '.cache', 'lab-pages');
+  mkdirSync(stagingParent, { recursive: true });
+  const stagingRoot = realpathSync(mkdtempSync(join(stagingParent, 'threejs-lab-pages-')));
   try {
     const compiledRoot = join(stagingRoot, '__compiled');
     const publicRoot = join(stagingRoot, '__public');

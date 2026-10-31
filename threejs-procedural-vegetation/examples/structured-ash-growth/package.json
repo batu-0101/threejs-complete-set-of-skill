@@ -2,7 +2,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "check": "node --check *.js && node --check *.mjs && node validate-routes.mjs",
+    "check": "node ../../../scripts/check-javascript-syntax.mjs \"*.js\" && node ../../../scripts/check-javascript-syntax.mjs \"*.mjs\" && node validate-routes.mjs",
     "validate:unit": "node validate-runtime-contracts.mjs && node validate-routes.mjs",
     "test:mutations": "node validate-routes.mjs --mutations && node validate-mutations.mjs",
     "capture": "node capture.mjs",

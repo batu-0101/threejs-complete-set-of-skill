@@ -18,7 +18,7 @@
     "threejs-procedural-motion-systems/examples/webgpu-procedural-timelines"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:a27f4f29cf435fded90bab46e50a5a740ce44f908ea660bd5def388fa562be8d",
+  "sourceHash": "sha256:0330cdd04c6a16cb3f8ca7fbe16e817c58cd1b3a51a8d980396158393149e3e3",
   "publishedHashInputs": [
     "docs/demos/procedural-motion-timeline-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:22ad88a5269e20ab727e436311d236e1b139ff69bedc9df268466e433ae8593a",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

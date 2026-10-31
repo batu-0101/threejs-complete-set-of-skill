@@ -18,7 +18,7 @@
     "skills/threejs-procedural-creatures/SKILL.md"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:313821546c0d7789106676410f62e7079089a48f42a1407659f6866977ecc7c6",
+  "sourceHash": "sha256:e251814b1038b81aca7f89e91c2f217c23a0275d24671a8696f8a6ac2be8cdc3",
   "publishedHashInputs": [
     "docs/demos/procedural-creature-lab-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:985f07b9222048e2af487f97cdcdf9c0a71d4c54e0f9b493e1e526759c16e07a",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

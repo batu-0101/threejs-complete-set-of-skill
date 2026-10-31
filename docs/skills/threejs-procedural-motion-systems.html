@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://threejs-skills.com/skills/threejs-procedural-motion-systems.html" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#0a0c10" />
-<meta name="skill-pack-build-revision" content="sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f" />
+<meta name="skill-pack-build-revision" content="sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162" />
 <link rel="icon" href="../favicon.ico" sizes="any" />
 <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32" />
@@ -24,7 +24,7 @@
 <meta property="og:title" content="Procedural Motion Systems | Three.js WebGPU Skill" />
 <meta property="og:description" content="Animate semantic state with deterministic Three.js WebGPU/TSL motion. Use for launch or staging kinematics, seekable transform timelines, recurrent fixed-step…" />
 <meta property="og:url" content="https://threejs-skills.com/skills/threejs-procedural-motion-systems.html" />
-<meta property="article:modified_time" content="2026-07-16T19:46:25+03:00" />
+<meta property="article:modified_time" content="2026-09-24T21:11:18+03:00" />
 <meta property="article:published_time" content="2026-07-04T23:30:20+03:00" />
 <meta property="article:section" content="Motion and Effects" />
 
@@ -63,7 +63,7 @@
     "@id": "https://threejs-skills.com/skills/threejs-procedural-motion-systems.html"
    },
    "datePublished": "2026-07-04T23:30:20+03:00",
-   "dateModified": "2026-07-16T19:46:25+03:00",
+   "dateModified": "2026-09-24T21:11:18+03:00",
    "author": {
     "@id": "https://threejs-skills.com/#publisher"
    },
@@ -295,8 +295,8 @@ a.chip:active{scale:.96}
       <span class="chip">2 flagships</span>
       <span class="chip">1 secondary surface</span>
       <span class="chip">native evidence pending</span>
-      <span class="chip">Latest skill update <time datetime="2026-07-16T19:46:25+03:00">2026-07-16</time></span>
-    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/62a9bc59330c44827824665323823883e88f100c">commit 62a9bc5 ↗</a>
+      <span class="chip">Latest skill update <time datetime="2026-09-24T21:11:18+03:00">2026-09-24</time></span>
+    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/4429690b6cee237c57b7ccf6ac8546e39664e645">commit 4429690 ↗</a>
       <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-procedural-motion-systems/SKILL.md">SKILL.md on GitHub ↗</a>
       <a class="chip" href="https://raw.githubusercontent.com/linegel/threejs-complete-set-of-skill/main/skills/threejs-procedural-motion-systems/SKILL.md">raw (for agents) ↗</a>
     </div>
@@ -312,7 +312,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="webgpu-procedural-timelines">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>75dc31ba17b9</code> source hash</span>
+    <span><code>7f13f6826ab6</code> source hash</span>
     <span>12 fixed states · 7 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Canonical lab</span><span class="status status--pending">Evidence pending</span></span>
@@ -328,11 +328,12 @@ a.chip:active{scale:.96}
     <p class="sub">This skill contributes to the following cross-skill owner graphs.</p>
     <div class="grid">
       <a class="card" href="../demos/final-image-flight/">
-        <span class="card-preview-wrap" data-preview-for="final-image-flight" data-preview-source="final-image-flight" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/final-image-flight/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/final-image-flight/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/final-image-flight/final.design.png" alt="Accepted demo-sourced runtime evidence for Final Image Flight" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Accepted demo-sourced runtime evidence</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="final-image-flight">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>f9221257393e</code> source hash</span>
+    <span>10 fixed states · 12 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Final image systems</span><span class="status status--accepted">Accepted</span></span>
         <h3>Final Image Flight</h3>
         <span class="card-meta">6 mechanisms · 3 locked tiers</span>
@@ -341,7 +342,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="relativistic-space-shot">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>e2e9d6b673af</code> source hash</span>
+    <span><code>5e3591fd9353</code> source hash</span>
     <span>10 fixed states · 4 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Relativistic cinematic</span><span class="status status--pending">Evidence pending</span></span>
@@ -472,8 +473,9 @@ samples. Apply changes at their timestamps; presentation cadence never changes
 the underlying target signal.</p>
 <p>Use stored seeds, counters, and one-shot event flags. A direct seek reconstructs
 the same phase and event state as replay to that time. <code>AnimationMixer</code> either
-updates at the fixed step or uses <code>setTime()</code> for seeking; it does not sample an
-independent clock.</p>
+updates at the fixed step or follows a declared action-state reset/replay recipe
+for seeking; <code>setTime()</code> alone does not reconstruct completed actions or event
+schedules. It does not sample an independent clock.</p>
 <p><strong>Complete when:</strong> analytic and recurrent clocks cannot diverge after a stall,
 the interpolation pair brackets presentation time with a bounded accumulator,
 debt and reset decisions are independently observable, and identical initial
@@ -482,21 +484,24 @@ reproduce the same matched-time state at every tested presentation cadence.</p>
 <h3>4. Implement frame-safe transforms</h3>
 <p>Name source and destination frames for every position, direction, velocity, and
 quaternion. Normalize axes, handle parallel and antiparallel vector alignment,
-canonicalize quaternion signs before interpolation, state multiplication order,
+canonicalize signs for a shortest-path quaternion branch, retain winding for
+authored long arcs/full turns, state multiplication order,
 and normalize accumulated rotations.</p>
 <p>Preserve world pose during reparenting with
 <code>M_local_new = inverse(M_world_newParent) * M_world_old</code>. Decompose to TRS only
 when the residual passes; retain an affine matrix or wrapper when non-uniform
 ancestry creates shear. Released children inherit moving-frame velocity,
-including <code>omega cross r</code> for a rotating parent. Docking error is decomposed in
+including <code>omega cross r</code> for a rotating parent and the transformed relative
+velocity of an already-moving child. Docking error is decomposed in
 the current docking frame, not a stale world frame.</p>
 <p><strong>Complete when:</strong> every transform has a declared frame chain and quaternion
 order, reparenting preserves the world matrix within tolerance, zero/antiparallel
 inputs stay finite, and moving-frame release includes all transport terms.</p>
 <h3>5. Publish, reset, and dispose</h3>
 <p>Publish immutable previous/current pose generations with stable actor identity;
-derive render pose, motion vectors, bounds, shadows, and temporal consumers from
-that same pair. A cut, teleport, spawn/despawn, reparent, topology or deformation
+derive render pose, bounds and shadows from that same pair. Motion vectors
+also retain the prior presented sample and camera; they do not substitute a
+previous simulation tick for a previous displayed pose. A cut, teleport, spawn/despawn, reparent, topology or deformation
 change, LOD/quality change, storage-slot reuse, or identity change starts a new
 validity epoch and resets the affected history instead of deriving an extreme
 velocity.</p>
@@ -518,7 +523,8 @@ Recurrent motion holds one fixed-step schedule across those presentation rates
 and passes step-halving. Perceptual follow consumes one timestamped or
 analytically integrated target signal and compares shared wall-time checkpoints.
 Finite motion reaches its exact terminal pose and declared velocity or hand-off;
-only a terminal lock requires zero residual velocity. Periodic and open-ended
+a terminal lock requires zero relative residual velocity in its declared frame
+while inheriting any moving port rates. Periodic and open-ended
 motion verify their declared wrap or stop/reset transition.</p>
 <p>Where selected, also check quaternion norm and sign continuity, world-matrix
 equality across reparenting, stable instance identity, and reset behavior for
@@ -577,7 +583,7 @@ materials, shadows, post, or another simulation.</p>
 
 <div class="wrap"><footer>
   <div class="footer-summary">Three.js WebGPU Skill Pack: TSL, procedural graphics, and visual validation.
-    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>b951f1701846</code></span>
+    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>f0c9df4c6fd9</code></span>
     <span>Compiling shaders? <a href="https://devme.me/">devme.me</a> has dev memes worth the wait.</span>
   </div>
   <div class="footer-groups">

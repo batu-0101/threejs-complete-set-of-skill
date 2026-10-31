@@ -11,7 +11,7 @@
     "threejs-visual-validation/examples/webgpu-validation-harness"
   ],
   "browserEntry": "threejs-visual-validation/examples/webgpu-validation-harness/index.html",
-  "sourceHash": "sha256:c099d8c03b07280a4553e1ea687d4ca092809fba4efc5c67429b954c242359c7",
+  "sourceHash": "sha256:8ad0dd9567d423656783c06f1fe073751db7a29f04224db156c625d229ca6a28",
   "publishedHashInputs": [
     "docs/demos/webgpu-validation-harness",
     "docs/demos/assets/index-JaKZ1XtK2.js",
@@ -29,8 +29,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:0047c33fc945250611efa13c29ac17c2793c32174e325b0fa57ebbc0b30ff665",
+  "publishedBundleHash": "sha256:c96b2087e52e8081947d53897467a54b539d8410efcb03a3ec2c63f8df982495",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

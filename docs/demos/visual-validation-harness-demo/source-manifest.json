@@ -18,7 +18,7 @@
     "threejs-visual-validation/examples/webgpu-validation-harness"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:767ddf7733f381dd78b423a799d4075b41d6d5e4e70a39b4c41485a3c876325b",
+  "sourceHash": "sha256:b74e9d0e90995ab791131358eab89f5388e57fefd8ce1283a2f94ea69e9c35d8",
   "publishedHashInputs": [
     "docs/demos/visual-validation-harness-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:a3b572d0350c6d42104d908eafa245420414dd4d9f8f0512b491a952781ad5cf",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

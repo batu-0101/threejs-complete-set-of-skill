@@ -7,7 +7,7 @@ function stripNodeSyntaxChecks(command) {
 
 /** Return true only when a quick-validation command can execute a browser path. */
 export function quickCommandStartsBrowser(command) {
-  const executable = stripNodeSyntaxChecks(command);
+  const executable = stripNodeSyntaxChecks(command).replace(/\bnode\s+test-capture-(?:recipes|transaction|hook|status)\.mjs\b/g, ' ');
   return [
     /\b(?:npx|npm\s+exec|pnpm\s+exec|yarn\s+exec)?\s*(?:[^\s;&|()]*\/)?(?:playwright|chromium|firefox|webkit)\b/i,
     /\bpages:smoke\b/i,

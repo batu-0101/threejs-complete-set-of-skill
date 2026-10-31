@@ -16,14 +16,14 @@
     "threejs-compatibility-fallbacks/examples/browser-fallback-harness"
   ],
   "browserEntry": "threejs-compatibility-fallbacks/examples/browser-fallback-harness/index.html",
-  "sourceHash": "sha256:2c70688f1b3c7de4a118000dad52b1c3b5033faf133b4026c7e50b0b954a0398",
+  "sourceHash": "sha256:71c0e4c2e7d9211a2f3065a2b800ed2c4fc770d60d9662b33856e846969cbc52",
   "publishedHashInputs": [
     "docs/demos/browser-fallback-harness",
     "docs/demos/assets/compatibility-renderer-CrxVRi9V.js",
     "docs/demos/assets/fallback-core-BxY89vzU.js",
-    "docs/demos/assets/fallback-fixtures-C__puiF4.json",
+    "docs/demos/assets/fallback-fixtures-BRaCogPv.json",
     "docs/demos/assets/index-0QR3Ackj.css",
-    "docs/demos/assets/index-C1cqgiKX.js",
+    "docs/demos/assets/index-Bb5KYfup.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/preload-helper-DYl5dUZ5.js",
     "docs/demos/assets/three.webgpu-Bxw5NSti.js",
@@ -32,16 +32,16 @@
   "emittedAssetDependencies": [
     "docs/demos/assets/compatibility-renderer-CrxVRi9V.js",
     "docs/demos/assets/fallback-core-BxY89vzU.js",
-    "docs/demos/assets/fallback-fixtures-C__puiF4.json",
+    "docs/demos/assets/fallback-fixtures-BRaCogPv.json",
     "docs/demos/assets/index-0QR3Ackj.css",
-    "docs/demos/assets/index-C1cqgiKX.js",
+    "docs/demos/assets/index-Bb5KYfup.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/preload-helper-DYl5dUZ5.js",
     "docs/demos/assets/three.webgpu-Bxw5NSti.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:0074307f6097416d848d614cc62a1dab66f13ba2ca5b7b21138290a600408343",
+  "publishedBundleHash": "sha256:85c5094f760781f927884ef1cdbb617ad4dd424ae64bee64bdff03b084f5bda1",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

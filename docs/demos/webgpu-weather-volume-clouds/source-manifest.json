@@ -10,7 +10,7 @@
     "threejs-volumetric-clouds/examples/webgpu-weather-volume-clouds"
   ],
   "browserEntry": "threejs-volumetric-clouds/examples/webgpu-weather-volume-clouds/index.html",
-  "sourceHash": "sha256:b83999fb74b8fa55414b46e601f8ee2c6f2ecd0882a06e112f92cc8f563e1899",
+  "sourceHash": "sha256:08bcd7f22c034b87912d7eab1fc2a7e2f82426c899c00e0c72a816d76d438e9d",
   "publishedHashInputs": [
     "docs/demos/webgpu-weather-volume-clouds",
     "docs/demos/assets/index-gI7_ICrP2.js",
@@ -26,8 +26,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-weather-volume-clouds-CWin3xhq.js"
   ],
-  "publishedBundleHash": "sha256:ea005a7a685989a42e168f3c5d263a9004f31c11fa3d105e3ed45a3731ddc24a",
+  "publishedBundleHash": "sha256:251dd02f7a8d9a496873b766d3cfd43126519015fdd38a4c52bfca58e38b4f7c",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

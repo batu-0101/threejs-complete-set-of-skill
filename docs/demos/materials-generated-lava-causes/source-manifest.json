@@ -18,7 +18,7 @@
     "threejs-procedural-materials/examples/tsl-procedural-pbr"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:6cb5c679b8ba393d25163d87437cc3e8844af27480dd985e139029d059f2b623",
+  "sourceHash": "sha256:d842236f80b915e0d8a83fb96f7a5e78d7f566c0666c0b0b4920fcb96b2e6fa5",
   "publishedHashInputs": [
     "docs/demos/materials-generated-lava-causes",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:026d7d5f17ff19e97663b8d56e67e80b9c485f30a81f6717662c2aaf83bd1859",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

@@ -10,7 +10,7 @@
     "threejs-black-holes-and-space-effects/examples/tsl-curved-ray"
   ],
   "browserEntry": "threejs-black-holes-and-space-effects/examples/tsl-curved-ray/index.html",
-  "sourceHash": "sha256:c0bee8cf5535d232c7af888c5ef3a7313b27afc656742ed271a5a49c36c780c2",
+  "sourceHash": "sha256:f8702b77789187477233477657739312cc9ce263b58944ed1f44e6eeaabb0c51",
   "publishedHashInputs": [
     "docs/demos/tsl-curved-ray",
     "docs/demos/assets/BloomNode-B7VcMtwE.js",
@@ -28,8 +28,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:a7c22dceebb8c8db20532be85ba587e94a42f6d2e7cae659236da79f8aa465d5",
+  "publishedBundleHash": "sha256:2844e116eca859be700466c5a8c1d6c768e15acb4d6527997b948689a6738f04",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

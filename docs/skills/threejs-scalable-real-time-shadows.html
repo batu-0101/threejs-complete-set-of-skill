@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://threejs-skills.com/skills/threejs-scalable-real-time-shadows.html" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#0a0c10" />
-<meta name="skill-pack-build-revision" content="sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f" />
+<meta name="skill-pack-build-revision" content="sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162" />
 <link rel="icon" href="../favicon.ico" sizes="any" />
 <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32" />
@@ -17,24 +17,18 @@
 <link rel="manifest" href="../site.webmanifest" />
 <link rel="alternate" type="text/plain" href="https://threejs-skills.com/llms.txt" title="LLM-readable skill catalog" />
 <link rel="alternate" type="application/json" href="https://threejs-skills.com/skills.json" title="Machine-readable skill catalog" />
-<link rel="preload" as="image" href="../visual-validation/webgpu-shadow-architecture-bench/final.design.avif" type="image/avif" fetchpriority="high" />
+
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Three.js WebGPU Skill Pack" />
 <meta property="og:title" content="Scalable Real-Time Shadows | Three.js WebGPU Skill" />
 <meta property="og:description" content="Fit scalable directional cast shadows in Three.js r185 WebGPU/TSL. Use when choosing one bounded shadow, CSM, tiled arrays, or cached clipmaps; stabilizing…" />
 <meta property="og:url" content="https://threejs-skills.com/skills/threejs-scalable-real-time-shadows.html" />
-<meta property="article:modified_time" content="2026-07-16T11:00:33+03:00" />
+<meta property="article:modified_time" content="2026-09-24T07:45:26+03:00" />
 <meta property="article:published_time" content="2026-07-04T23:30:21+03:00" />
 <meta property="article:section" content="Cameras, Lighting, and Final Image" />
-<meta property="og:image" content="https://threejs-skills.com/visual-validation/webgpu-shadow-architecture-bench/final.design.png" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="800" />
-<meta property="og:image:alt" content="Shadow architecture bench hardware WebGPU readback for Scalable Real-Time Shadows" />
-<meta name="twitter:image" content="https://threejs-skills.com/visual-validation/webgpu-shadow-architecture-bench/final.design.png" />
-<meta name="twitter:image:alt" content="Shadow architecture bench hardware WebGPU readback for Scalable Real-Time Shadows" />
-<meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Scalable Real-Time Shadows | Three.js WebGPU Skill" />
 <meta name="twitter:description" content="Fit scalable directional cast shadows in Three.js r185 WebGPU/TSL. Use when choosing one bounded shadow, CSM, tiled arrays, or cached clipmaps; stabilizing…" />
 <script type="application/ld+json">
@@ -68,13 +62,8 @@
     "@type": "WebPage",
     "@id": "https://threejs-skills.com/skills/threejs-scalable-real-time-shadows.html"
    },
-   "image": [
-    "https://threejs-skills.com/seo/article/threejs-scalable-real-time-shadows-1x1.png",
-    "https://threejs-skills.com/seo/article/threejs-scalable-real-time-shadows-4x3.png",
-    "https://threejs-skills.com/seo/article/threejs-scalable-real-time-shadows-16x9.png"
-   ],
    "datePublished": "2026-07-04T23:30:21+03:00",
-   "dateModified": "2026-07-16T11:00:33+03:00",
+   "dateModified": "2026-09-24T07:45:26+03:00",
    "author": {
     "@id": "https://threejs-skills.com/#publisher"
    },
@@ -295,25 +284,19 @@ a.chip:active{scale:.96}
 </div></header>
 
 <main id="main-content" tabindex="-1">
-<header class="skill-hero">
-  <picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/final.design.png" alt="" class="skill-hero-bg" aria-hidden="true" width="1200" height="800" fetchpriority="high" decoding="async" />
-        </picture>
+<header class="">
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../">Skill Pack</a></li><li><a href="../#skills">Cameras, Lighting, and Final Image</a></li><li aria-current="page">Scalable Real-Time Shadows</li></ol></nav>
     <h1 style="view-transition-name:skill-threejs-scalable-real-time-shadows">Scalable Real-Time Shadows</h1>
     <p class="lede">Fit scalable directional cast shadows in Three.js r185 WebGPU/TSL. Use when choosing one bounded shadow, CSM, tiled arrays, or cached clipmaps; stabilizing projection, filtering, or bias; or fixing invalidation, caster parity, bindings, or sustained cost.</p>
-    <p class="hero-evidence-caption">Image: Shadow architecture bench hardware WebGPU readback. Source lab: webgpu-shadow-architecture-bench.</p>
     <div class="meta-row">
       <span class="chip a">$threejs-scalable-real-time-shadows</span>
       <span class="chip">3 primary targets</span>
       <span class="chip">4 flagships</span>
       <span class="chip">1 secondary surface</span>
       <span class="chip">accepted runtime evidence</span>
-      <span class="chip">Latest skill update <time datetime="2026-07-16T11:00:33+03:00">2026-07-16</time></span>
-    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/2ce13bcc22695dafa808d6019452752d9a39cc71">commit 2ce13bc ↗</a>
+      <span class="chip">Latest skill update <time datetime="2026-09-24T07:45:26+03:00">2026-09-24</time></span>
+    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/0816c5a7da401c7ddcf0ca6d2566ea79d84f387b">commit 0816c5a ↗</a>
       <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-scalable-real-time-shadows/SKILL.md">SKILL.md on GitHub ↗</a>
       <a class="chip" href="https://raw.githubusercontent.com/linegel/threejs-complete-set-of-skill/main/skills/threejs-scalable-real-time-shadows/SKILL.md">raw (for agents) ↗</a>
     </div>
@@ -329,7 +312,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="webgpu-cached-clipmap-shadow">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>cb4d3abfaab1</code> source hash</span>
+    <span><code>44abbe1dd246</code> source hash</span>
     <span>21 fixed states · 9 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Canonical lab</span><span class="status status--pending">Evidence pending</span></span>
@@ -338,22 +321,24 @@ a.chip:active{scale:.96}
         <span class="card-meta">Open published implementation →</span>
       </a>
       <a class="card" href="../demos/webgpu-shadow-architecture-bench/">
-        <span class="card-preview-wrap" data-preview-for="webgpu-shadow-architecture-bench" data-preview-source="webgpu-shadow-architecture-bench" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/final.design.png" alt="Shadow architecture bench hardware WebGPU readback for WebGPU Directional Shadow Architecture Bench" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Shadow architecture bench hardware WebGPU readback</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="webgpu-shadow-architecture-bench">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>ddc994a6d294</code> source hash</span>
+    <span>9 fixed states · 7 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Mechanism bench</span><span class="status status--accepted">Accepted</span></span>
         <h3>WebGPU Directional Shadow Architecture Bench</h3>
         <p>4 fixed scenarios, 4 mechanism routes, and 1 locked tiers.</p>
         <span class="card-meta">Open published implementation →</span>
       </a>
       <a class="card" href="../demos/webgpu-shadow-pipeline-integration/">
-        <span class="card-preview-wrap" data-preview-for="webgpu-shadow-pipeline-integration" data-preview-source="webgpu-shadow-pipeline-integration" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/final.design.png" alt="Shadow pipeline integration hardware WebGPU readback for WebGPU Cached Shadow Pipeline Integration" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Shadow pipeline integration hardware WebGPU readback</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="webgpu-shadow-pipeline-integration">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>20788e49a5f9</code> source hash</span>
+    <span>5 fixed states · 7 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Integration</span><span class="status status--accepted">Accepted</span></span>
         <h3>WebGPU Cached Shadow Pipeline Integration</h3>
         <p>1 fixed scenarios, 3 mechanism routes, and 1 locked tiers.</p>
@@ -367,11 +352,12 @@ a.chip:active{scale:.96}
     <p class="sub">This skill contributes to the following cross-skill owner graphs.</p>
     <div class="grid">
       <a class="card" href="../demos/final-image-flight/">
-        <span class="card-preview-wrap" data-preview-for="final-image-flight" data-preview-source="final-image-flight" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/final-image-flight/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/final-image-flight/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/final-image-flight/final.design.png" alt="Accepted demo-sourced runtime evidence for Final Image Flight" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Accepted demo-sourced runtime evidence</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="final-image-flight">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>f9221257393e</code> source hash</span>
+    <span>10 fixed states · 12 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Final image systems</span><span class="status status--accepted">Accepted</span></span>
         <h3>Final Image Flight</h3>
         <span class="card-meta">6 mechanisms · 3 locked tiers</span>
@@ -380,7 +366,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="weathered-world">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>35d83f502279</code> source hash</span>
+    <span><code>70b9e47bd985</code> source hash</span>
     <span>10 fixed states · 5 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Planetary environment</span><span class="status status--pending">Evidence pending</span></span>
@@ -391,7 +377,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="procedural-district">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>3c2448b5b07d</code> source hash</span>
+    <span><code>dfec6c2afce2</code> source hash</span>
     <span>10 fixed states · 4 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Authored procedural world</span><span class="status status--pending">Evidence pending</span></span>
@@ -399,11 +385,12 @@ a.chip:active{scale:.96}
         <span class="card-meta">6 mechanisms · 3 locked tiers</span>
       </a>
       <a class="card" href="../demos/creature-habitat/">
-        <span class="card-preview-wrap" data-preview-for="creature-habitat" data-preview-source="creature-habitat" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/creature-habitat/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/creature-habitat/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/creature-habitat/final.design.png" alt="Accepted demo-sourced runtime evidence for Creature Habitat" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Accepted demo-sourced runtime evidence</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="creature-habitat">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>72a78cc55fd4</code> source hash</span>
+    <span>9 fixed states · 5 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Actors and environment</span><span class="status status--accepted">Accepted</span></span>
         <h3>Creature Habitat</h3>
         <span class="card-meta">5 mechanisms · 3 locked tiers</span>
@@ -456,179 +443,9 @@ vertex displacement in the visible pass must run identically in the caster pass
   <div class="section" id="validation"><div class="wrap">
     <h2>Preview and evidence ledger</h2>
     <p class="sub">Every image identifies what it proves. Page screenshots demonstrate the published presentation only; generated inputs demonstrate asset channels only; rendering acceptance still requires same-lab readback and a schema-v2 bundle.</p>
-    <div class="evidence-ledger"><span class="status status--accepted">Accepted runtime evidence available</span><code>20 published images</code></div>
-<div class="runtime-evidence-disclosures">
-      <article class="runtime-evidence-disclosure" data-acceptance-status="accepted">
-        <div class="runtime-evidence-head"><div><code>Native WebGPU runtime evidence preview</code><h3>WebGPU Directional Shadow Architecture Bench</h3></div><span class="status status--accepted">Accepted</span></div>
-        <dl><div><dt>visualCorrectness</dt><dd data-verdict="PASS">PASS</dd></div><div><dt>mechanismCorrectness</dt><dd data-verdict="PASS">PASS</dd></div><div><dt>performanceCompliance</dt><dd data-verdict="NOT_CLAIMED">NOT_CLAIMED</dd></div><div><dt>gpuAttribution</dt><dd data-verdict="NOT_CLAIMED">NOT_CLAIMED</dd></div><div><dt>lifecycleStability</dt><dd data-verdict="PASS">PASS</dd></div><div><dt>visualError</dt><dd data-verdict="PASS">PASS</dd></div></dl>
-        <ul><li>Correctness and CDP Chrome hardware physical-route visual review pass on the current source closure.</li><li>Named-adapter GPU timestamp timing remains NOT_CLAIMED.</li></ul>
-      </article>
-      <article class="runtime-evidence-disclosure" data-acceptance-status="accepted">
-        <div class="runtime-evidence-head"><div><code>Native WebGPU runtime evidence preview</code><h3>WebGPU Cached Shadow Pipeline Integration</h3></div><span class="status status--accepted">Accepted</span></div>
-        <dl><div><dt>visualCorrectness</dt><dd data-verdict="PASS">PASS</dd></div><div><dt>mechanismCorrectness</dt><dd data-verdict="PASS">PASS</dd></div><div><dt>performanceCompliance</dt><dd data-verdict="NOT_CLAIMED">NOT_CLAIMED</dd></div><div><dt>gpuAttribution</dt><dd data-verdict="NOT_CLAIMED">NOT_CLAIMED</dd></div><div><dt>lifecycleStability</dt><dd data-verdict="PASS">PASS</dd></div><div><dt>visualError</dt><dd data-verdict="PASS">PASS</dd></div></dl>
-        <ul><li>Correctness and CDP Chrome hardware physical-route visual review pass on the current source closure.</li><li>Named-adapter GPU timestamp timing remains NOT_CLAIMED.</li></ul>
-      </article></div>
-    <div class="gallery">
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/final.design.png" alt="Scalable Real-Time Shadows: Shadow architecture bench hardware WebGPU readback" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Shadow architecture bench hardware WebGPU readback</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/no-post.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/no-post.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/no-post.design.png" alt="Scalable Real-Time Shadows: Shadow contribution / no-post path" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Shadow contribution / no-post path</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/diagnostics.mosaic.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/diagnostics.mosaic.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/diagnostics.mosaic.png" alt="Scalable Real-Time Shadows: Owner-graph diagnostics" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Owner-graph diagnostics</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/camera.near.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/camera.near.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/camera.near.png" alt="Scalable Real-Time Shadows: Near camera" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Near camera</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/camera.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/camera.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/camera.design.png" alt="Scalable Real-Time Shadows: Design camera" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Design camera</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/camera.far.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/camera.far.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/camera.far.png" alt="Scalable Real-Time Shadows: Far camera" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Far camera</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/seed-0001.final.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/seed-0001.final.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/seed-0001.final.png" alt="Scalable Real-Time Shadows: Seed 0x1 final" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Seed 0x1 final</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/seed-9e3779b9.final.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/seed-9e3779b9.final.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/seed-9e3779b9.final.png" alt="Scalable Real-Time Shadows: Seed 0x9e3779b9 final" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Seed 0x9e3779b9 final</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/temporal.t000.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/temporal.t000.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/temporal.t000.png" alt="Scalable Real-Time Shadows: Temporal t0" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Temporal t0</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-architecture-bench" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-architecture-bench/temporal.t001.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-architecture-bench/temporal.t001.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-architecture-bench/temporal.t001.png" alt="Scalable Real-Time Shadows: Temporal t1" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Temporal t1</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/final.design.png" alt="Scalable Real-Time Shadows: Shadow pipeline integration hardware WebGPU readback" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Shadow pipeline integration hardware WebGPU readback</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/no-post.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/no-post.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/no-post.design.png" alt="Scalable Real-Time Shadows: Shadow contribution / no-post path" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Shadow contribution / no-post path</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/diagnostics.mosaic.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/diagnostics.mosaic.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/diagnostics.mosaic.png" alt="Scalable Real-Time Shadows: Owner-graph diagnostics" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Owner-graph diagnostics</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/camera.near.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/camera.near.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/camera.near.png" alt="Scalable Real-Time Shadows: Near camera" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Near camera</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/camera.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/camera.design.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/camera.design.png" alt="Scalable Real-Time Shadows: Design camera" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Design camera</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/camera.far.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/camera.far.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/camera.far.png" alt="Scalable Real-Time Shadows: Far camera" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Far camera</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/seed-0001.final.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/seed-0001.final.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/seed-0001.final.png" alt="Scalable Real-Time Shadows: Seed 0x1 final" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Seed 0x1 final</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/seed-9e3779b9.final.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/seed-9e3779b9.final.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/seed-9e3779b9.final.png" alt="Scalable Real-Time Shadows: Seed 0x9e3779b9 final" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Seed 0x9e3779b9 final</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/temporal.t000.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/temporal.t000.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/temporal.t000.png" alt="Scalable Real-Time Shadows: Temporal t0" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Temporal t0</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure>
-      <figure data-preview-classification="inspected-runtime-evidence-preview" data-preview-source="webgpu-shadow-pipeline-integration" itemscope itemtype="https://schema.org/ImageObject">
-        <span class="preview-media"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/webgpu-shadow-pipeline-integration/temporal.t001.avif" />
-          <source type="image/webp" srcset="../visual-validation/webgpu-shadow-pipeline-integration/temporal.t001.webp" />
-          <img data-responsive-preview src="../visual-validation/webgpu-shadow-pipeline-integration/temporal.t001.png" alt="Scalable Real-Time Shadows: Temporal t1" itemprop="contentUrl" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture></span>
-        <figcaption itemprop="caption"><strong>Temporal t1</strong><span>inspected runtime evidence preview</span></figcaption>
-      </figure></div>
+    <div class="evidence-ledger"><span class="status status--accepted">Accepted runtime evidence available</span><code>0 published images</code></div>
+
+    <div class="primary-evidence-panel" data-evidence-state="incomplete"><span class="primary-evidence-label">Same-lab evidence</span><strong>No runtime image promoted</strong><span>The page remains image-free until this skill's own lab supplies hash-bound pixels.</span></div>
   </div></div>
 
 <div class="section" id="skill-text"><div class="wrap">
@@ -663,7 +480,7 @@ the projection, filter, and updates receivers actually use.</p>
 <tr>
 <td>One fixed orthographic footprint is partitioned spatially</td>
 <td><code>TileShadowNode</code></td>
-<td>one depth array, <code>N</code> backend layer passes, <code>N</code> containment branches, and a union render list that can draw each caster in every layer</td>
+<td>one depth array, <code>N</code> backend layer passes, <code>N</code> containment tests, and a union render list that can draw each caster in every layer</td>
 </tr>
 <tr>
 <td>Very large coverage persists and measured reuse survives invalidation</td>
@@ -733,7 +550,10 @@ the next valid coarser level inherits the remainder, and unresolved outer
 coverage is lit. Correctness invalidations outrank age/quality refreshes.</p>
 <p>Freeze desired center, depth interval, basis epoch, and content epoch; render;
 restore renderer state; then atomically commit center, interval, target/layer,
-matrix, and rendered epoch. Work encoded after the current presentation seal
+matrix, and rendered epoch only after rechecking that content, basis, and
+resource versions were not superseded. Preserve newer invalidations. Filter,
+normal-bias, and fade changes also revalidate guarded coverage and dependent
+resources before reuse. Work encoded after the current presentation seal
 uses an inactive resource generation and commits to the next presentation;
 the prior committed generation remains immutable until its consumers finish.</p>
 <p>When a custom cache is selected, read the
@@ -818,7 +638,7 @@ and temporal-radiance rejection caused by changed shadow content.</p>
 
 <div class="wrap"><footer>
   <div class="footer-summary">Three.js WebGPU Skill Pack: TSL, procedural graphics, and visual validation.
-    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>b951f1701846</code></span>
+    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>f0c9df4c6fd9</code></span>
     <span>Compiling shaders? <a href="https://devme.me/">devme.me</a> has dev memes worth the wait.</span>
   </div>
   <div class="footer-groups">

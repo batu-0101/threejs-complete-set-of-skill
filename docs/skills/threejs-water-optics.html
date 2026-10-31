@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://threejs-skills.com/skills/threejs-water-optics.html" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#0a0c10" />
-<meta name="skill-pack-build-revision" content="sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f" />
+<meta name="skill-pack-build-revision" content="sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162" />
 <link rel="icon" href="../favicon.ico" sizes="any" />
 <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32" />
@@ -24,7 +24,7 @@
 <meta property="og:title" content="Water Optics | Three.js WebGPU Skill" />
 <meta property="og:description" content="Solve bounded and coastal water in Three.js WebGPU/TSL. Use for parametric waves, local heightfields, bathymetric wave transport, wet/dry shallow water…" />
 <meta property="og:url" content="https://threejs-skills.com/skills/threejs-water-optics.html" />
-<meta property="article:modified_time" content="2026-07-16T19:46:25+03:00" />
+<meta property="article:modified_time" content="2026-09-24T08:46:10+03:00" />
 <meta property="article:published_time" content="2026-07-04T23:30:21+03:00" />
 <meta property="article:section" content="Worlds and Environments" />
 
@@ -63,7 +63,7 @@
     "@id": "https://threejs-skills.com/skills/threejs-water-optics.html"
    },
    "datePublished": "2026-07-04T23:30:21+03:00",
-   "dateModified": "2026-07-16T19:46:25+03:00",
+   "dateModified": "2026-09-24T08:46:10+03:00",
    "author": {
     "@id": "https://threejs-skills.com/#publisher"
    },
@@ -295,8 +295,8 @@ a.chip:active{scale:.96}
       <span class="chip">2 flagships</span>
       <span class="chip">2 secondary surfaces</span>
       <span class="chip">accepted runtime evidence</span>
-      <span class="chip">Latest skill update <time datetime="2026-07-16T19:46:25+03:00">2026-07-16</time></span>
-    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/62a9bc59330c44827824665323823883e88f100c">commit 62a9bc5 ↗</a>
+      <span class="chip">Latest skill update <time datetime="2026-09-24T08:46:10+03:00">2026-09-24</time></span>
+    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/79f8dd03d02a9b43d37e3d9775eaeba6759ff21d">commit 79f8dd0 ↗</a>
       <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-water-optics/SKILL.md">SKILL.md on GitHub ↗</a>
       <a class="chip" href="https://raw.githubusercontent.com/linegel/threejs-complete-set-of-skill/main/skills/threejs-water-optics/SKILL.md">raw (for agents) ↗</a>
     </div>
@@ -312,7 +312,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="webgpu-bounded-water">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Accepted evidence published</strong>
-    <span><code>fb62459b213a</code> source hash</span>
+    <span><code>2f7ed8751844</code> source hash</span>
     <span>11 fixed states · 6 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Canonical lab</span><span class="status status--accepted">Accepted</span></span>
@@ -331,7 +331,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="weathered-world">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>35d83f502279</code> source hash</span>
+    <span><code>70b9e47bd985</code> source hash</span>
     <span>10 fixed states · 5 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Planetary environment</span><span class="status status--pending">Evidence pending</span></span>
@@ -339,11 +339,12 @@ a.chip:active{scale:.96}
         <span class="card-meta">6 mechanisms · 3 locked tiers</span>
       </a>
       <a class="card" href="../demos/creature-habitat/">
-        <span class="card-preview-wrap" data-preview-for="creature-habitat" data-preview-source="creature-habitat" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/creature-habitat/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/creature-habitat/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/creature-habitat/final.design.png" alt="Accepted demo-sourced runtime evidence for Creature Habitat" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Accepted demo-sourced runtime evidence</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="creature-habitat">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>72a78cc55fd4</code> source hash</span>
+    <span>9 fixed states · 5 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Actors and environment</span><span class="status status--accepted">Accepted</span></span>
         <h3>Creature Habitat</h3>
         <span class="card-meta">5 mechanisms · 3 locked tiers</span>
@@ -578,7 +579,10 @@ sources, an explicit boundary condition, and this dispatch order:</p>
 and call <code>boundedHeightfieldDispersion()</code> with the selected <code>c</code>, <code>dt</code>, <code>dx</code>,
 <code>dz</code>, <code>kx</code>, and <code>kz</code>. It predicts the undamped (<code>gamma=0</code>) discrete phase;
 compare that prediction with the measured analytic-mode phase. Measure
-amplitude error independently for the actual damping and source configuration.</p>
+amplitude error independently for the actual damping and source configuration.
+The helper rejects nonfinite arithmetic, excludes marginal CFL equality, and
+separates global stability from represented-mode admission; DC phase fields
+are explicitly unavailable, not fake numeric measurements.</p>
 <p><strong>Branch complete when:</strong> the CFL margin is positive; analytic-mode phase and
 amplitude errors, boundary reflection, mean drift, precision error, and
 finite-value scan pass; overlapping events have no write race; and every
@@ -674,10 +678,15 @@ extinction in metres:</p>
 T = exp(-sigma_t pathLengthMeters)
 
 L_water = F L_reflection
-        + (1-F) [T L_background + (1-T) omega_0 L_source].
+        + (1-F) etaRadiance [T L_background + (1-T) omega_0 L_source].
 </code></pre>
-<p>Foam replaces a bounded fraction of this response. A specular BRDF owns sun
-glint unless another explicitly budgeted lobe replaces it.</p>
+<p>Use the reference&#39;s explicit physical-versus-reduced radiance convention for
+<code>etaRadiance</code>; Fresnel power transmission is not automatically a cross-index
+radiance conversion. For positive extinction divide scattering by the actual
+extinction, with a separate zero branch, and evaluate short optical depths
+stably. Caustics replace the corresponding direct-light transport instead of
+adding it again. Foam replaces a bounded fraction of this response. A specular
+BRDF owns sun glint unless another explicitly budgeted lobe replaces it.</p>
 <p>Caustics deposit surface-cell power in receiver space using the determinant of
 the receiver map. Track invalid/TIR samples, power before and after deposition,
 regularization, filtering, and clamp.</p>
@@ -693,7 +702,9 @@ producer/consumer dependency crosses a dispatch boundary.
 <code>renderer.computeAsync(...)</code> is initialization-safe; its resolved promise is
 not GPU-completion evidence. Keep simulation resolution independent of
 viewport resolution.</p>
-<p>Render with one scene pass, one <code>RenderPipeline</code>, and one output transform. If
+<p>Use an opaque pass excluding water, then explicitly budget the water/composite
+work that consumes it. Do not sample an attachment while writing it or label
+multiple traversals as one pass. Use one <code>RenderPipeline</code> and output transform. If
 <code>renderOutput(...)</code> owns conversion, set
 <code>pipeline.outputColorTransform = false</code>. After replacing
 <code>pipeline.outputNode</code>, set <code>pipeline.needsUpdate = true</code>.
@@ -754,7 +765,7 @@ reaches one final output transform.</p>
 
 <div class="wrap"><footer>
   <div class="footer-summary">Three.js WebGPU Skill Pack: TSL, procedural graphics, and visual validation.
-    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>b951f1701846</code></span>
+    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>f0c9df4c6fd9</code></span>
     <span>Compiling shaders? <a href="https://devme.me/">devme.me</a> has dev memes worth the wait.</span>
   </div>
   <div class="footer-groups">

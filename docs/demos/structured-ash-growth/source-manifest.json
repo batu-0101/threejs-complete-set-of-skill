@@ -15,7 +15,7 @@
     "threejs-procedural-vegetation/examples/structured-ash-growth"
   ],
   "browserEntry": "threejs-procedural-vegetation/examples/structured-ash-growth/index.html",
-  "sourceHash": "sha256:1ecd4ae09ca0243df7e0406982ed0b0329554bdebe1823896b481dcb8fe37a40",
+  "sourceHash": "sha256:3da82ced38adb80cb381eb79acd8dbdca6605493b85de78c5ca47a3fbca9e41b",
   "publishedHashInputs": [
     "docs/demos/structured-ash-growth",
     "docs/demos/assets/ash-CJFpracT.png",
@@ -23,8 +23,8 @@
     "docs/demos/assets/bark-color-BZZMY0gm.jpg",
     "docs/demos/assets/bark-normal-TBmAUNgD.jpg",
     "docs/demos/assets/bark-roughness-BvhmIB3z.jpg",
-    "docs/demos/assets/index-BMJDhipF.js",
-    "docs/demos/assets/lab.manifest-BqAMP9vC.json",
+    "docs/demos/assets/index-CQtgJ76z.js",
+    "docs/demos/assets/lab.manifest-CJJ-7ETG.json",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/strict-lab-controller-DNVc3YrR.js",
     "docs/demos/assets/three.tsl--5AYqKVA.js",
@@ -36,15 +36,15 @@
     "docs/demos/assets/bark-color-BZZMY0gm.jpg",
     "docs/demos/assets/bark-normal-TBmAUNgD.jpg",
     "docs/demos/assets/bark-roughness-BvhmIB3z.jpg",
-    "docs/demos/assets/index-BMJDhipF.js",
-    "docs/demos/assets/lab.manifest-BqAMP9vC.json",
+    "docs/demos/assets/index-CQtgJ76z.js",
+    "docs/demos/assets/lab.manifest-CJJ-7ETG.json",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/strict-lab-controller-DNVc3YrR.js",
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:91d302a644f275653940efa09fa73b10c284e524e98ab59931ceea3d0a42e1b4",
+  "publishedBundleHash": "sha256:8604f72cd985726e1bbe203a29fb39881057bbd352ad7f6f3d1581462ce231a1",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

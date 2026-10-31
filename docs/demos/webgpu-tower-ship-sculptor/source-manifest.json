@@ -11,7 +11,7 @@
     "threejs-object-sculptor/examples/webgpu-tower-ship-sculptor"
   ],
   "browserEntry": "threejs-object-sculptor/examples/webgpu-tower-ship-sculptor/index.html",
-  "sourceHash": "sha256:23543812e0d47c905610422df3df9e6032244ef6db2c6664a2b82ad606137b3c",
+  "sourceHash": "sha256:10a111232077260c0ae6684e152fb8070069e5d34b046db6f6805b371f7cc31a",
   "publishedHashInputs": [
     "docs/demos/webgpu-tower-ship-sculptor",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -31,8 +31,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/tower-ship-reference-D3qlgi5o.png"
   ],
-  "publishedBundleHash": "sha256:24a7b1cdb25296089f13e0b516c16219e49bc19aa87b6724e9b2ad9409cd6928",
+  "publishedBundleHash": "sha256:db3c7e3e17f702263bb906d8d76fb414d6df268029bc3676c4ca138b2e3fed27",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

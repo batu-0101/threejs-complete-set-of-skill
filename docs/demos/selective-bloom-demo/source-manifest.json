@@ -18,7 +18,7 @@
     "threejs-bloom/examples/node-selective-bloom"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:f2ba129605dd594c358e9cc9f4a2fd58f2d0afa20393bb17a6dcffbfe1d4a6e9",
+  "sourceHash": "sha256:fc427da0b5d2832741e78dc6fbba5e21e46b95acf0b736a1de44bf4056a67b38",
   "publishedHashInputs": [
     "docs/demos/selective-bloom-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:313006bc96c19f40ab9aceb69550391061dbf7abce4b6e9098b3d159e784da8b",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

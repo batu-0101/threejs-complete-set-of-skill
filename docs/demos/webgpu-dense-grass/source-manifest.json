@@ -15,12 +15,12 @@
     "threejs-procedural-vegetation/examples/webgpu-dense-grass"
   ],
   "browserEntry": "threejs-procedural-vegetation/examples/webgpu-dense-grass/index.html",
-  "sourceHash": "sha256:588a351cf985a1cbc55b7192354f2e1b61572d70c61ad41b408c73888b017fc6",
+  "sourceHash": "sha256:69630be8ed04721d0587df39dea16e4e367b1d273be7076fb6c7f25d806be427",
   "publishedHashInputs": [
     "docs/demos/webgpu-dense-grass",
     "docs/demos/assets/dense-grass-system-CmVTxhFW.js",
-    "docs/demos/assets/index-XlzGZ9kW.js",
-    "docs/demos/assets/lab.manifest-D4PRl0tp.json",
+    "docs/demos/assets/index-Dw-zKK6k.js",
+    "docs/demos/assets/lab.manifest-DJSDYaSK.json",
     "docs/demos/assets/meadow-density-a-Bi7C7Dbi.png",
     "docs/demos/assets/meadow-density-b-hrBezR3V.png",
     "docs/demos/assets/meadow-density-c-CeRqOKOn.png",
@@ -32,8 +32,8 @@
   ],
   "emittedAssetDependencies": [
     "docs/demos/assets/dense-grass-system-CmVTxhFW.js",
-    "docs/demos/assets/index-XlzGZ9kW.js",
-    "docs/demos/assets/lab.manifest-D4PRl0tp.json",
+    "docs/demos/assets/index-Dw-zKK6k.js",
+    "docs/demos/assets/lab.manifest-DJSDYaSK.json",
     "docs/demos/assets/meadow-density-a-Bi7C7Dbi.png",
     "docs/demos/assets/meadow-density-b-hrBezR3V.png",
     "docs/demos/assets/meadow-density-c-CeRqOKOn.png",
@@ -43,8 +43,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:3a3a004cf54667600c86c7b7ac55646dc930e925d0ea662b583371f2cd7eaae5",
+  "publishedBundleHash": "sha256:4598825994c9224b69bf01cafaf163691a263b8ec8f0fe30141cea4524c43bfb",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

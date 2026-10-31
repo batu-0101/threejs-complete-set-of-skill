@@ -10,8 +10,6 @@ summary: Initialize the renderer, then check renderer.backend.isWebGPUBackend ==
 related_skills: ["threejs-choose-skills","threejs-visual-validation"]
 related_demos: ["webgpu-validation-harness"]
 related_pages: ["/migrate/webglrenderer-to-webgpurenderer/","/faq/which-threejs-version-does-the-skill-pack-support/","/faq/why-does-my-webgpu-png-have-striped-rows/"]
-hero_image: /visual-validation/webgpu-validation-harness/diagnostics.mosaic.png
-hero_source: webgpu-validation-harness
 published: 2026-07-16
 last_reviewed: 2026-07-16
 sources: ["https://threejs.org/manual/en/webgpurenderer","https://threejs.org/docs/pages/WebGPURenderer.html","https://github.com/mrdoob/three.js/issues/28898","https://github.com/mrdoob/three.js/issues/31381","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-choose-skills/SKILL.md","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/scripts/capture-via-cdp.mjs"]
@@ -73,3 +71,6 @@ If the flag is false, follow the [WebGPURenderer migration guide](/migrate/webgl
 ## Question provenance
 
 This operational question is derived from upstream issue #31381, which documents confusion about WebGPURenderer's multi-backend behavior but does not ask for this exact verification procedure. Issue #28898 is technical background only. This is upstream engineering evidence, not customer evidence. Source first observed 2025-07-07; last checked and answer reviewed 2026-07-16.
+
+
+The earlier webgpu-validation-harness capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

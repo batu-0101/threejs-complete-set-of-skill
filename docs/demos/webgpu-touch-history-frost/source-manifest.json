@@ -15,7 +15,7 @@
     "threejs-dynamic-surface-effects/examples/webgpu-touch-history-frost"
   ],
   "browserEntry": "threejs-dynamic-surface-effects/examples/webgpu-touch-history-frost/index.html",
-  "sourceHash": "sha256:cf45abc35d5dd9f1c5b5f180e1c57de0a44fdbcd281126dd53121a31f3af2ac3",
+  "sourceHash": "sha256:2ed170b0dfdffacefcd908a7912ee04682a0bc3aa6cd4caa6ceec437847f1aed",
   "publishedHashInputs": [
     "docs/demos/webgpu-touch-history-frost",
     "docs/demos/assets/frost-surface-effect-DC3Wu82M.js",
@@ -39,8 +39,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:4c7a8b64d18cb9640fc08b0436e68490ae4d3201d61ef1e3e8cd293f0846714e",
+  "publishedBundleHash": "sha256:eb20dea408db524af105ff442b00eac7fde1658898c7cbf179ee331ce265ea6d",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

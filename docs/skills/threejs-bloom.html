@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://threejs-skills.com/skills/threejs-bloom.html" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#0a0c10" />
-<meta name="skill-pack-build-revision" content="sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f" />
+<meta name="skill-pack-build-revision" content="sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162" />
 <link rel="icon" href="../favicon.ico" sizes="any" />
 <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32" />
@@ -24,7 +24,7 @@
 <meta property="og:title" content="Bloom | Three.js WebGPU Skill" />
 <meta property="og:description" content="Bloom scene-linear HDR in Three.js WebGPU/TSL. Use when choosing optical full-scene glare, selective or hybrid contributors, transparent contribution…" />
 <meta property="og:url" content="https://threejs-skills.com/skills/threejs-bloom.html" />
-<meta property="article:modified_time" content="2026-07-16T19:46:25+03:00" />
+<meta property="article:modified_time" content="2026-09-24T08:00:19+03:00" />
 <meta property="article:published_time" content="2026-07-04T23:30:19+03:00" />
 <meta property="article:section" content="Cameras, Lighting, and Final Image" />
 
@@ -63,7 +63,7 @@
     "@id": "https://threejs-skills.com/skills/threejs-bloom.html"
    },
    "datePublished": "2026-07-04T23:30:19+03:00",
-   "dateModified": "2026-07-16T19:46:25+03:00",
+   "dateModified": "2026-09-24T08:00:19+03:00",
    "author": {
     "@id": "https://threejs-skills.com/#publisher"
    },
@@ -295,8 +295,8 @@ a.chip:active{scale:.96}
       <span class="chip">2 flagships</span>
       <span class="chip">1 secondary surface</span>
       <span class="chip">accepted runtime evidence</span>
-      <span class="chip">Latest skill update <time datetime="2026-07-16T19:46:25+03:00">2026-07-16</time></span>
-    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/62a9bc59330c44827824665323823883e88f100c">commit 62a9bc5 ↗</a>
+      <span class="chip">Latest skill update <time datetime="2026-09-24T08:00:19+03:00">2026-09-24</time></span>
+    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/fe12acc138f7674c3664d257f16dc9752540afb8">commit fe12acc ↗</a>
       <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-bloom/SKILL.md">SKILL.md on GitHub ↗</a>
       <a class="chip" href="https://raw.githubusercontent.com/linegel/threejs-complete-set-of-skill/main/skills/threejs-bloom/SKILL.md">raw (for agents) ↗</a>
     </div>
@@ -312,7 +312,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="node-selective-bloom">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Accepted evidence published</strong>
-    <span><code>878849be345c</code> source hash</span>
+    <span><code>7a85d78ca9cc</code> source hash</span>
     <span>16 fixed states · 6 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Canonical lab</span><span class="status status--accepted">Accepted</span></span>
@@ -328,11 +328,12 @@ a.chip:active{scale:.96}
     <p class="sub">This skill contributes to the following cross-skill owner graphs.</p>
     <div class="grid">
       <a class="card" href="../demos/final-image-flight/">
-        <span class="card-preview-wrap" data-preview-for="final-image-flight" data-preview-source="final-image-flight" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/final-image-flight/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/final-image-flight/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/final-image-flight/final.design.png" alt="Accepted demo-sourced runtime evidence for Final Image Flight" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Accepted demo-sourced runtime evidence</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="final-image-flight">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>f9221257393e</code> source hash</span>
+    <span>10 fixed states · 12 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Final image systems</span><span class="status status--accepted">Accepted</span></span>
         <h3>Final Image Flight</h3>
         <span class="card-meta">6 mechanisms · 3 locked tiers</span>
@@ -341,7 +342,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="relativistic-space-shot">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>e2e9d6b673af</code> source hash</span>
+    <span><code>5e3591fd9353</code> source hash</span>
     <span>10 fixed states · 4 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Relativistic cinematic</span><span class="status status--pending">Evidence pending</span></span>
@@ -444,8 +445,10 @@ limits.</p>
 <h2>3. Build one scene pass</h2>
 <p>Use one HDR scene traversal for both full-scene and selective bloom. Full-scene
 bloom reads the scene output. Selective bloom adds an <code>emissive</code> MRT output to
-the same pass and gives it <code>BlendMode(MaterialBlending)</code> so transparent
-contributions follow the material blend state.</p>
+the same pass and gives it <code>BlendMode(MaterialBlending)</code>. Supply explicit
+contribution RGBA with the material&#39;s alpha and matching RGB convention;
+blend factors alone do not repair a bare emissive vec3 or double premultiplication.
+The reference includes the per-material expression and corrected emitter.</p>
 <p>In r185, material-level <code>mrtNode</code> merging can lose the operative blend-mode map.
 Keep the canonical selective path on the regular <code>emissiveNode</code>; use a separate
 measured contribution pass or source-verified custom merge only when visible
@@ -479,8 +482,11 @@ selective contribution, read
 <li>display-referred: use only with a stable inverse of the declared tone/output
 path.</li>
 </ul>
-<p>Convert threshold and soft-knee width together when exposure or calibration
-changes. Treat <code>radius</code> as cross-mip spread, not a physical radius. Validate
+<p>Convert threshold and soft-knee together: divide both by positive exposure for
+an exposed-linear rule, but invert both endpoints and subtract for a validated
+nonlinear scalar rule. Reject an undefined display-luminance inverse. Require a
+positive stock knee, or implement a separately validated hard-threshold branch.
+Treat <code>radius</code> as cross-mip spread, not a physical radius. Validate
 minimum and maximum viewport/DPR. Stock r185&#39;s five-level chain requires:</p>
 <pre><code class="language-text">floor(bloomScale * min(drawingBufferWidth, drawingBufferHeight)) &gt;= 16
 </code></pre>
@@ -523,7 +529,9 @@ full-resolution contribution attachment. Disable bloom when the minimum-mip,
 memory, thermal, or marginal-time gate still fails.</p>
 <p>Replace the output node for the disabled path, mark the pipeline dirty, and
 dispose <code>BloomNode</code> and any exclusive contribution resources after final GPU
-use. Recreate evidence after renderer/device loss or format generation change.</p>
+use. Uniform updates do not rebuild the graph; structural rebuilds use a fresh
+node or an idempotent pinned correction because stock setup appends materials.
+Recreate evidence after renderer/device loss or format generation change.</p>
 <p>This step is complete when every shipping tier passes fixed captures and
 sustained target-device budgets, bloom-off timing loses the bloom work, and
 repeated enable/disable, resize, and disposal cycles stabilize resources.</p>
@@ -557,7 +565,7 @@ repeated enable/disable, resize, and disposal cycles stabilize resources.</p>
 
 <div class="wrap"><footer>
   <div class="footer-summary">Three.js WebGPU Skill Pack: TSL, procedural graphics, and visual validation.
-    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>b951f1701846</code></span>
+    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>f0c9df4c6fd9</code></span>
     <span>Compiling shaders? <a href="https://devme.me/">devme.me</a> has dev memes worth the wait.</span>
   </div>
   <div class="footer-groups">

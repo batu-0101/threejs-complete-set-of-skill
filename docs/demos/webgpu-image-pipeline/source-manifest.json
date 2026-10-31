@@ -15,7 +15,7 @@
     "threejs-image-pipeline/examples/webgpu-image-pipeline"
   ],
   "browserEntry": "threejs-image-pipeline/examples/webgpu-image-pipeline/index.html",
-  "sourceHash": "sha256:367f880e1d52528732e0897e77d0a8f54ce141320660ff3876cde33663e00201",
+  "sourceHash": "sha256:301f1e520410d693bb7d71d8dd8937ab90138cb1510e5d2f81060b4881476d43",
   "publishedHashInputs": [
     "docs/demos/webgpu-image-pipeline",
     "docs/demos/assets/BloomNode-B7VcMtwE.js",
@@ -39,8 +39,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:4fba35bcf9ca6bc1c63f27c6aacfe33db483f50ffea039d6d1c893432236c6f0",
+  "publishedBundleHash": "sha256:9eb3cc1cfb6b3972105ad5c85868f6cead6d600e876624607eeadc290e40883a",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

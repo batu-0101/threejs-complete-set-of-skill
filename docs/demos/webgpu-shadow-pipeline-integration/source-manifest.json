@@ -19,7 +19,7 @@
     "threejs-scalable-real-time-shadows/examples/webgpu-shadow-pipeline-integration"
   ],
   "browserEntry": "threejs-scalable-real-time-shadows/examples/webgpu-shadow-pipeline-integration/index.html",
-  "sourceHash": "sha256:aa939380149e6a342b386e1a409c5f08636a10b6a07b5a235473f3ff04566328",
+  "sourceHash": "sha256:20788e49a5f9e2477535f5f348701fb0e494937671810c72c774ee9a7d28b1a1",
   "publishedHashInputs": [
     "docs/demos/webgpu-shadow-pipeline-integration",
     "docs/demos/assets/canonical-lab-C1FaueBf.js",
@@ -39,8 +39,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:d699277a6a39286852d57bb49ddd588878de201cf3c6dbbee00d11cfe292aafe",
+  "publishedBundleHash": "sha256:80065ebf938c869a5df8026204ba4b0f4e7ca06c8aa7a2d7a57346d990adbf30",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

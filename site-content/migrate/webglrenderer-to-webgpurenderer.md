@@ -10,8 +10,6 @@ summary: This is an application migration, not a constructor rename. Change the 
 related_skills: ["threejs-choose-skills","threejs-debugging","threejs-procedural-materials","threejs-image-pipeline","threejs-visual-validation"]
 related_demos: ["debugging-contract-lab","final-image-flight","webgpu-image-pipeline","webgpu-validation-harness"]
 related_pages: ["/migrate/glsl-shadermaterial-to-tsl/","/compare/webgpurenderer-vs-webglrenderer/","/docs/use-in-an-existing-project/","/faq/how-do-i-verify-the-native-webgpu-backend/"]
-hero_image: /visual-validation/final-image-flight/final.design.png
-hero_source: final-image-flight
 published: 2026-07-16
 last_reviewed: 2026-07-16
 supported_revision: 0.185.1
@@ -122,3 +120,6 @@ Keep the WebGLRenderer baseline separately runnable while the migration is incom
 The [WebGPU image-pipeline report](/evidence/webgpu-image-pipeline/) has source-matched accepted correctness evidence for shared-pass, history, and final-output ownership; current-adapter GPU timing and lifecycle remain insufficient. [Final Image Flight](/demos/final-image-flight/) has source-matched accepted evidence for one composed target-state graph; it is not a before-and-after migration result. The [native WebGPU validation harness](/demos/webgpu-validation-harness/) has a current source-bound record for backend proof, diagnostics, aligned readback, resources, timing evidence, and lifecycle records. Apply those contracts to the migrated application rather than treating any catalog or report as application proof.
 
 Remove the WebGL source path only after every required API, backend, correctness, visual, resource, lifecycle, and named-device sustained performance or latency gate passes. If the target is blocked, retain the narrow source route or roll back the affected migration unit. Do not disguise an unverified compatibility branch as the completed canonical migration.
+
+
+The earlier final-image-flight capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

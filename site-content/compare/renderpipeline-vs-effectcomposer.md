@@ -10,8 +10,6 @@ summary: Use RenderPipeline with WebGPURenderer and EffectComposer with WebGLRen
 related_skills: ["threejs-image-pipeline","threejs-exposure-color-grading","threejs-bloom","threejs-ambient-contact-shading","threejs-visual-validation"]
 related_demos: ["webgpu-temporal-history","integration-image-pipeline-ao"]
 related_pages: ["/compare/webgpurenderer-vs-webglrenderer/","/compare/threejs-tsl-vs-glsl/","/faq/why-does-my-tsl-post-processing-look-double-tone-mapped/","/migrate/webglrenderer-to-webgpurenderer/"]
-hero_image: /visual-validation/integration-image-pipeline-ao/final.design.png
-hero_source: integration-image-pipeline-ao
 supported_revision: 0.185.1
 published: 2026-07-16
 last_reviewed: 2026-07-16
@@ -107,3 +105,6 @@ Use RenderPipeline with WebGPURenderer and EffectComposer with WebGLRenderer. If
 RenderPipeline evolves with the experimental WebGPURenderer path, and r185 behavior must be rechecked on later revisions. EffectComposer passes are not drop-in TSL nodes. Similar-looking effects may use different samples, reconstruction, color assumptions, and quality tradeoffs.
 
 No pipeline fixes poor material signals, unstable motion vectors, incorrect depth reconstruction, missing history invalidation, or leaks by itself. The final choice is valid only when its mechanisms and diagnostic output pass on the actual workload.
+
+
+The earlier integration-image-pipeline-ao capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

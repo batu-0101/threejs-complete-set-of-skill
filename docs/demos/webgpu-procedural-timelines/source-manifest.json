@@ -28,7 +28,7 @@
     "threejs-procedural-motion-systems/examples/webgpu-procedural-timelines"
   ],
   "browserEntry": "threejs-procedural-motion-systems/examples/webgpu-procedural-timelines/index.html",
-  "sourceHash": "sha256:75dc31ba17b9a98981bc67e8517eaaa97542ffa9d2bbef2e72929db178ebe709",
+  "sourceHash": "sha256:7f13f6826ab6a3071b02e29295bbc8af580e19b497c0d13939783d9d833518e3",
   "publishedHashInputs": [
     "docs/demos/webgpu-procedural-timelines",
     "docs/demos/assets/index-c43JCY43.js",
@@ -44,8 +44,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:1c9e7737fedbcdb1473aa0c2bf3b68b19ec1249d51e09fc78fa474fb7d79a258",
+  "publishedBundleHash": "sha256:10e7991d1b4de8fa5b9e8d1bdbb22488dd4bb1154aced1d6f413fcb7c027ed4b",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "correctness"
 }

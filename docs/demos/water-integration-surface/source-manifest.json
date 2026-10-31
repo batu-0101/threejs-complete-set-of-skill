@@ -18,7 +18,7 @@
     "threejs-water-optics/EXPERIMENTAL/water-integration-surface"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:0c11b5992edb3a673da60f3c6b6d2a788967c27c4874512eaef53e516760a463",
+  "sourceHash": "sha256:1760a8505dbfd9144c9e65b1051fb6703f2dc3f55168e6fdbab3f00f911b87b5",
   "publishedHashInputs": [
     "docs/demos/water-integration-surface",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:4e6acaca138d3bb391ba66d2e226649876c29de9c33e2a7f5ba6c5ef8c542230",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

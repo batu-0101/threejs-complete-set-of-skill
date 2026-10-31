@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { mkdtempSync, writeFileSync } from 'node:fs';
@@ -447,8 +448,8 @@ test('realpath confinement rejects symbolic-link and resolved-path escapes', () 
   const plainStat = { isSymbolicLink: () => false };
   const symlinkStat = { isSymbolicLink: () => true };
   const symlinkIo = {
-    existsSync: (path) => new Set(['/sandbox', '/sandbox/link']).has(path),
-    lstatSync: (path) => path === '/sandbox/link' ? symlinkStat : plainStat,
+    existsSync: (path) => new Set(['/sandbox', '/sandbox/link'].map(p => resolve(p))).has(path),
+    lstatSync: (path) => path === resolve('/sandbox/link') ? symlinkStat : plainStat,
     realpathSync: (path) => path,
   };
   assert.throws(
@@ -459,7 +460,7 @@ test('realpath confinement rejects symbolic-link and resolved-path escapes', () 
   const escapedIo = {
     existsSync: () => true,
     lstatSync: () => plainStat,
-    realpathSync: (path) => path === '/sandbox/evidence' ? '/outside/evidence' : path,
+    realpathSync: (path) => path === resolve('/sandbox/evidence') ? resolve('/outside/evidence') : path,
   };
   assert.throws(
     () => assertSymlinkConfinedPath('/sandbox/evidence/final.design.png', '/sandbox', escapedIo),

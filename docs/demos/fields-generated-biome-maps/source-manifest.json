@@ -18,7 +18,7 @@
     "threejs-procedural-fields/examples/webgpu-field-bake"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:f6f05c5345fff9f5a29c5ee06d2d292f242bbd8eb349989c6743de4d13d7a0d2",
+  "sourceHash": "sha256:cd842b307eb6bc1913c71530fc5e3d269f62c51925f536cc6e1e1ef27f945978",
   "publishedHashInputs": [
     "docs/demos/fields-generated-biome-maps",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:b803c57621fd96dd741bdd5fa5d13de62c8fae5d7ce3c976123332d1c1c93b9f",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

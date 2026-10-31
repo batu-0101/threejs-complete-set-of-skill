@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check *.js && node --check *.mjs",
+    "check": "node ../../../scripts/check-javascript-syntax.mjs \"*.js\" && node ../../../scripts/check-javascript-syntax.mjs \"*.mjs\"",
     "validate": "npm run validate:quick",
     "validate:unit": "node validate-procedural-pbr.mjs && node validate-routes.mjs",
     "test:mutations": "node validate-material-mutations.mjs",

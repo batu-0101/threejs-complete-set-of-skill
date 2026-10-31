@@ -8,7 +8,7 @@ import sharp from 'sharp';
 const helper = fileURLToPath(new URL('../../skills/threejs-object-sculptor/scripts/probe_reference_image.py', import.meta.url));
 function pythonCase(source) {
   const prefix = 'import runpy, struct, zlib, io, types\nfrom unittest.mock import Mock, patch\nglobals().update(runpy.run_path(__import__("sys").argv[1]))\n';
-  const result = spawnSync('python3', ['-c', prefix + source, helper], {
+  const result = spawnSync(process.env.BEYOND_PYTHON || (process.platform === 'win32' ? 'python' : 'python3'), ['-c', prefix + source, helper], {
     encoding:'utf8', timeout:60000, env:{...process.env, PYTHONDONTWRITEBYTECODE:'1'},
   });
   assert.equal(result.status, 0, result.stderr || String(result.error));
@@ -133,7 +133,7 @@ test('probe agrees with actual encoded PNG JPEG WebP GIF and TIFF dimensions', a
 
 test('probe CLI reports a directory as an input error without a traceback', () => {
   const directory = fileURLToPath(new URL('../../skills/threejs-object-sculptor/', import.meta.url));
-  const result = spawnSync('python3', [helper, directory], {encoding:'utf8',timeout:60000,env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}});
+  const result = spawnSync(process.env.BEYOND_PYTHON || (process.platform === 'win32' ? 'python' : 'python3'), [helper, directory], {encoding:'utf8',timeout:60000,env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}});
   assert.equal(result.status, 2);
   assert.match(result.stderr, /regular file/);
   assert.doesNotMatch(result.stderr, /Traceback/);

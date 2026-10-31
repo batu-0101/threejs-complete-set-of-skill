@@ -10,7 +10,7 @@
     "threejs-ambient-contact-shading/examples/webgpu-node-gtao"
   ],
   "browserEntry": "threejs-ambient-contact-shading/examples/webgpu-node-gtao/index.html",
-  "sourceHash": "sha256:d151b7e9512ba31533653581a04ac7359ab067c8ae0963625f675ecdc4781455",
+  "sourceHash": "sha256:0f2ae59ed072b163992c3a684cb81abb6b3c32899c8019079200bf9c23ad9d45",
   "publishedHashInputs": [
     "docs/demos/webgpu-node-gtao",
     "docs/demos/assets/GTAONode-IHocvv2Q.js",
@@ -30,8 +30,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:7fbd73ef0e48d0ee7e7da556ce06c24071e704535c206b0babf683a01d74f311",
+  "publishedBundleHash": "sha256:8f1ad4b2540fa5043032d39c763ef07b97e2e9728465557b248e53334cd2a5c9",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

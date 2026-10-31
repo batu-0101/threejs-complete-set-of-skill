@@ -19,7 +19,7 @@
     "threejs-procedural-planets/examples/webgpu-quadtree-planet"
   ],
   "browserEntry": "threejs-procedural-planets/examples/webgpu-quadtree-planet/index.html",
-  "sourceHash": "sha256:4928ca7a78df196ce1a15165473dff8498bd7b4d2d3a8258b602370dde998fe9",
+  "sourceHash": "sha256:8760f7c969b9caf7c9fe82a534cf9284ded44baca6c9db4fac793e46a1ddad21",
   "publishedHashInputs": [
     "docs/demos/webgpu-quadtree-planet",
     "docs/demos/assets/index-CkEl-Kyq.js",
@@ -35,8 +35,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:2440151ab21452c673260f1594d5fdb4f0f94e85b01fafaeae6c3d1babdda7a8",
+  "publishedBundleHash": "sha256:646320e9049aec6902c9f63172b91d1a22a647eb7adad643759529b376e31042",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "correctness"
 }

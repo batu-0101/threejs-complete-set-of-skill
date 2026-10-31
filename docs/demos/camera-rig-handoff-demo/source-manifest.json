@@ -18,7 +18,7 @@
     "threejs-camera-controls-and-rigs/examples/webgpu-camera-rig"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:b947c9c15971ab86cd4f0f75bc4b2c897e4655caf0caf58c0c28935b3562beae",
+  "sourceHash": "sha256:c765941937df9c0b09f7e63e11b1a34e29e1f0d8317170f96a9b9df679f0945e",
   "publishedHashInputs": [
     "docs/demos/camera-rig-handoff-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:9a5aa518e86ea1caa0c9a648d0d2a9161d484ac835b85f3397734fe4a6eae359",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

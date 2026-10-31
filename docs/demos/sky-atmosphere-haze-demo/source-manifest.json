@@ -18,7 +18,7 @@
     "threejs-sky-atmosphere-and-haze/examples/webgpu-lut-atmosphere"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:be7a1fe8ba78b0db4f4f119683f0f52cf8e383dba9ce363fd7e02ae1c87686cf",
+  "sourceHash": "sha256:dd6f5a29ed7000c4930d52f342d6363e35add65e46258fa8540b7a7668d504e6",
   "publishedHashInputs": [
     "docs/demos/sky-atmosphere-haze-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:fdad8638cbf716140f9d99ed69a17fcf7c63eb6b1eedd3556b96b2eed290fe60",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

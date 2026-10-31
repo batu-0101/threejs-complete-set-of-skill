@@ -64,12 +64,12 @@
     "threejs-water-optics/examples/webgpu-bounded-water/webgpu-bounded-water.js"
   ],
   "browserEntry": "integration-labs/creature-habitat/index.html",
-  "sourceHash": "sha256:a4b636f72b858d8bc5ba64756b8a8fd8f9f4d442fc88693e9cba59adfe145210",
+  "sourceHash": "sha256:72a78cc55fd42d82ce3853426ca967e687c5000a0824a03546ad1e09835c7d67",
   "publishedHashInputs": [
     "docs/demos/creature-habitat",
     "docs/demos/assets/CameraDirectionController-bRQgyYUd.js",
     "docs/demos/assets/dense-grass-system-CmVTxhFW.js",
-    "docs/demos/assets/index-C4N3CXwl.js",
+    "docs/demos/assets/index-COxPPPar.js",
     "docs/demos/assets/index-KefgGsrN.css",
     "docs/demos/assets/integration-adapter-CBZChN7k.js",
     "docs/demos/assets/meadow-density-a-Bi7C7Dbi.png",
@@ -87,7 +87,7 @@
   "emittedAssetDependencies": [
     "docs/demos/assets/CameraDirectionController-bRQgyYUd.js",
     "docs/demos/assets/dense-grass-system-CmVTxhFW.js",
-    "docs/demos/assets/index-C4N3CXwl.js",
+    "docs/demos/assets/index-COxPPPar.js",
     "docs/demos/assets/index-KefgGsrN.css",
     "docs/demos/assets/integration-adapter-CBZChN7k.js",
     "docs/demos/assets/meadow-density-a-Bi7C7Dbi.png",
@@ -102,8 +102,8 @@
     "docs/demos/assets/webgpu-bounded-water-BTmuFlv9.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:e4b6ecb5baee26195c0a8a4d89fce21d7d37d8187de60eb0e584bd4351063b75",
+  "publishedBundleHash": "sha256:826573cdaa41583dbcebb38aaf9ef2f0ac42892f3be330ce0ccff4e97361fa7f",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

@@ -15,7 +15,7 @@
     "threejs-rain-snow-and-wet-surfaces/examples/webgpu-rain-snow-and-wet-surfaces"
   ],
   "browserEntry": "threejs-rain-snow-and-wet-surfaces/examples/webgpu-rain-snow-and-wet-surfaces/index.html",
-  "sourceHash": "sha256:6bccc892e96e099bb776969a9c27c14df04050467bfa3b6abfdd8e3b4b440de4",
+  "sourceHash": "sha256:e2ba3068187ed9f2c1ea40fb031c3e63f21d7c021fd0a96fd0c3317fb57d1265",
   "publishedHashInputs": [
     "docs/demos/webgpu-rain-snow-and-wet-surfaces",
     "docs/demos/assets/index-d4IXLJxX.js",
@@ -33,8 +33,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/weather-webgpu-lab-BuJ9tIWO.js"
   ],
-  "publishedBundleHash": "sha256:bca8bb5d2f42a02b7c2864313a7fab6961933a6701886153f801e615f166f6f3",
+  "publishedBundleHash": "sha256:57a19ee64f648b5a55d26ffd6beba372c8fde21f00be6fc7a30dfdff1f08627a",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

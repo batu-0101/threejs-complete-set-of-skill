@@ -18,7 +18,7 @@
     "threejs-procedural-planets/examples/webgpu-quadtree-planet"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:ba95a52d1605f729bab4177ba09ad3caf6d0a2d63a44552a21b28f1d7bc93c80",
+  "sourceHash": "sha256:2b30a57570e45572ee0899e7525c308c914ce9a5b0995aa90b2be9c73a1508e3",
   "publishedHashInputs": [
     "docs/demos/planet-generated-craters",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:f1556ac699aef1c37bc3581a5ddc1516b92f1a5f2e026d659d73edeecd4f0f28",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

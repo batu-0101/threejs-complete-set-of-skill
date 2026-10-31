@@ -53,7 +53,7 @@
     "threejs-visual-validation/examples/webgpu-validation-harness/src/readback.js"
   ],
   "browserEntry": "integration-labs/relativistic-space-shot/index.html",
-  "sourceHash": "sha256:e2e9d6b673af27aa96c4ba0031dc031d2e7234ed4cb924e663098d21d1bdea01",
+  "sourceHash": "sha256:5e3591fd9353a252003bd3ecf6dc517133794442e4105509f07663f973e25afc",
   "publishedHashInputs": [
     "docs/demos/relativistic-space-shot",
     "docs/demos/assets/BloomNode-B7VcMtwE.js",
@@ -91,8 +91,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:feab2035ebbddb7eb989e1199841b1dde312f23e24a54b3f9105fc339d091a54",
+  "publishedBundleHash": "sha256:b0442cac411af5e83fed926b9eb23e517e02a8b5f3a4b6c8a159a66617cb5aca",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

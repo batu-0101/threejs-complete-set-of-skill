@@ -14,7 +14,7 @@
     "threejs-particles-trails-and-effects/examples/webgpu-pooled-effects"
   ],
   "browserEntry": "threejs-particles-trails-and-effects/examples/webgpu-pooled-effects/index.html",
-  "sourceHash": "sha256:c1cfa5fb0841304840abfd5345fcbfeca96f981778f28c7dd86db982ac2a75d0",
+  "sourceHash": "sha256:cf71b054225f9ed36ab5725fdf9db4096212c45762d22e20509d78fff3ac1496",
   "publishedHashInputs": [
     "docs/demos/webgpu-pooled-effects",
     "docs/demos/assets/BloomNode-B7VcMtwE.js",
@@ -32,8 +32,8 @@
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:2d199764d888ca9c77f5df5e6a5a475d21621f847b52d2e2ff84a17569f6f82c",
+  "publishedBundleHash": "sha256:2d900c9d1da51b15887f4c7528712476b0868468bbcfdf20f2aed35d93a070f4",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "correctness"
 }

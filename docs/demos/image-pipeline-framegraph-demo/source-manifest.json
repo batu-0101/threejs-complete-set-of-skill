@@ -18,7 +18,7 @@
     "threejs-image-pipeline/examples/webgpu-image-pipeline"
   ],
   "browserEntry": null,
-  "sourceHash": "sha256:01f17a81568026685e8694adb113461690fc1dc68dac0ca711ddbe7e4975472a",
+  "sourceHash": "sha256:386e23b6625abf70e04f164f0edec15d8493ab975c212d9f496fb8c342202ed8",
   "publishedHashInputs": [
     "docs/demos/image-pipeline-framegraph-demo",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
@@ -96,6 +96,6 @@
   ],
   "publishedBundleHash": "sha256:89ed4bd1206ec8feff45b82d7d91528df3f07dafcc1b7031aa3557b942123d6b",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

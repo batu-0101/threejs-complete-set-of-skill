@@ -19,20 +19,20 @@
     "threejs-debugging/examples/triage-cases.json"
   ],
   "browserEntry": "threejs-debugging/examples/debugging-contract-lab/index.html",
-  "sourceHash": "sha256:1cee2bb8081b3a6fccff63c4007d88e078d99a7532c2da0bedab2153a9ced1b8",
+  "sourceHash": "sha256:f08c8da67f078b114d0d219d46a49c7659004539b1863c9e7501ec776ca653d3",
   "publishedHashInputs": [
     "docs/demos/debugging-contract-lab",
+    "docs/demos/assets/index-BjL9Ss80.js",
     "docs/demos/assets/index-C9Tc45Xr.css",
-    "docs/demos/assets/index-DiJBEz5H.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js"
   ],
   "emittedAssetDependencies": [
+    "docs/demos/assets/index-BjL9Ss80.js",
     "docs/demos/assets/index-C9Tc45Xr.css",
-    "docs/demos/assets/index-DiJBEz5H.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js"
   ],
-  "publishedBundleHash": "sha256:c848e78e768cfe96c61a7ec8afa4ee07a0fb1855c6acec027b115c202382a1f2",
+  "publishedBundleHash": "sha256:c7dde4e022d8565aab9953c111e204fae765fa795c76410e8fff1f372746b16d",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

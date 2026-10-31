@@ -172,7 +172,7 @@ const latestPathDate = (paths) => {
 const skills = {};
 for (const d of AUTHORITATIVE_SKILL_SLUGS) {
   const p = join(SKILLS_ROOT, d, 'SKILL.md');
-  const t = readFileSync(p, 'utf8');
+  const t = readFileSync(p, 'utf8').replace(/\r\n/g, '\n');
   const fm = t.match(/^---\n([\s\S]*?)\n---/)[1];
   const desc = fm.match(/description:\s*([\s\S]*?)(?=\n\w|$)/)[1]
     .replace(/\s*\n\s+/g, ' ')

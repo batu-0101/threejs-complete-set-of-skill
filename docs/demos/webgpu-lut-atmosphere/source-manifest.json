@@ -19,7 +19,7 @@
     "threejs-sky-atmosphere-and-haze/examples/webgpu-lut-atmosphere"
   ],
   "browserEntry": "threejs-sky-atmosphere-and-haze/examples/webgpu-lut-atmosphere/index.html",
-  "sourceHash": "sha256:e93675b0f1b0ec4adb8c247bf7dfb5a3e6a3f9c8c260b4cb239ab0afcd7e433c",
+  "sourceHash": "sha256:dd8e637f915ae830c08bf1bef14ea9c7c51111321d0636fa2db072c3e5da8463",
   "publishedHashInputs": [
     "docs/demos/webgpu-lut-atmosphere",
     "docs/demos/assets/index-DwIlMwYj.js",
@@ -37,8 +37,8 @@
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js",
     "docs/demos/assets/webgpu-lut-atmosphere-DkMbDrwr.js"
   ],
-  "publishedBundleHash": "sha256:3c483f98a26fca3e31a3e4744a8551fba6b8508a1dfe75051a0c25bcdc89b6b9",
+  "publishedBundleHash": "sha256:57ee3f690c993346a2fee61d5dd8164baee69ae71113a43d6de23647c9f6198f",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

@@ -14,12 +14,12 @@
     "threejs-object-sculptor/examples/webgpu-object-sculptor-corpus"
   ],
   "browserEntry": "threejs-object-sculptor/examples/webgpu-object-sculptor-corpus/index.html",
-  "sourceHash": "sha256:b1362871cbd74059dde01abd859ec92c1d0ec8c66b4690b7bdf67b89a5e49293",
+  "sourceHash": "sha256:9bd2623aaa39b71be73671f1be642bd549e5794695810433e588832b5a1a317f",
   "publishedHashInputs": [
     "docs/demos/webgpu-object-sculptor-corpus",
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
     "docs/demos/assets/aligned-readback-XAnJComS.js",
-    "docs/demos/assets/classic-02b6399d3910b7432a1f23a6cc662f9f21c5f2830335872ffca7861692a90576.js",
+    "docs/demos/assets/classic-95b8606c12d5398649d1468e0e7b8694751ff8a7acac8c8cfbb6f4cc94be9af5.js",
     "docs/demos/assets/index-CJI8MyZ3.css",
     "docs/demos/assets/index-DwgPquDf.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
@@ -29,15 +29,15 @@
   "emittedAssetDependencies": [
     "docs/demos/assets/OrbitControls-BPue_ISR.js",
     "docs/demos/assets/aligned-readback-XAnJComS.js",
-    "docs/demos/assets/classic-02b6399d3910b7432a1f23a6cc662f9f21c5f2830335872ffca7861692a90576.js",
+    "docs/demos/assets/classic-95b8606c12d5398649d1468e0e7b8694751ff8a7acac8c8cfbb6f4cc94be9af5.js",
     "docs/demos/assets/index-CJI8MyZ3.css",
     "docs/demos/assets/index-DwgPquDf.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:b15c52cdc5ab10830a4f4698653955c4520396b6e40b554b8f74ede6e04cb761",
+  "publishedBundleHash": "sha256:0bfec0f5b92b5e24d3959157e9d70a30a5153809adb765213bcdf58374e46816",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "correctness"
 }

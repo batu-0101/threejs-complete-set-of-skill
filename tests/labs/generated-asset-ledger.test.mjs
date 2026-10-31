@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
@@ -84,7 +85,7 @@ test('stale output selection is confined to prior manifest ownership', () => {
   const current = { sources: { one: { formats: { avif: retained } } } };
   assert.deepEqual(
     [...staleManifestOwnedOutputPaths([previous], current, DOCS, SITE)],
-    ['/workspace/docs/previews/primary/old.webp'],
+    [resolve('/workspace/docs/previews/primary/old.webp')],
   );
   assert.equal(manifestOwnedOutputPaths(current, DOCS, SITE).has('/workspace/docs/unregistered.webp'), false);
 });

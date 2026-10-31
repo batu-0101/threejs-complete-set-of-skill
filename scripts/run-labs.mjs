@@ -160,7 +160,9 @@ for (const manifest of labs) {
   }
   const args = executionTokens.slice(1);
   console.log(`[labs:${operation}] ${manifest.id}: ${tokens[0]} ${args.join(' ')}`);
-  const result = spawnSync(tokens[0], args, {
+  const npmCli = process.env.npm_execpath;
+  const useNodeNpm = process.platform === 'win32' && tokens[0] === 'npm' && npmCli;
+  const result = spawnSync(useNodeNpm ? process.execPath : tokens[0], useNodeNpm ? [npmCli, ...args] : args, {
     cwd,
     env: { ...process.env, LAB_ID: manifest.id },
     stdio: 'inherit',

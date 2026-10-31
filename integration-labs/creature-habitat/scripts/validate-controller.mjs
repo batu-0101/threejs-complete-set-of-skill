@@ -6,7 +6,7 @@ import { WATER_QUALITY_TIERS } from "../../../threejs-water-optics/examples/webg
 import { HABITAT_TIER_CONFIG } from "../route-state.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const read = (name) => fs.readFileSync(path.join(root, name), "utf8");
+const read = (name) => fs.readFileSync(path.join(root, name), "utf8").replace(/\r\n/g, "\n");
 const controller = read("habitat-controller.js");
 const main = read("main.js");
 const capture = read("capture.mjs");

@@ -15,14 +15,14 @@
     "threejs-procedural-fields/examples/webgpu-field-bake"
   ],
   "browserEntry": "threejs-procedural-fields/examples/webgpu-field-bake/index.html",
-  "sourceHash": "sha256:015f3e41078f1c643c314785c9c8cb6a54091805c1f6ce8646f17b1b54fd93f6",
+  "sourceHash": "sha256:a7b38d6e7fe6e59a185c8fed869c582969fc024cf9e8f665b1e97cfef66e9996",
   "publishedHashInputs": [
     "docs/demos/webgpu-field-bake",
     "docs/demos/assets/biome-field-a-R50xQW_s.png",
     "docs/demos/assets/biome-field-b-DSx0H3Jp.png",
     "docs/demos/assets/biome-field-c-BZ_lWbL6.png",
     "docs/demos/assets/field-bake-DwuzVV-H.js",
-    "docs/demos/assets/index-Dl9fBqXE.js",
+    "docs/demos/assets/index-BJti5FfG.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
@@ -32,13 +32,13 @@
     "docs/demos/assets/biome-field-b-DSx0H3Jp.png",
     "docs/demos/assets/biome-field-c-BZ_lWbL6.png",
     "docs/demos/assets/field-bake-DwuzVV-H.js",
-    "docs/demos/assets/index-Dl9fBqXE.js",
+    "docs/demos/assets/index-BJti5FfG.js",
     "docs/demos/assets/modulepreload-polyfill-Dezn_h7o.js",
     "docs/demos/assets/three.tsl--5AYqKVA.js",
     "docs/demos/assets/three.webgpu-Dss1ekdK.js"
   ],
-  "publishedBundleHash": "sha256:1399d94f24312362dda179e990f43579cab26380dd92e13d90a0d0760442206d",
+  "publishedBundleHash": "sha256:3171a3dfe2a85a0f699cf2e05b04028c2542263b47f236262975590901821737",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

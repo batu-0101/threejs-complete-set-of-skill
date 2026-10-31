@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://threejs-skills.com/skills/threejs-exposure-color-grading.html" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#0a0c10" />
-<meta name="skill-pack-build-revision" content="sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f" />
+<meta name="skill-pack-build-revision" content="sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162" />
 <link rel="icon" href="../favicon.ico" sizes="any" />
 <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32" />
@@ -24,7 +24,7 @@
 <meta property="og:title" content="Exposure And Color Grading | Three.js WebGPU Skill" />
 <meta property="og:description" content="Meter and grade scene-linear Three.js WebGPU images. Use for choosing fixed or automatic exposure; adapting EV on the GPU; assigning tone-map and output…" />
 <meta property="og:url" content="https://threejs-skills.com/skills/threejs-exposure-color-grading.html" />
-<meta property="article:modified_time" content="2026-07-16T19:46:25+03:00" />
+<meta property="article:modified_time" content="2026-09-24T08:10:44+03:00" />
 <meta property="article:published_time" content="2026-07-04T23:30:20+03:00" />
 <meta property="article:section" content="Cameras, Lighting, and Final Image" />
 
@@ -63,7 +63,7 @@
     "@id": "https://threejs-skills.com/skills/threejs-exposure-color-grading.html"
    },
    "datePublished": "2026-07-04T23:30:20+03:00",
-   "dateModified": "2026-07-16T19:46:25+03:00",
+   "dateModified": "2026-09-24T08:10:44+03:00",
    "author": {
     "@id": "https://threejs-skills.com/#publisher"
    },
@@ -295,8 +295,8 @@ a.chip:active{scale:.96}
       <span class="chip">2 flagships</span>
       <span class="chip">1 secondary surface</span>
       <span class="chip">accepted runtime evidence</span>
-      <span class="chip">Latest skill update <time datetime="2026-07-16T19:46:25+03:00">2026-07-16</time></span>
-    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/62a9bc59330c44827824665323823883e88f100c">commit 62a9bc5 ↗</a>
+      <span class="chip">Latest skill update <time datetime="2026-09-24T08:10:44+03:00">2026-09-24</time></span>
+    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/43bef455787050390aa083148f08d99726a05cfb">commit 43bef45 ↗</a>
       <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-exposure-color-grading/SKILL.md">SKILL.md on GitHub ↗</a>
       <a class="chip" href="https://raw.githubusercontent.com/linegel/threejs-complete-set-of-skill/main/skills/threejs-exposure-color-grading/SKILL.md">raw (for agents) ↗</a>
     </div>
@@ -312,7 +312,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="webgpu-exposure-color-pipeline">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Accepted evidence published</strong>
-    <span><code>f238d4795026</code> source hash</span>
+    <span><code>8ac683198b97</code> source hash</span>
     <span>14 fixed states · 3 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Canonical lab</span><span class="status status--accepted">Accepted</span></span>
@@ -328,11 +328,12 @@ a.chip:active{scale:.96}
     <p class="sub">This skill contributes to the following cross-skill owner graphs.</p>
     <div class="grid">
       <a class="card" href="../demos/final-image-flight/">
-        <span class="card-preview-wrap" data-preview-for="final-image-flight" data-preview-source="final-image-flight" data-preview-classification="inspected-runtime-evidence-preview"><picture class="responsive-preview">
-          <source type="image/avif" srcset="../visual-validation/final-image-flight/final.design.avif" />
-          <source type="image/webp" srcset="../visual-validation/final-image-flight/final.design.webp" />
-          <img data-responsive-preview src="../visual-validation/final-image-flight/final.design.png" alt="Accepted demo-sourced runtime evidence for Final Image Flight" class="card-preview" width="1200" height="800" loading="lazy" decoding="async" />
-        </picture><span class="media-caption">Accepted demo-sourced runtime evidence</span></span>
+        <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="final-image-flight">
+    <span class="primary-evidence-label">Canonical capture</span>
+    <strong>Accepted evidence published</strong>
+    <span><code>f9221257393e</code> source hash</span>
+    <span>10 fixed states · 12 runtime proof requirements</span>
+  </span>
         <span class="card-head"><span class="card-kind">Final image systems</span><span class="status status--accepted">Accepted</span></span>
         <h3>Final Image Flight</h3>
         <span class="card-meta">6 mechanisms · 3 locked tiers</span>
@@ -341,7 +342,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="relativistic-space-shot">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>e2e9d6b673af</code> source hash</span>
+    <span><code>5e3591fd9353</code> source hash</span>
     <span>10 fixed states · 4 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Relativistic cinematic</span><span class="status status--pending">Evidence pending</span></span>
@@ -408,8 +409,10 @@ materials, bloom sources, and optical effects.</p>
 <p>Partition targets or views into exposure-control groups. A group may share GPU
 state only when its radiance basis, exposure policy, and reset history are
 identical; an automatic group also requires the same meter mask, key, and
-sample schedule. Assign exactly one exposure owner, one tone-map owner, and one
-output-conversion owner per group.</p>
+sample schedule and one explicit source/combined aggregate. Independent images
+with matching settings are not interchangeable meter inputs. Assign exactly
+one exposure owner, one tone-map owner, and one output-conversion owner per
+group.</p>
 <p><strong>Complete when:</strong> every photographed input has one basis and scale, and every
 group names its members, exposure/tone-map/output owners, and state-sharing
 policy.</p>
@@ -465,6 +468,9 @@ product by shifting the fixed EV, or both automatic states, by <code>-log2(k)</c
 <pre><code class="language-text">currentEV_new = currentEV_old - log2(k)
 targetEV_new  = targetEV_old  - log2(k)
 </code></pre>
+<p>Convert normalization-dependent EV bounds too, or state that clamping breaks
+preservation. This is not a shortcut for normal lighting changes. Discard queued
+publications from a superseded epoch before they can overwrite converted state.</p>
 <p>Every other incompatible change starts a new exposure epoch. Automatic
 exposure resets meter accumulation and reseeds adapted state; fixed exposure
 rebinds its authored value before the new signal is presented. Resize or DPR
@@ -495,8 +501,10 @@ ownership. Read <a href="https://github.com/linegel/threejs-complete-set-of-skil
 only when loading, authoring, or placing a cube.</p>
 <p>When a tone-mapped-linear cube is admitted, read
 <a href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-exposure-color-grading/examples/identity-3d-lut.mjs">the identity 3D-LUT example</a> for voxel ordering
-and <code>Data3DTexture</code> configuration. It is a correctness fixture, not a look or
-performance bypass.</p>
+and <code>Data3DTexture</code> configuration. Supply the device edge limit and byte budget;
+the helper checks both before allocation. Its RGBA8 identity has a declared
+quantization tolerance. It is a correctness fixture, not a look or performance
+bypass.</p>
 <p><strong>Complete when:</strong> the graph contains one exposure multiply, one tone map, one
 working-to-output conversion, and—only when admitted—one LUT placement in its
 declared domain.</p>
@@ -552,7 +560,7 @@ and transient lifetime; <code>$threejs-bloom</code> for glare source ownership; 
 
 <div class="wrap"><footer>
   <div class="footer-summary">Three.js WebGPU Skill Pack: TSL, procedural graphics, and visual validation.
-    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>b951f1701846</code></span>
+    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>f0c9df4c6fd9</code></span>
     <span>Compiling shaders? <a href="https://devme.me/">devme.me</a> has dev memes worth the wait.</span>
   </div>
   <div class="footer-groups">

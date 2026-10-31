@@ -11,8 +11,6 @@ related_skills: ["threejs-choose-skills","threejs-visual-validation","threejs-im
 related_demos: ["webgpu-validation-harness"]
 related_pages: ["/alternatives/threejs-webgpu-learning-resources/","/docs/choose-skills/","/docs/use-in-an-existing-project/","/compare/threejs-tsl-vs-glsl/"]
 subjects: ["official-threejs-docs"]
-hero_image: /visual-validation/webgpu-validation-harness/final.design.png
-hero_source: webgpu-validation-harness
 published: 2026-07-16
 last_reviewed: 2026-07-16
 sources: ["https://threejs.org/docs/","https://threejs.org/manual/en/webgpurenderer","https://threejs.org/docs/TSL.html","https://threejs.org/examples/?q=webgpu","https://github.com/mrdoob/three.js/releases/tag/r185","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/README.md","https://github.com/linegel/threejs-complete-set-of-skill/blob/main/docs/demos/registry.json"]
@@ -77,3 +75,6 @@ This pack is not a complete Three.js reference, a beginner JavaScript course, or
 The official docs do not promise to choose an architecture for a user, modify a repository, or produce task-specific evidence. Their live content can also move beyond this pack's revision. When behavior is disputed, inspect the exact installed Three.js revision and its source, then reproduce it on the relevant runtime backend before changing code.
 
 For a learning-path comparison, continue to [Three.js WebGPU learning resources](/alternatives/threejs-webgpu-learning-resources/). For a concrete existing codebase, use [the existing-project adoption guide](/docs/use-in-an-existing-project/).
+
+
+The earlier webgpu-validation-harness capture is archived. Its source hash differs from this local build, so this page does not present it as current rendering evidence. Regenerate and review the canonical capture before restoring its hero image.

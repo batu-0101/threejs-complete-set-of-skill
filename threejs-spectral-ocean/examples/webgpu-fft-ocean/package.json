@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check *.js && node --check *.mjs && node -e \"JSON.parse(require('node:fs').readFileSync('lab.manifest.json','utf8'))\"",
+    "check": "node ../../../scripts/check-javascript-syntax.mjs \"*.js\" && node ../../../scripts/check-javascript-syntax.mjs \"*.mjs\" && node -e \"JSON.parse(require('node:fs').readFileSync('lab.manifest.json','utf8'))\"",
     "validate:unit": "node validate-ocean-contracts.js",
     "test:mutations": "node test-mutations.mjs",
     "capture": "node capture.mjs",

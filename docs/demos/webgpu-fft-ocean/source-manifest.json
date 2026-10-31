@@ -11,7 +11,7 @@
     "threejs-spectral-ocean/examples/webgpu-fft-ocean"
   ],
   "browserEntry": "threejs-spectral-ocean/examples/webgpu-fft-ocean/index.html",
-  "sourceHash": "sha256:d8bfba57799a06f5fb8bdaf78eb70bb58a6de29a5de8f98724aa03bf85bda91a",
+  "sourceHash": "sha256:a4c04d94bde22c6a531002855865a341e1dcfb7976b93d7a7d4ac505f2d41ec5",
   "publishedHashInputs": [
     "docs/demos/webgpu-fft-ocean",
     "docs/demos/assets/index-CatAq_Ze.js",
@@ -29,8 +29,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:c444ac8e2f069e356c29b077de68c376f796d0d8bc5da699f483e2c2a4142a53",
+  "publishedBundleHash": "sha256:9cb89e816d7c0f7235c1c581127622c6499f0eed36ab38308a5cc629049afa93",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

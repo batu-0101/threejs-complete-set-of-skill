@@ -433,6 +433,7 @@
       "modes": [
         "final",
         "no-post",
+        "diagnostics",
         "velocity",
         "ao",
         "emissive",
@@ -559,6 +560,7 @@
       "modes": [
         "final",
         "no-post",
+        "diagnostics",
         "contact-events",
         "water-ripples",
         "vegetation-trampling",

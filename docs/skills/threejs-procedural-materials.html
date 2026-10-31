@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://threejs-skills.com/skills/threejs-procedural-materials.html" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#0a0c10" />
-<meta name="skill-pack-build-revision" content="sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f" />
+<meta name="skill-pack-build-revision" content="sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162" />
 <link rel="icon" href="../favicon.ico" sizes="any" />
 <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32" />
@@ -24,7 +24,7 @@
 <meta property="og:title" content="Procedural Materials | Three.js WebGPU Skill" />
 <meta property="og:description" content="Procedural materials for coherent NodeMaterial PBR systems in Three.js WebGPU/TSL. Use when a task needs shared identities across PBR channels, must select…" />
 <meta property="og:url" content="https://threejs-skills.com/skills/threejs-procedural-materials.html" />
-<meta property="article:modified_time" content="2026-07-16T19:46:25+03:00" />
+<meta property="article:modified_time" content="2026-09-24T19:57:27+03:00" />
 <meta property="article:published_time" content="2026-07-04T23:30:20+03:00" />
 <meta property="article:section" content="Procedural Content" />
 
@@ -63,7 +63,7 @@
     "@id": "https://threejs-skills.com/skills/threejs-procedural-materials.html"
    },
    "datePublished": "2026-07-04T23:30:20+03:00",
-   "dateModified": "2026-07-16T19:46:25+03:00",
+   "dateModified": "2026-09-24T19:57:27+03:00",
    "author": {
     "@id": "https://threejs-skills.com/#publisher"
    },
@@ -295,8 +295,8 @@ a.chip:active{scale:.96}
       <span class="chip">1 flagship</span>
       <span class="chip">1 secondary surface</span>
       <span class="chip">accepted runtime evidence</span>
-      <span class="chip">Latest skill update <time datetime="2026-07-16T19:46:25+03:00">2026-07-16</time></span>
-    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/62a9bc59330c44827824665323823883e88f100c">commit 62a9bc5 ↗</a>
+      <span class="chip">Latest skill update <time datetime="2026-09-24T19:57:27+03:00">2026-09-24</time></span>
+    <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/commit/3a572bb250296e89d982f08ce8061795f923efb5">commit 3a572bb ↗</a>
       <a class="chip" href="https://github.com/linegel/threejs-complete-set-of-skill/blob/main/skills/threejs-procedural-materials/SKILL.md">SKILL.md on GitHub ↗</a>
       <a class="chip" href="https://raw.githubusercontent.com/linegel/threejs-complete-set-of-skill/main/skills/threejs-procedural-materials/SKILL.md">raw (for agents) ↗</a>
     </div>
@@ -312,7 +312,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="accepted" data-preview-for="tsl-procedural-pbr">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Accepted evidence published</strong>
-    <span><code>f09b1846e653</code> source hash</span>
+    <span><code>e839bd334b20</code> source hash</span>
     <span>15 fixed states · 7 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Canonical lab</span><span class="status status--accepted">Accepted</span></span>
@@ -331,7 +331,7 @@ a.chip:active{scale:.96}
         <span class="primary-evidence-panel " data-evidence-state="incomplete" data-preview-for="procedural-district">
     <span class="primary-evidence-label">Canonical capture</span>
     <strong>Runtime evidence pending</strong>
-    <span><code>3c2448b5b07d</code> source hash</span>
+    <span><code>dfec6c2afce2</code> source hash</span>
     <span>10 fixed states · 4 runtime proof requirements</span>
   </span>
         <span class="card-head"><span class="card-kind">Authored procedural world</span><span class="status status--pending">Evidence pending</span></span>
@@ -473,8 +473,9 @@ castShadow/maskShadow matching cutout or dissolve
 override; leave it unset unless that replacement is explicitly derived and
 validated. Visible and caster displacement share one local-space cause. Emission
 feeds the HDR material result; bloom and tone mapping remain downstream owners.</p>
-<p>Data textures use <code>NoColorSpace</code>; authored color textures use
-<code>SRGBColorSpace</code>; scene-linear generated color remains linear. Keep one tone-map
+<p>Data textures use <code>NoColorSpace</code>; encoded sRGB color uses <code>SRGBColorSpace</code>,
+while linear-sRGB HDR uses <code>LinearSRGBColorSpace</code>. Other color encodings require
+their declared conversion; authored does not imply sRGB. Keep one tone-map
 and output-conversion owner through <code>RenderPipeline.outputColorTransform</code> or one
 <code>renderOutput()</code>.</p>
 <p>This step is complete when every owned slot has one cause, visible/shadow masks
@@ -496,7 +497,10 @@ Jacobian spectral norm, physical support frequency in cycles per length unit,
 and positive band half-range around the supplied mean. <code>heightHalfAmplitude</code>
 uses the same length unit as the surface. It keeps attenuation, removed slope
 variance, double-sided surface-gradient normal handling, and <code>roughness^2</code>
-widening in one causal path.</p>
+widening in one causal path. Literal inputs are checked in f32 precision;
+dynamic nodes require equivalent producer admission. Degenerate surface frames
+return the base normal and <code>normalValid=false</code> rather than normalize zero.
+Validate the conditioning floor and keep the complete derivative path uniform.</p>
 <p>This step is complete when all retained bands pass the projected footprint,
 removed slope/normal variance is accounted for exactly once, and a no-post
 close/mid/far comparison rejects distance-dependent sharpening and grazing
@@ -505,7 +509,11 @@ sparkle.</p>
 <p>One material graph serves a batch. Static instance variation uses attributes;
 hot GPU-owned variation uses storage-backed instance data only when its measured
 update/access pattern wins. Dissolve, wetness, variant, or lifetime fields drive
-visible and shadow masks from the same stable object/world cause.</p>
+visible and shadow masks from the same stable object/world cause. Stock shadow
+overrides do not automatically copy dynamic opacity/alpha-test nodes; use the
+shared Boolean mask path described in the reference. When replacing material
+node graphs, invalidate material.version with <code>material.needsUpdate = true</code> so
+the cached caster path is rebuilt too.</p>
 <p>Cause maps use the procedural-fields direct-versus-bake gate. Static maps build
 once; dynamic maps update at their owner cadence and invalidate dependent mips.
 Compute submission precedes the consuming render. In r185, <code>computeAsync()</code> is
@@ -562,7 +570,7 @@ reset path; and raw material output, shadows, post, and resource lifetimes agree
 
 <div class="wrap"><footer>
   <div class="footer-summary">Three.js WebGPU Skill Pack: TSL, procedural graphics, and visual validation.
-    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>b951f1701846</code></span>
+    <span>Three r185.1 · 40 primary targets · 25 accepted · build <code>f0c9df4c6fd9</code></span>
     <span>Compiling shaders? <a href="https://devme.me/">devme.me</a> has dev memes worth the wait.</span>
   </div>
   <div class="footer-groups">

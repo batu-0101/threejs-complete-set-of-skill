@@ -16,7 +16,7 @@
     "threejs-ambient-contact-shading/examples/webgpu-node-gtao/main.js"
   ],
   "browserEntry": "threejs-ambient-contact-shading/examples/integration-image-pipeline-ao/index.html",
-  "sourceHash": "sha256:4399f1417fde0b9b36d8c262a938d03b0c167b73301a03d5ca8be4aaffb072e0",
+  "sourceHash": "sha256:ff28b19116824aad9396a91711d7a96121ce15bb7a90af603b9cf81bbe5448a1",
   "publishedHashInputs": [
     "docs/demos/integration-image-pipeline-ao",
     "docs/demos/assets/GTAONode-IHocvv2Q.js",
@@ -40,8 +40,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:7cd94e159883f4dd3226b85c20e4144054ed4fa951eceade679e2189512274b8",
+  "publishedBundleHash": "sha256:c2d87d4bef4bc54305347b4a9574a4c7399a1afa2c88248eb286f3a99de592c5",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": "bundle"
 }

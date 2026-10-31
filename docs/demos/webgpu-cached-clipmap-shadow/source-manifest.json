@@ -11,7 +11,7 @@
     "threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow"
   ],
   "browserEntry": "threejs-scalable-real-time-shadows/examples/webgpu-cached-clipmap-shadow/canonical.html",
-  "sourceHash": "sha256:cb4d3abfaab1a84e0fbef28fd523befc0f09ed465690426c58eff739e7b1171c",
+  "sourceHash": "sha256:44abbe1dd2464b43e4fc76f457d6bf69970aa4397b7f5329a371a3ed2ffe090c",
   "publishedHashInputs": [
     "docs/demos/webgpu-cached-clipmap-shadow",
     "docs/demos/assets/canonical-lab-C1FaueBf.js",
@@ -31,8 +31,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:34554bb569d16c4ec78c89faef8567bbdd4bde79d4218614fc3a6937941ac578",
+  "publishedBundleHash": "sha256:1c2e6032c280b5151d2a0602610bfc7894b2cb70b3963f826a8d6b580f339445",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }

@@ -11,7 +11,7 @@
     "threejs-procedural-buildings-and-cities/examples/webgpu-material-slot-compiler"
   ],
   "browserEntry": "threejs-procedural-buildings-and-cities/examples/webgpu-material-slot-compiler/index.html",
-  "sourceHash": "sha256:dd6b7dfc24b0553b4562b465dcfd3dcf5a10c6741d76da60e2f70ceb8355e500",
+  "sourceHash": "sha256:2ebde83a1ba9f6bdcfdaae458a376d5f0068d55c4719a18aef9057de6af41afa",
   "publishedHashInputs": [
     "docs/demos/webgpu-material-slot-compiler",
     "docs/demos/assets/compiler-CCDJScob.js",
@@ -29,8 +29,8 @@
     "docs/demos/assets/three.webgpu-Dss1ekdK.js",
     "docs/demos/assets/webgpu-device-identity-uNUcs3Wh.js"
   ],
-  "publishedBundleHash": "sha256:b6bf4a1f70f05ab578fa3e5cdfa85a89afa0848be5b2bd07222c96f435fb6bfc",
+  "publishedBundleHash": "sha256:0cf4cab0ad34aa2b487849df04f1cbacc946dfae75932e9e64204a54bf2e020f",
   "threeRevision": "0.185.1",
-  "buildRevision": "sha256:b951f17018466135b2d841a246127bf96c7f617f6274e73736ec257a7293369f",
+  "buildRevision": "sha256:f0c9df4c6fd97433cdd4b302ce8b6b6e86a1c56bcc23c3c2acff3e85e524c162",
   "evidenceBundleId": null
 }
